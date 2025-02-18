@@ -1,5 +1,47 @@
 llama token hugging-"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"
 
+test cases for RAG:
+```
+Document Overview:
+
+    What is the primary purpose of this process standard document, and what does the P3+ process aim to achieve?
+
+Authorship and Responsibility:
+
+    Who is the author of this document, and which roles are assigned process responsibility?
+
+Role Definitions:
+
+    What are the key responsibilities of the E/E-Verbundmanager within the P3+ process?
+
+Change Management:
+
+    How are software and hardware changes managed, and what role does the "Änderungsmanagement Technische Konformität P3" play in this process?
+
+Homologation Procedures:
+
+    How does the process address homologation-relevant software changes, and what steps are involved in the pre-evaluation of such changes?
+
+Coordination and Communication:
+
+    What is the role of the Koordinator zentrale Antragstellung P3+, and how do they interact with other process participants?
+
+Documentation and Tools:
+
+    Which tools and systems (e.g., Jira, SharePoint) are mentioned for document management and tracking within the process?
+
+Decision Points and Escalation:
+
+    What are the key decision points outlined in the process, and what actions are taken when a change is deemed non-conform or requires escalation?
+
+Neutrality Proof:
+
+    What is the significance of the Neutralitätsnachweis, and how is it created, managed, and integrated into the process?
+
+Diagram and Process Flow:
+
+    How does the provided diagram illustrate the timeline/milestones and interaction between roles (e.g., E/E-Verbundmanager, Bauteilverantwortlicher, Funktionsrealisierungsverantwortlicher)?
+```
 
 **PDF2Go**
 
