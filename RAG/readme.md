@@ -1,3 +1,42 @@
+```
++---------------+       +----------------+       +---------------------+
+|   PDF Input   | ---> | PDF Parser     | ---> | Text + Image Output |
++---------------+       +----------------+       +---------------------+
+                               |                          |
+                               |                          v
+                               |                  +------------------+
+                               |                  | Image Classifier |
+                               |                  |  (Mama Vision)   |
+                               |                  +------------------+
+                               |                          |
+                               v                          |
+                     +---------------------+               |
+                     | Text Embedding     |               |
+                     | (Mistral 7B)       |               |
+                     +---------------------+               |
+                               |                          |
+                               v                          |
+                     +---------------------+               |
+                     | Retrieval +         |               |
+                     | Extraction (RAG)    |               |
+                     +---------------------+               |
+                               |                          |
+                               v                          |
+                     +---------------------+               |
+                     | Generate Response   | <-------------
+                     | (LLM Inference)     |
+                     +---------------------+
+                               |
+                               v
+                     +---------------------+
+                     |  Final Output      |
+                     | (Text / Images)    |
+                     +---------------------+
+
+```
+
+
+
 llama token hugging-"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"
 
 test cases for RAG:
