@@ -1,3 +1,7 @@
+![1740200920462](https://github.com/user-attachments/assets/96b10434-1c75-401a-a1bf-ed4eee269b76)
+
+
+
 ```
 +---------------+       +----------------+       +---------------------+
 |   PDF Input   | ---> | PDF Parser     | ---> | Text + Image Output |
