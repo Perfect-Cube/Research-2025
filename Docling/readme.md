@@ -1,3 +1,47 @@
+```
+ ┌────────────┐
+ │    Start    │
+ └────────────┘
+         ↓
+ ┌────────────────────────────────────────────────────┐
+ │1. PDF Extraction (pyPDF2 + pdfPlumber, BSD License)│
+ └────────────────────────────────────────────────────┘
+         ↓
+ ┌───────────────────────────────────────────────────────────────────┐
+ │2. Query System:                                                  │
+ │   - Transform text → encoder (dense + sparse embeddings)         │
+ │   - Generate recommendations (≈85% accuracy)                     │
+ └───────────────────────────────────────────────────────────────────┘
+         ↓
+ ┌───────────────────────────────────────────────────────────────────┐
+ │3. User Interface:                                                │
+ │   - Display details of the page                                  │
+ │   - Ask: "Is an image needed?"                                   │
+ └───────────────────────────────────────────────────────────────────┘
+         ↓                         ┌────────────┐
+        Yes ──────────────────────▶│ Extract    │
+         │                         │ image from │
+         │                         │ PDF page   │
+         │                         └────────────┘
+         │                                   ↓
+         │                          (image extracted)
+         │                                   ↓
+         └───────────────────────────────────▶┐
+                                             │
+                                     ┌─────────────────────────────────────────┐
+                                     │4. Llama 3.2 Vision:                    │
+                                     │   - Combine <image> + text → Generation│
+                                     └─────────────────────────────────────────┘
+                                             ↓
+                                     ┌─────────────────┐
+                                     │       End       │
+                                     └─────────────────┘
+
+```
+
+
+
+
 # Building a RAG System for Complex PDFs
 
 Creating a Retrieval-Augmented Generation (RAG) system for PDFs with mixed content (text, tables, images) and substantial length requires several components working together. Here's a comprehensive approach:
