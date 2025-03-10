@@ -130,49 +130,100 @@ def store_pdf_embeddings(pdf_path, context_window=1):
     qdrant_client.upsert(collection_name=collection_name, points=points)
     print(f"Stored embeddings for {doc_name} in Qdrant.")
 
+# def hybrid_search(query, top_k=3, filter_doc=None):
+#     """Performs hybrid search combining dense retrieval from Qdrant and sparse retrieval using BM25."""
+#     try:
+#         query_lang = detect(query)
+#     except Exception:
+#         query_lang = None
+    
+#     query_embedding = embedding_model.encode([query]).tolist()[0]
+    
+#     search_results = qdrant_client.search(
+#         collection_name=collection_name,
+#         query_vector=query_embedding,
+#         limit=top_k * 2,
+#         with_payload=True
+#     )
+    
+#     candidate_texts = [hit.payload.get("full_text", hit.payload.get("text", "")) for hit in search_results if hit.payload]
+#     tokenized_docs = [word_tokenize(text.lower()) for text in candidate_texts]
+#     bm25 = BM25Okapi(tokenized_docs)
+#     tokenized_query = word_tokenize(query.lower())
+#     sparse_scores = np.array(bm25.get_scores(tokenized_query))
+    
+#     dense_scores = np.array([hit.score for hit in search_results])
+#     max_dense = max(dense_scores) if max(dense_scores) > 0 else 1
+#     dense_scores = dense_scores / max_dense
+    
+#     max_sparse = max(sparse_scores) if max(sparse_scores) > 0 else 1
+#     sparse_scores = sparse_scores / max_sparse
+    
+#     hybrid_scores = 0.7 * dense_scores + 0.3 * sparse_scores
+#     sorted_indices = np.argsort(hybrid_scores)[::-1]
+    
+#     best_results = []
+#     for i in sorted_indices[:top_k]:
+#         hit = search_results[i]
+#         best_results.append({
+#             "text": hit.payload.get("full_text", hit.payload.get("text", "")),  # fallback if full_text is missing
+#             "page": hit.payload["page"],
+#             "document": hit.payload["document"],
+#             "score": hybrid_scores[i]
+#         })
+    
+#     return best_results
 def hybrid_search(query, top_k=3, filter_doc=None):
     """Performs hybrid search combining dense retrieval from Qdrant and sparse retrieval using BM25."""
     try:
         query_lang = detect(query)
     except Exception:
         query_lang = None
-    
+
     query_embedding = embedding_model.encode([query]).tolist()[0]
-    
+
     search_results = qdrant_client.search(
         collection_name=collection_name,
         query_vector=query_embedding,
-        limit=top_k * 2,
+        limit=top_k * 5,  # Increase limit to allow filtering
         with_payload=True
     )
-    
+
     candidate_texts = [hit.payload.get("full_text", hit.payload.get("text", "")) for hit in search_results if hit.payload]
     tokenized_docs = [word_tokenize(text.lower()) for text in candidate_texts]
     bm25 = BM25Okapi(tokenized_docs)
     tokenized_query = word_tokenize(query.lower())
     sparse_scores = np.array(bm25.get_scores(tokenized_query))
-    
+
     dense_scores = np.array([hit.score for hit in search_results])
     max_dense = max(dense_scores) if max(dense_scores) > 0 else 1
     dense_scores = dense_scores / max_dense
-    
+
     max_sparse = max(sparse_scores) if max(sparse_scores) > 0 else 1
     sparse_scores = sparse_scores / max_sparse
-    
+
     hybrid_scores = 0.7 * dense_scores + 0.3 * sparse_scores
     sorted_indices = np.argsort(hybrid_scores)[::-1]
-    
+
     best_results = []
-    for i in sorted_indices[:top_k]:
+    seen = set()
+    for i in sorted_indices:
         hit = search_results[i]
+        doc_page_pair = (hit.payload["document"], hit.payload["page"])
+        if doc_page_pair in seen:
+            continue  # Skip duplicate pages from the same document
+        seen.add(doc_page_pair)
         best_results.append({
-            "text": hit.payload.get("full_text", hit.payload.get("text", "")),  # fallback if full_text is missing
+            "text": hit.payload.get("full_text", hit.payload.get("text", "")),
             "page": hit.payload["page"],
             "document": hit.payload["document"],
             "score": hybrid_scores[i]
         })
-    
+        if len(best_results) >= top_k:
+            break
+
     return best_results
+
 
 
 # PDF Rendering Functions
@@ -274,6 +325,15 @@ while True:
         if img_list:
             conversation = [
                 {
+                    "role":"system",
+                    "content":[
+                        {
+                            "type":"text",
+                            "text":"You are an AI agent of Volkswagen. Give answers to user's questions in points instead of paragraph. Give in detail. Supported languages are English and German."
+                        }
+                    ]
+                },
+                {
                     "role": "user",
                     "content": [
                         {"type": "image", "url": img_list[0]},
@@ -283,6 +343,15 @@ while True:
             ]
         else:
             conversation = [
+                {
+                    "role":"system",
+                    "content":[
+                        {
+                            "type":"text",
+                            "text":"You are an AI agent of Volkswagen. Give answers to user's questions in points instead of paragraph. Give in detail. Supported languages are English and German."
+                        }
+                    ]
+                },
                 {
                     "role": "user",
                     "content": [
