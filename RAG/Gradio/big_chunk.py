@@ -80,7 +80,7 @@ def extract_text_from_pdf(pdf_path):
                     })
     return page_entries
 
-def store_pdf_embeddings(pdf_path, context_window=3):
+def store_pdf_embeddings(pdf_path, context_window=5):
     """
     Extracts text, generates embeddings, and stores them in Qdrant.
     Additionally, it combines neighboring sentences (based on context_window)
@@ -149,7 +149,7 @@ def hybrid_search(query, top_k=3):
     search_results = qdrant_client.search(
         collection_name=collection_name,
         query_vector=query_embedding,
-        limit=top_k * 10,  # Increased limit for more candidate results
+        limit=top_k * 10,  # Adjusted limit for more candidate results
         with_payload=True
     )
 
@@ -282,7 +282,7 @@ model = AutoModelForVision2Seq.from_pretrained(model_path).to(device)
 root_directory = "C:/Users/S1QNEOV/Downloads/Complex LLM/Standards und Normen"  # Change this to your folder path
 pdf_files = get_pdf_paths(root_directory)
 for pdf_file in pdf_files:
-    store_pdf_embeddings(pdf_file, context_window=3)
+    store_pdf_embeddings(pdf_file, context_window=5)
 
 while True:
     query = input("Enter your query (or type 'exit' to quit): ")
