@@ -1,1 +1,2 @@
 
+https://www.researchgate.net/publication/332314232_Improved_Quantum_Image_Median_Filtering_in_the_Spatial_Domain
