@@ -1,3 +1,10 @@
+
+![Screenshot_26-3-2025_114044_4ad9d78275da442bb8 gradio live](https://github.com/user-attachments/assets/07403c25-6639-4297-8e8e-cc133f293a37)
+
+
+
+
+
 ![Gradio (2)](https://github.com/user-attachments/assets/eb03285f-c470-47d8-a1f1-f9d5118b733f)
 
 
