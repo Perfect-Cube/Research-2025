@@ -1,3 +1,5 @@
+self service portal --> npm
+
 ```
 cd TechRadarVisualizer
 ```
