@@ -23,6 +23,8 @@ export default function RadarVisualization() {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<Technology[] | null>(null);
   const [showProjectsList, setShowProjectsList] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false); // Set animation to false by default
+  const techDotsRef = useRef<{[key: number]: {element: d3.Selection<SVGCircleElement, unknown, null, undefined>, initialX: number, initialY: number, angle: number, radius: number}}>({}); 
 
   // Query to fetch technologies (with search param if present)
   const { 
@@ -145,13 +147,26 @@ export default function RadarVisualization() {
         .attr("stroke", ringColor)
         .attr("stroke-width", 1);
       
-      // Ring labels with dark mode support
-      g.append("text")
+      // Ring labels with dark mode support - using dark semi-transparent background
+      const ringLabelGroup = g.append("g").attr("class", "ring-label");
+      
+      // Add dark background for ring label
+      ringLabelGroup.append("rect")
         .attr("x", 5)
-        .attr("y", -ringRadii[i] + 15)
+        .attr("y", -ringRadii[i] + 5)
+        .attr("width", ring.name.length * 7)
+        .attr("height", 20)
+        .attr("rx", 4)
+        .attr("fill", "rgba(13, 17, 23, 0.7)")
+        .attr("class", "dark:fill-gray-900/70");
+      
+      // Add the ring label text
+      ringLabelGroup.append("text")
+        .attr("x", 10)
+        .attr("y", -ringRadii[i] + 18)
         .attr("text-anchor", "start")
-        .attr("fill", "#64748b")
-        .attr("class", "dark:fill-gray-400")
+        .attr("fill", "#ffffff")
+        .attr("class", "dark:fill-gray-200")
         .attr("font-size", "11px")
         .text(ring.name);
     });
@@ -173,8 +188,7 @@ export default function RadarVisualization() {
         .attr("stroke", quadrantColor)
         .attr("stroke-width", 1);
       
-      // Quadrant labels - consistently positioned outside the circle
-      // Use different radius values based on quadrant - special case for Languages & Frameworks which is longer
+      // Quadrant labels with varying distances to match the reference image
       const labelRadiusValues = [
         radius + 35,  // Much larger distance for Languages & Frameworks (index 0)
         radius + 70,  // Adjusted for Tools (index 1)
@@ -197,29 +211,31 @@ export default function RadarVisualization() {
       const labelX = Math.cos(quadrantCenterAngle) * labelRadius;
       const labelY = Math.sin(quadrantCenterAngle) * labelRadius;
       
-      // Add the background rectangle first (so it renders behind the text)
-      g.append("rect")
-        .attr("x", labelX - (quadrantCenterAngle < Math.PI ? 5 : -5))
-        .attr("y", labelY - 12)
-        .attr("width", quadrants[i]?.name.length * 9.5) // Slightly wider to account for font style
-        .attr("height", 22) // Slightly taller
-        .attr("rx", 6) // Rounded corners
-        .attr("fill", "rgba(255, 255, 255, 0.15)") // Very subtle background
-        .attr("class", "dark:fill-gray-800/30")
-        .attr("transform", `translate(${quadrantCenterAngle < Math.PI ? 0 : -quadrants[i]?.name.length * 9.5}, 0)`); // Adjust position based on text anchor
+      // Create a group for the label and its background
+      const labelGroup = g.append("g").attr("class", "quadrant-label");
       
-      // Then add the text on top with enhanced visibility
-      g.append("text")
+      // Add dark background for labels
+      const textWidth = quadrants[i]?.name.length * 10; // Estimate text width
+      labelGroup.append("rect")
+        .attr("x", quadrantCenterAngle < Math.PI ? labelX - 10 : labelX - textWidth - 10)
+        .attr("y", labelY - 20)
+        .attr("width", textWidth + 20)
+        .attr("height", 40)
+        .attr("rx", 8) // Rounded corners
+        .attr("fill", "rgba(13, 17, 23, 0.7)") // Dark semi-transparent background
+        .attr("class", "dark:fill-gray-900/70");
+      
+      // Add text labels with light text
+      labelGroup.append("text")
         .attr("x", labelX)
         .attr("y", labelY)
         .attr("text-anchor", quadrantCenterAngle < Math.PI ? "start" : "end")
-        .attr("alignment-baseline", quadrantCenterAngle < Math.PI / 2 || quadrantCenterAngle > 3 * Math.PI / 2 ? "hanging" : "baseline")
-        .attr("fill", quadrantColor)
-        .attr("font-size", "16px") // Larger font size for better readability
+        .attr("alignment-baseline", "middle")
+        .attr("fill", "#ffffff") // White text color
+        .attr("font-size", "18px")
         .attr("font-weight", "bold")
+        .attr("font-family", "Arial, sans-serif")
         .attr("class", "dark:fill-gray-100")
-        // Add stronger drop shadow for better readability in both modes
-        .attr("filter", "drop-shadow(0px 0px 3px rgba(255,255,255,0.8)) drop-shadow(0px 0px 1px rgba(0,0,0,0.4))")
         .text(quadrants[i]?.name || "");
     });
 
@@ -227,6 +243,44 @@ export default function RadarVisualization() {
     const filteredTechs = selectedQuadrant !== null 
       ? technologies.filter((tech: Technology) => tech.quadrant === selectedQuadrant)
       : technologies;
+      
+    // Function to animate tech dots
+    const startAnimation = () => {
+      // Reset the tech dots reference
+      techDotsRef.current = {};
+      
+      // Animation function for smooth clockwise movement
+      const animateDots = () => {
+        // Stop animation if component is unmounted or animation is turned off
+        if (!isAnimating) return;
+        
+        Object.values(techDotsRef.current).forEach((dot) => {
+          // Calculate new angle (clockwise rotation)
+          const rotationSpeed = 0.0005; // Speed of rotation
+          const newAngle = dot.angle + rotationSpeed;
+          
+          // Update angle for next animation frame
+          dot.angle = newAngle;
+          
+          // Calculate new position
+          const newX = Math.cos(newAngle) * dot.radius;
+          const newY = Math.sin(newAngle) * dot.radius;
+          
+          // Update dot position
+          dot.element
+            .attr("cx", newX)
+            .attr("cy", newY);
+        });
+        
+        // Continue animation loop
+        if (isAnimating) {
+          requestAnimationFrame(animateDots);
+        }
+      };
+      
+      // Start the animation
+      animateDots();
+    };
     
     // Plot technologies as dots
     filteredTechs.forEach((tech: Technology) => {
@@ -247,17 +301,21 @@ export default function RadarVisualization() {
       const isSelected = selectedTech && selectedTech.id === tech.id;
       
       // Technology dot with dark mode support - increased size for better visibility without labels
-      g.append("circle")
+      const techDot = g.append("circle")
         .attr("cx", x)
         .attr("cy", y)
         .attr("r", isSelected ? 9 : 7) // Larger dots since we don't have labels
         .attr("fill", rings[tech.ring]?.color || RING_COLORS[tech.ring])
         .attr("stroke", isSelected ? "#000" : "#fff")
         .attr("stroke-width", isSelected ? 3 : 2) // Thicker stroke for better visibility
-        .attr("class", "dark:stroke-gray-800")
+        .attr("class", "tech-dot dark:stroke-gray-800")
         .attr("cursor", "pointer")
+        .attr("data-tech-id", tech.id) // Add data attribute for identification
         .attr("data-tech-name", tech.name) // Add data attribute for tooltip/accessibility
         .on("mouseover", function(this: SVGCircleElement) {
+          // Pause animation when hovering
+          d3.selectAll(".tech-dot").interrupt();
+          
           const isDarkMode = document.documentElement.classList.contains('dark');
           d3.select(this)
             .attr("r", 10) // Even larger on hover
@@ -301,22 +359,77 @@ export default function RadarVisualization() {
           }
           // Remove all temporary tooltips
           d3.selectAll(".tech-tooltip, .tooltip-bg").remove();
+          
+          // Resume animation if it was paused
+          if (isAnimating) {
+            startAnimation();
+          }
         })
         .on("click", function() {
           setSelectedTech(tech);
         });
+        
+      // Store the dot reference with its initial position and angle for animation
+      techDotsRef.current[tech.id] = {
+        element: techDot,
+        initialX: x,
+        initialY: y,
+        angle: finalAngle,
+        radius: finalRadius
+      };
     });
+    
+    // Start animation for all dots
+    if (isAnimating) {
+      startAnimation();
+    }
 
-  }, [isLoading, technologies, quadrants, rings, selectedQuadrant, selectedTech]);
+  }, [isLoading, technologies, quadrants, rings, selectedQuadrant, selectedTech, isAnimating]);
+  
+  // Effect to handle animation state changes
+  useEffect(() => {
+    if (isAnimating && Object.keys(techDotsRef.current).length > 0) {
+      // Start animation when state changes to true and we have dots
+      const animateDots = () => {
+        if (!isAnimating) return;
+        
+        Object.values(techDotsRef.current).forEach((dot) => {
+          // Calculate new angle (clockwise rotation)
+          const rotationSpeed = 0.0005; // Speed of rotation
+          const newAngle = dot.angle + rotationSpeed;
+          
+          // Update angle for next animation frame
+          dot.angle = newAngle;
+          
+          // Calculate new position
+          const newX = Math.cos(newAngle) * dot.radius;
+          const newY = Math.sin(newAngle) * dot.radius;
+          
+          // Update dot position
+          dot.element
+            .attr("cx", newX)
+            .attr("cy", newY);
+        });
+        
+        // Continue animation loop
+        if (isAnimating) {
+          requestAnimationFrame(animateDots);
+        }
+      };
+      
+      // Start the animation
+      requestAnimationFrame(animateDots);
+    }
+  }, [isAnimating]);
 
   const handleQuadrantFilter = (quadrantId: number | null) => {
     setSelectedQuadrant(quadrantId);
   };
 
   return (
-    <div className="bg-background radar-bg rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 p-6 mb-8 container mx-auto">
+    <div className="bg-background radar-bg rounded-lg shadow-sm border border-gray-200 dark:bg-gray-900 dark:border-gray-700 p-6 mb-8 container mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-6">
-        <h2 className="text-xl font-bold mb-2 lg:mb-0 gradient-text dark:bg-gradient-to-r dark:from-blue-300 dark:to-indigo-200">Technology Radar Visualization</h2>
+        {/* <h2 className="text-xl font-bold mb-2 lg:mb-0 gradient-text dark:bg-gradient-to-r dark:from-blue-300 dark:to-indigo-200">Technology Radar Visualization</h2> */}
         
         <div className="w-full lg:w-auto flex flex-col sm:flex-row gap-4">
           {/* Search component with dark mode support */}
