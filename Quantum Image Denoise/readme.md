@@ -1,10 +1,23 @@
-
-
+<p float="left">
+  <img src="https://github.com/Perfect-Cube/Research-2025/blob/main/Quantum%20Image%20Denoise/image/rain1.jpg" width="500" />
+  <img src="https://github.com/Perfect-Cube/Research-2025/blob/main/Quantum%20Image%20Denoise/image/corrected/image.jpg"  width="500"/> 
+</p>
+<p float="left">
+  <img src="https://github.com/Perfect-Cube/Research-2025/blob/main/Quantum%20Image%20Denoise/image/rain2.jpg" width="500" />
+  <img src="https://github.com/Perfect-Cube/Research-2025/blob/main/Quantum%20Image%20Denoise/image/blur/rain_strong2_detail.png"  width="500"/> 
+</p>
+<p float="left">
+  <img src="https://github.com/Perfect-Cube/Research-2025/blob/main/Quantum%20Image%20Denoise/image/rain3.jpg" width="500" />
+  <img src="https://github.com/Perfect-Cube/Research-2025/blob/main/Quantum%20Image%20Denoise/image/blur/rain_strong3_detail.png"  width="500"/> 
+</p>
 <p float="left">
   <img src="https://github.com/user-attachments/assets/22dedeb9-2fbb-49bc-a5a8-a1857ad0637b" width="500" />
   <img src="https://github.com/user-attachments/assets/70b5959e-c67a-4938-a0f5-8b7b32fde6a0"  width="500"/> 
 </p>
-
+<p float="left">
+  <img src="https://github.com/Perfect-Cube/Research-2025/blob/main/Quantum%20Image%20Denoise/image/rain5.jpg" width="500" />
+  <img src="https://github.com/Perfect-Cube/Research-2025/blob/main/Quantum%20Image%20Denoise/image/blur/rain_strong5_detail.png"  width="500"/> 
+</p>
 
 
 ```
