@@ -1,3 +1,12 @@
+
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/22dedeb9-2fbb-49bc-a5a8-a1857ad0637b" width="500" />
+  <img src="https://github.com/user-attachments/assets/70b5959e-c67a-4938-a0f5-8b7b32fde6a0"  width="500"/> 
+</p>
+
+
+
 ```
       +---------------------------------------+
       |   Start: Input Noisy Image            |
