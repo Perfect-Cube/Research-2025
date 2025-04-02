@@ -126,3 +126,11 @@
          The Classical Filtering Control Logic may supply Edge Masks (e.g., from HOG analysis)
          to the Non-Local Means and Median Filter for enhanced guidance.
    -----------------------------------------------------------------
+![rain_strong1_new_detail](https://github.com/user-attachments/assets/6c858653-c57f-4b75-92fd-081c107ca8db)
+
+![rain_strong2_new_detail](https://github.com/user-attachments/assets/0eaef155-7508-41ea-8b64-bcf407aed961)
+
+![rain_strong3_new_detail](https://github.com/user-attachments/assets/3f06dd36-7de4-4cdb-aa1b-6f3e90cfd8b8)
+![rain_strong4_new_detail](https://github.com/user-attachments/assets/01b547d1-955b-4185-bcbc-b4ea42f0f294)
+![rain_strong5_new_detail](https://github.com/user-attachments/assets/6590a0dc-926a-40b4-a714-b7b14a813315)
+
