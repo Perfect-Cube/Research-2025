@@ -19,6 +19,8 @@
   <img src="https://github.com/Perfect-Cube/Research-2025/blob/main/Quantum%20Image%20Denoise/image/blur/rain_strong5_detail.png"  width="500"/> 
 </p>
 
+![rain3_mask](https://github.com/user-attachments/assets/d36493be-4ec8-4173-a30e-79e426c07d23)
+
 
 ```
       +---------------------------------------+
