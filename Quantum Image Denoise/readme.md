@@ -1,4 +1,15 @@
 <p float="left">
+  <img src="https://github.com/user-attachments/assets/7c656afd-2cc0-4a43-b622-84d696115418" width="500" />
+  <img src="https://github.com/user-attachments/assets/056d7cb1-ee5c-4956-ae51-054f20dd1c01"  width="500"/> 
+  <img src="https://github.com/user-attachments/assets/bbd20736-6062-4a20-9a43-1ffb35179926"  width="500"/> 
+  <img src="https://github.com/user-attachments/assets/ac5d7f8b-a099-41b6-bef4-345d7f87a448"  width="500"/> 
+</p>
+<!-- ![rain_strong3_detail](https://github.com/user-attachments/assets/056d7cb1-ee5c-4956-ae51-054f20dd1c01)
+![rain3](https://github.com/user-attachments/assets/7c656afd-2cc0-4a43-b622-84d696115418)
+![image1-ezgif com-webp-to-png-converter](https://github.com/user-attachments/assets/bbd20736-6062-4a20-9a43-1ffb35179926)
+![final_derain_4](https://github.com/user-attachments/assets/ac5d7f8b-a099-41b6-bef4-345d7f87a448)
+ -->
+<p float="left">
   <img src="https://github.com/Perfect-Cube/Research-2025/blob/main/Quantum%20Image%20Denoise/image/rain1.jpg" width="500" />
   <img src="https://github.com/Perfect-Cube/Research-2025/blob/main/Quantum%20Image%20Denoise/image/corrected/image.jpg"  width="500"/> 
 </p>
