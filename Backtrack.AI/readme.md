@@ -1,25 +1,25 @@
 # Input & Analysis Pipeline Flowchart
-
+```
 ### 1. Input Phase
 ------------------------------------------------
 | **Start:** Receive Input Prompt              |
-|    (Text, Image, etc.)                         |
+|    (Text, Image, etc.)                       |
 ------------------------------------------------
              │
              ▼
-------------------------------------------------
-| **Preprocessing:**                           |
-| - Tokenization & Language Detection          |
+------------------------------------------------------
+| **Preprocessing:**                                 |
+| - Tokenization & Language Detection                |
 | - Normalize Input (remove noise, standardize case) |
-------------------------------------------------
+------------------------------------------------------
 
 ### 2. Fuzzy Matching Module
              │
              ▼
-------------------------------------------------
-| **Fuzzy Matching Module:**                   |
+-----------------------------------------------------
+| **Fuzzy Matching Module:**                        |
 | - Apply Levenshtein, Soundex, and n-Gram matching |
-------------------------------------------------
+-----------------------------------------------------
 
 ### 3. LLM Contextual Check
              │
@@ -44,7 +44,7 @@
              ▼
 ------------------------------------------------
 | **Severity Scoring:**                        |
-| - Assign a score (0-10) for each category      |
+| - Assign a score (0-10) for each category    |
 | - Aggregate weighted scores                  |
 ------------------------------------------------
 
@@ -63,4 +63,4 @@
 | **Output:**                                  |
 | - Final Severity Score (0-10)                |
 ------------------------------------------------
- 
+ ```
