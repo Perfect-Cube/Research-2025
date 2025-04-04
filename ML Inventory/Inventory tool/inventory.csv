@@ -1,0 +1,101 @@
+ID,PartID,PartName,PartCategory,Supplier,UnitCost,QuantityOnHand,ReorderPoint,SafetyStock,ProductionOrderNumber,ProductionStartDate,ProductionEndDate,CycleTime,MachineID,QualityCheckStatus,InventoryLocation,LastUpdatedDate
+1,P001,Engine Block,Sub-Assembly,Precision Auto,250.00,50,20,10,PO1001,2025-03-01,2025-03-05,72,M101,Pass,Assembly Line 1,2025-04-03
+2,P002,Door Panel,Component,Global Metals,75.50,120,40,15,N/A,,,,,Warehouse A,2025-04-03
+3,P003,Tire,Raw Material,Quality Components,45.00,200,100,50,N/A,,,,,Warehouse B,2025-04-03
+4,P004,Seat,Component,Rapid Supply,110.00,80,30,20,N/A,,,,,Factory Floor,2025-04-03
+5,P005,Windshield,Finished Good,OEM Suppliers,320.00,25,10,5,PO1002,2025-03-10,2025-03-12,48,M102,Pass,Assembly Line 2,2025-04-03
+6,P006,Dashboard,Sub-Assembly,AutoParts Inc.,190.00,40,15,10,PO1003,2025-03-05,2025-03-08,60,M103,Pass,Assembly Line 1,2025-04-03
+7,P007,Bumper,Component,Prime Auto,65.00,150,50,25,N/A,,,,,Warehouse A,2025-04-03
+8,P008,Chassis,Finished Good,Superior Steel,800.00,10,5,3,PO1004,2025-03-12,2025-03-18,96,M104,Pass,Factory Floor,2025-04-03
+9,P009,Gearbox,Sub-Assembly,Advance Plastics,430.00,30,12,8,PO1005,2025-03-08,2025-03-11,54,M105,Pass,Assembly Line 2,2025-04-03
+10,P010,Steering Wheel,Component,Elite Components,95.00,90,30,15,N/A,,,,,Warehouse B,2025-04-03
+11,P011,Exhaust System,Sub-Assembly,Precision Auto,210.00,35,15,10,PO1006,2025-03-15,2025-03-18,66,M106,Pass,Assembly Line 3,2025-04-03
+12,P012,Suspension,Component,Global Metals,150.00,60,25,10,N/A,,,,,Factory Floor,2025-04-03
+13,P013,Brake Pad,Component,Quality Components,25.00,300,100,50,N/A,,,,,Warehouse A,2025-04-03
+14,P014,Radiator,Component,Rapid Supply,135.00,45,20,10,N/A,,,,,Warehouse B,2025-04-03
+15,P015,Headlight,Component,OEM Suppliers,80.00,100,40,20,N/A,,,,,Factory Floor,2025-04-03
+16,P016,Engine Block,Sub-Assembly,AutoParts Inc.,260.00,55,20,10,PO1007,2025-03-02,2025-03-06,70,M107,Pass,Assembly Line 1,2025-04-03
+17,P017,Door Panel,Component,Prime Auto,70.00,130,45,20,N/A,,,,,Warehouse A,2025-04-03
+18,P018,Tire,Raw Material,Superior Steel,50.00,220,110,55,N/A,,,,,Warehouse B,2025-04-03
+19,P019,Seat,Component,Advance Plastics,115.00,85,35,20,N/A,,,,,Factory Floor,2025-04-03
+20,P020,Windshield,Finished Good,Elite Components,310.00,28,12,5,PO1008,2025-03-11,2025-03-14,50,M108,Pass,Assembly Line 2,2025-04-03
+21,P021,Dashboard,Sub-Assembly,Precision Auto,195.00,42,15,10,PO1009,2025-03-06,2025-03-09,58,M109,Pass,Assembly Line 1,2025-04-03
+22,P022,Bumper,Component,Global Metals,68.00,155,55,25,N/A,,,,,Warehouse A,2025-04-03
+23,P023,Chassis,Finished Good,Quality Components,820.00,12,6,3,PO1010,2025-03-13,2025-03-19,100,M110,Pass,Factory Floor,2025-04-03
+24,P024,Gearbox,Sub-Assembly,Rapid Supply,420.00,33,14,8,PO1011,2025-03-09,2025-03-12,56,M111,Pass,Assembly Line 2,2025-04-03
+25,P025,Steering Wheel,Component,OEM Suppliers,90.00,95,32,15,N/A,,,,,Warehouse B,2025-04-03
+26,P026,Exhaust System,Sub-Assembly,AutoParts Inc.,215.00,38,16,10,PO1012,2025-03-16,2025-03-19,68,M112,Pass,Assembly Line 3,2025-04-03
+27,P027,Suspension,Component,Prime Auto,155.00,62,28,12,N/A,,,,,Factory Floor,2025-04-03
+28,P028,Brake Pad,Component,Superior Steel,27.00,310,105,55,N/A,,,,,Warehouse A,2025-04-03
+29,P029,Radiator,Component,Advance Plastics,140.00,47,22,12,N/A,,,,,Warehouse B,2025-04-03
+30,P030,Headlight,Component,Elite Components,85.00,105,38,18,N/A,,,,,Factory Floor,2025-04-03
+31,P031,Engine Block,Sub-Assembly,Precision Auto,255.00,52,18,10,PO1013,2025-03-03,2025-03-07,74,M113,Pass,Assembly Line 1,2025-04-03
+32,P032,Door Panel,Component,Global Metals,72.00,125,42,20,N/A,,,,,Warehouse A,2025-04-03
+33,P033,Tire,Raw Material,Quality Components,48.00,210,100,50,N/A,,,,,Warehouse B,2025-04-03
+34,P034,Seat,Component,Rapid Supply,120.00,82,33,18,N/A,,,,,Factory Floor,2025-04-03
+35,P035,Windshield,Finished Good,OEM Suppliers,330.00,26,10,5,PO1014,2025-03-12,2025-03-15,52,M114,Pass,Assembly Line 2,2025-04-03
+36,P036,Dashboard,Sub-Assembly,AutoParts Inc.,185.00,44,15,10,PO1015,2025-03-07,2025-03-10,60,M115,Pass,Assembly Line 1,2025-04-03
+37,P037,Bumper,Component,Prime Auto,66.00,148,48,20,N/A,,,,,Warehouse A,2025-04-03
+38,P038,Chassis,Finished Good,Superior Steel,810.00,11,5,3,PO1016,2025-03-14,2025-03-18,98,M116,Pass,Factory Floor,2025-04-03
+39,P039,Gearbox,Sub-Assembly,Advance Plastics,435.00,29,12,8,PO1017,2025-03-10,2025-03-13,54,M117,Pass,Assembly Line 2,2025-04-03
+40,P040,Steering Wheel,Component,Elite Components,92.00,92,31,15,N/A,,,,,Warehouse B,2025-04-03
+41,P041,Exhaust System,Sub-Assembly,Precision Auto,220.00,36,15,10,PO1018,2025-03-17,2025-03-20,70,M118,Pass,Assembly Line 3,2025-04-03
+42,P042,Suspension,Component,Global Metals,160.00,58,26,12,N/A,,,,,Factory Floor,2025-04-03
+43,P043,Brake Pad,Component,Quality Components,26.00,320,110,60,N/A,,,,,Warehouse A,2025-04-03
+44,P044,Radiator,Component,Rapid Supply,138.00,49,21,11,N/A,,,,,Warehouse B,2025-04-03
+45,P045,Headlight,Component,OEM Suppliers,88.00,108,36,18,N/A,,,,,Factory Floor,2025-04-03
+46,P046,Engine Block,Sub-Assembly,AutoParts Inc.,265.00,53,19,10,PO1019,2025-03-04,2025-03-08,72,M119,Pass,Assembly Line 1,2025-04-03
+47,P047,Door Panel,Component,Prime Auto,74.00,128,43,20,N/A,,,,,Warehouse A,2025-04-03
+48,P048,Tire,Raw Material,Superior Steel,52.00,230,115,60,N/A,,,,,Warehouse B,2025-04-03
+49,P049,Seat,Component,Advance Plastics,118.00,87,34,18,N/A,,,,,Factory Floor,2025-04-03
+50,P050,Windshield,Finished Good,Elite Components,315.00,27,11,5,PO1020,2025-03-11,2025-03-14,50,M120,Pass,Assembly Line 2,2025-04-03
+51,P051,Dashboard,Sub-Assembly,Precision Auto,200.00,46,16,10,PO1021,2025-03-08,2025-03-11,62,M121,Pass,Assembly Line 1,2025-04-03
+52,P052,Bumper,Component,Global Metals,69.00,152,50,20,N/A,,,,,Warehouse A,2025-04-03
+53,P053,Chassis,Finished Good,Quality Components,830.00,13,6,3,PO1022,2025-03-15,2025-03-19,96,M122,Pass,Factory Floor,2025-04-03
+54,P054,Gearbox,Sub-Assembly,Rapid Supply,425.00,31,13,8,PO1023,2025-03-09,2025-03-12,56,M123,Pass,Assembly Line 2,2025-04-03
+55,P055,Steering Wheel,Component,OEM Suppliers,94.00,88,30,15,N/A,,,,,Warehouse B,2025-04-03
+56,P056,Exhaust System,Sub-Assembly,AutoParts Inc.,218.00,37,15,10,PO1024,2025-03-16,2025-03-19,68,M124,Pass,Assembly Line 3,2025-04-03
+57,P057,Suspension,Component,Prime Auto,158.00,61,27,12,N/A,,,,,Factory Floor,2025-04-03
+58,P058,Brake Pad,Component,Superior Steel,24.00,330,115,60,N/A,,,,,Warehouse A,2025-04-03
+59,P059,Radiator,Component,Advance Plastics,142.00,51,22,11,N/A,,,,,Warehouse B,2025-04-03
+60,P060,Headlight,Component,Elite Components,87.00,110,37,18,N/A,,,,,Factory Floor,2025-04-03
+61,P061,Engine Block,Sub-Assembly,Precision Auto,270.00,54,20,10,PO1025,2025-03-05,2025-03-09,70,M125,Pass,Assembly Line 1,2025-04-03
+62,P062,Door Panel,Component,Global Metals,76.00,130,44,20,N/A,,,,,Warehouse A,2025-04-03
+63,P063,Tire,Raw Material,Quality Components,49.00,215,105,55,N/A,,,,,Warehouse B,2025-04-03
+64,P064,Seat,Component,Rapid Supply,122.00,84,35,18,N/A,,,,,Factory Floor,2025-04-03
+65,P065,Windshield,Finished Good,OEM Suppliers,325.00,29,12,5,PO1026,2025-03-12,2025-03-15,52,M126,Pass,Assembly Line 2,2025-04-03
+66,P066,Dashboard,Sub-Assembly,AutoParts Inc.,190.00,43,15,10,PO1027,2025-03-07,2025-03-10,60,M127,Pass,Assembly Line 1,2025-04-03
+67,P067,Bumper,Component,Prime Auto,67.00,146,48,20,N/A,,,,,Warehouse A,2025-04-03
+68,P068,Chassis,Finished Good,Superior Steel,815.00,12,5,3,PO1028,2025-03-14,2025-03-18,98,M128,Pass,Factory Floor,2025-04-03
+69,P069,Gearbox,Sub-Assembly,Advance Plastics,440.00,28,12,8,PO1029,2025-03-10,2025-03-13,54,M129,Pass,Assembly Line 2,2025-04-03
+70,P070,Steering Wheel,Component,Elite Components,96.00,91,31,15,N/A,,,,,Warehouse B,2025-04-03
+71,P071,Exhaust System,Sub-Assembly,Precision Auto,222.00,35,15,10,PO1030,2025-03-17,2025-03-20,70,M130,Pass,Assembly Line 3,2025-04-03
+72,P072,Suspension,Component,Global Metals,162.00,59,26,12,N/A,,,,,Factory Floor,2025-04-03
+73,P073,Brake Pad,Component,Quality Components,23.00,340,120,60,N/A,,,,,Warehouse A,2025-04-03
+74,P074,Radiator,Component,Rapid Supply,136.00,50,21,11,N/A,,,,,Warehouse B,2025-04-03
+75,P075,Headlight,Component,OEM Suppliers,89.00,112,38,18,N/A,,,,,Factory Floor,2025-04-03
+76,P076,Engine Block,Sub-Assembly,AutoParts Inc.,275.00,56,20,10,PO1031,2025-03-05,2025-03-09,70,M131,Pass,Assembly Line 1,2025-04-03
+77,P077,Door Panel,Component,Prime Auto,78.00,132,45,20,N/A,,,,,Warehouse A,2025-04-03
+78,P078,Tire,Raw Material,Superior Steel,53.00,235,120,60,N/A,,,,,Warehouse B,2025-04-03
+79,P079,Seat,Component,Advance Plastics,119.00,89,34,18,N/A,,,,,Factory Floor,2025-04-03
+80,P080,Windshield,Finished Good,Elite Components,320.00,30,12,5,PO1032,2025-03-11,2025-03-14,50,M132,Pass,Assembly Line 2,2025-04-03
+81,P081,Dashboard,Sub-Assembly,Precision Auto,205.00,47,16,10,PO1033,2025-03-08,2025-03-11,62,M133,Pass,Assembly Line 1,2025-04-03
+82,P082,Bumper,Component,Global Metals,70.00,157,52,20,N/A,,,,,Warehouse A,2025-04-03
+83,P083,Chassis,Finished Good,Quality Components,840.00,14,7,3,PO1034,2025-03-15,2025-03-19,96,M134,Pass,Factory Floor,2025-04-03
+84,P084,Gearbox,Sub-Assembly,Rapid Supply,430.00,32,13,8,PO1035,2025-03-09,2025-03-12,56,M135,Pass,Assembly Line 2,2025-04-03
+85,P085,Steering Wheel,Component,OEM Suppliers,98.00,94,32,15,N/A,,,,,Warehouse B,2025-04-03
+86,P086,Exhaust System,Sub-Assembly,AutoParts Inc.,225.00,38,16,10,PO1036,2025-03-17,2025-03-20,70,M136,Pass,Assembly Line 3,2025-04-03
+87,P087,Suspension,Component,Prime Auto,165.00,63,28,12,N/A,,,,,Factory Floor,2025-04-03
+88,P088,Brake Pad,Component,Superior Steel,22.00,350,125,60,N/A,,,,,Warehouse A,2025-04-03
+89,P089,Radiator,Component,Advance Plastics,144.00,52,23,11,N/A,,,,,Warehouse B,2025-04-03
+90,P090,Headlight,Component,Elite Components,91.00,115,39,18,N/A,,,,,Factory Floor,2025-04-03
+91,P091,Engine Block,Sub-Assembly,Precision Auto,280.00,57,21,10,PO1037,2025-03-06,2025-03-10,70,M137,Pass,Assembly Line 1,2025-04-03
+92,P092,Door Panel,Component,Global Metals,80.00,135,46,20,N/A,,,,,Warehouse A,2025-04-03
+93,P093,Tire,Raw Material,Quality Components,51.00,220,110,55,N/A,,,,,Warehouse B,2025-04-03
+94,P094,Seat,Component,Rapid Supply,124.00,86,36,18,N/A,,,,,Factory Floor,2025-04-03
+95,P095,Windshield,Finished Good,OEM Suppliers,335.00,31,12,5,PO1038,2025-03-12,2025-03-15,52,M138,Pass,Assembly Line 2,2025-04-03
+96,P096,Dashboard,Sub-Assembly,AutoParts Inc.,210.00,48,16,10,PO1039,2025-03-08,2025-03-11,62,M139,Pass,Assembly Line 1,2025-04-03
+97,P097,Bumper,Component,Prime Auto,71.00,160,53,20,N/A,,,,,Warehouse A,2025-04-03
+98,P098,Chassis,Finished Good,Superior Steel,845.00,15,7,3,PO1040,2025-03-15,2025-03-19,96,M140,Pass,Factory Floor,2025-04-03
+99,P099,Gearbox,Sub-Assembly,Advance Plastics,445.00,27,11,8,PO1041,2025-03-10,2025-03-13,54,M141,Pass,Assembly Line 2,2025-04-03
+100,P100,Steering Wheel,Component,Elite Components,100.00,90,32,15,N/A,,,,,Warehouse B,2025-04-03
