@@ -1,0 +1,11 @@
+part_id,part_name,category,quantity,min_threshold,max_capacity
+P001,Brake Pad,Braking,11,10,50
+P002,Oil Filter,Engine,11,8,40
+P003,Spark Plug,Electrical,7,5,30
+P004,Headlight,Electrical,0,2,20
+P005,Windshield Wiper,Exterior,4,3,15
+P006,Air Filter,Engine,4,6,25
+P007,Brake Disc,Braking,6,5,30
+P008,Transmission Fluid,Engine,5,4,20
+P009,Power Steering Fluid,Engine,6,2,15
+P010,Fuel Filter,Engine,5,3,10

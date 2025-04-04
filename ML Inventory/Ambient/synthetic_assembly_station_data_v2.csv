@@ -1,0 +1,1117 @@
+ass_ln,stn_no,dt,shift,tgt_prod,act_prod,eff_perc,def_unit,min_threshold,max_cap,stock_avl,downtime_hrs,stn_status,shortages,part_name
+Line A,1,1/1/2025,Morning,121,82,67.8,0,21,191,82,1.9,Shortage Pause,42,Engine Oil Filter
+Line A,2,1/1/2025,Night,151,146,96.7,1,25,167,146,0.1,Shortage Pause,8,Air Filter
+Line A,3,1/1/2025,Morning,83,76,91.6,1,29,150,123,0,Active,0,Spark Plug Set
+Line B,1,1/1/2025,Night,96,105,109.4,0,40,232,135,0,Active,0,Brake Pad Set
+Line B,2,1/1/2025,Morning,116,124,106.9,0,49,208,135,0,Active,0,Brake Disc
+Line B,3,1/1/2025,Night,88,73,83,0,36,157,73,1.4,Shortage Pause,27,Shock Absorber
+Line C,1,1/1/2025,Night,165,157,95.2,1,28,185,157,0.2,Shortage Pause,8,Timing Belt
+Line C,2,1/1/2025,Night,91,86,94.5,0,20,199,179,0,Active,0,Battery
+Line C,3,1/1/2025,Night,121,124,102.5,2,47,176,150,0,Active,0,Headlight Bulb
+Line D,1,1/1/2025,Night,105,89,84.8,2,47,161,89,0.3,Shortage Pause,17,Windshield Wiper
+Line D,2,1/1/2025,Night,95,93,97.9,0,42,189,142,0,Active,0,Engine Oil Filter
+Line D,3,1/1/2025,Morning,76,76,100,0,36,171,125,0,Active,0,Air Filter
+Line A,1,1/2/2025,Morning,139,140,100.7,2,21,191,158,0,Active,0,Engine Oil Filter
+Line A,2,1/2/2025,Night,140,99,70.7,2,25,167,99,0.5,Shortage Pause,24,Air Filter
+Line A,3,1/2/2025,Night,86,47,54.7,0,29,150,47,0.8,Shortage Pause,29,Spark Plug Set
+Line B,1,1/2/2025,Morning,93,88,94.6,0,40,232,186,0,Active,0,Brake Pad Set
+Line B,2,1/2/2025,Night,101,11,10.9,0,49,208,11,5,Shortage Pause,78,Brake Disc
+Line B,3,1/2/2025,Morning,74,65,87.8,0,36,157,106,0,Active,0,Shock Absorber
+Line C,1,1/2/2025,Night,158,123,77.8,4,28,185,123,0.4,Shortage Pause,27,Timing Belt
+Line C,2,1/2/2025,Night,77,64,83.1,0,20,199,93,0,Active,0,Battery
+Line C,3,1/2/2025,Morning,107,94,87.9,1,47,176,122,0,Active,0,Headlight Bulb
+Line D,1,1/2/2025,Night,90,0,0,0,47,161,0,4.9,Shortage Pause,85,Windshield Wiper
+Line D,2,1/2/2025,Night,82,49,59.8,0,42,189,49,1,Shortage Pause,33,Engine Oil Filter
+Line D,3,1/2/2025,Night,75,49,65.3,1,36,171,49,1,Shortage Pause,22,Air Filter
+Line A,1,1/3/2025,Night,127,18,14.2,1,21,191,18,4.5,Shortage Pause,115,Engine Oil Filter
+Line A,2,1/3/2025,Night,155,118,76.1,5,25,167,118,0.4,Shortage Pause,17,Air Filter
+Line A,3,1/3/2025,Morning,95,92,96.8,2,29,150,116,0,Active,0,Spark Plug Set
+Line B,1,1/3/2025,Night,91,91,100,1,40,232,98,0,Active,0,Brake Pad Set
+Line B,2,1/3/2025,Night,128,0,0,0,49,208,0,2.9,Shortage Pause,118,Brake Disc
+Line B,3,1/3/2025,Night,6,0,0,0,36,157,41,1.6,Paused,0,Shock Absorber
+Line C,1,1/3/2025,Night,147,116,78.9,8,28,185,116,0.6,Shortage Pause,17,Timing Belt
+Line C,2,1/3/2025,Morning,82,29,35.4,0,20,199,29,3.5,Shortage Pause,59,Battery
+Line C,3,1/3/2025,Night,140,28,20,1,47,176,28,3.4,Shortage Pause,91,Headlight Bulb
+Line D,1,1/3/2025,Night,118,81,68.6,4,47,161,81,1,Shortage Pause,49,Windshield Wiper
+Line D,2,1/3/2025,Night,77,73,94.8,1,42,189,89,0,Active,0,Engine Oil Filter
+Line D,3,1/3/2025,Night,78,0,0,0,36,171,0,3.3,Shortage Pause,91,Air Filter
+Line A,1,1/4/2025,Night,94,0,0,0,21,191,0,3,Shortage Pause,95,Engine Oil Filter
+Line A,2,1/4/2025,Night,149,141,94.6,2,25,167,150,0,Active,0,Air Filter
+Line A,3,1/4/2025,Night,85,83,97.6,1,29,150,104,0,Active,0,Spark Plug Set
+Line B,1,1/4/2025,Morning,87,7,8,0,40,232,7,2.4,Shortage Pause,79,Brake Pad Set
+Line B,2,1/4/2025,Night,107,105,98.1,0,49,208,108,0,Active,0,Brake Disc
+Line B,3,1/4/2025,Morning,88,41,46.6,2,36,157,41,1.9,Shortage Pause,47,Shock Absorber
+Line C,1,1/4/2025,Morning,163,155,95.1,1,28,185,155,0.4,Shortage Pause,30,Timing Belt
+Line C,2,1/4/2025,Night,92,98,106.5,0,20,199,184,0,Active,0,Battery
+Line C,3,1/4/2025,Morning,142,0,0,0,47,176,0,4.4,Shortage Pause,134,Headlight Bulb
+Line D,1,1/4/2025,Night,109,96,88.1,0,47,161,96,0.8,Shortage Pause,26,Windshield Wiper
+Line D,2,1/4/2025,Night,82,87,106.1,1,42,189,127,0,Active,0,Engine Oil Filter
+Line D,3,1/4/2025,Night,68,0,0,0,36,171,0,3.9,Shortage Pause,63,Air Filter
+Line A,1,1/5/2025,Morning,110,115,104.5,0,21,191,158,0,Active,0,Engine Oil Filter
+Line A,2,1/5/2025,Night,137,9,6.6,0,25,167,9,2.2,Shortage Pause,127,Air Filter
+Line A,3,1/5/2025,Morning,90,21,23.3,0,29,150,21,2.3,Shortage Pause,73,Spark Plug Set
+Line B,1,1/5/2025,Night,92,88,95.7,2,40,232,210,0,Active,0,Brake Pad Set
+Line B,2,1/5/2025,Night,105,109,103.8,2,49,208,171,0,Active,0,Brake Disc
+Line B,3,1/5/2025,Morning,90,87,96.7,1,36,157,124,0,Active,0,Shock Absorber
+Line C,1,1/5/2025,Night,15,0,0,0,28,185,128,1.4,Paused,0,Timing Belt
+Line C,2,1/5/2025,Night,88,79,89.8,2,20,199,86,0,Active,0,Battery
+Line C,3,1/5/2025,Night,126,113,89.7,1,47,176,113,0.1,Shortage Pause,5,Headlight Bulb
+Line D,1,1/5/2025,Morning,111,98,88.3,0,47,161,98,1.1,Shortage Pause,22,Windshield Wiper
+Line D,2,1/5/2025,Morning,97,40,41.2,1,42,189,40,1.7,Shortage Pause,65,Engine Oil Filter
+Line D,3,1/5/2025,Morning,79,79,100,0,36,171,142,0,Active,0,Air Filter
+Line A,1,1/6/2025,Morning,127,43,33.9,2,21,191,43,3.8,Shortage Pause,87,Engine Oil Filter
+Line A,2,1/6/2025,Night,141,0,0,0,25,167,0,2.3,Shortage Pause,144,Air Filter
+Line A,3,1/6/2025,Night,87,81,93.1,1,29,150,89,0,Active,0,Spark Plug Set
+Line B,1,1/6/2025,Morning,102,96,94.1,2,40,232,122,0,Active,0,Brake Pad Set
+Line B,2,1/6/2025,Morning,103,62,60.2,2,49,208,62,1.6,Shortage Pause,38,Brake Disc
+Line B,3,1/6/2025,Morning,69,37,53.6,3,36,157,37,1.3,Shortage Pause,35,Shock Absorber
+Line C,1,1/6/2025,Night,10,0,0,0,28,185,128,1.4,Paused,0,Timing Belt
+Line C,2,1/6/2025,Morning,90,7,7.8,1,20,199,7,4.9,Shortage Pause,74,Battery
+Line C,3,1/6/2025,Night,121,131,108.3,1,47,176,134,0,Active,0,Headlight Bulb
+Line D,1,1/6/2025,Morning,105,71,67.6,5,47,161,71,1.5,Shortage Pause,41,Windshield Wiper
+Line D,2,1/6/2025,Morning,90,92,102.2,1,42,189,100,0,Active,0,Engine Oil Filter
+Line D,3,1/6/2025,Night,76,63,82.9,1,36,171,63,0.6,Shortage Pause,16,Air Filter
+Line A,1,1/7/2025,Morning,126,126,100,0,21,191,143,0,Active,0,Engine Oil Filter
+Line A,2,1/7/2025,Morning,138,102,73.9,6,25,167,102,1,Shortage Pause,24,Air Filter
+Line A,3,1/7/2025,Night,114,8,7,1,29,150,8,4.5,Shortage Pause,120,Spark Plug Set
+Line B,1,1/7/2025,Night,103,109,105.8,1,40,232,172,0,Active,0,Brake Pad Set
+Line B,2,1/7/2025,Morning,122,0,0,0,49,208,0,3.2,Shortage Pause,117,Brake Disc
+Line B,3,1/7/2025,Morning,78,75,96.2,0,36,157,92,0,Active,0,Shock Absorber
+Line C,1,1/7/2025,Night,104,102,98.1,0,28,185,128,0,Active,0,Timing Belt
+Line C,2,1/7/2025,Night,124,109,87.9,0,20,199,159,0,Active,0,Battery
+Line C,3,1/7/2025,Night,133,3,2.3,1,47,176,3,3.8,Shortage Pause,145,Headlight Bulb
+Line D,1,1/7/2025,Morning,108,69,63.9,3,47,161,69,1.2,Shortage Pause,48,Windshield Wiper
+Line D,2,1/7/2025,Morning,6,0,0,0,42,189,96,1.1,Paused,0,Engine Oil Filter
+Line D,3,1/7/2025,Night,91,84,92.3,2,36,171,84,0.2,Shortage Pause,9,Air Filter
+Line A,1,1/8/2025,Morning,115,124,107.8,1,21,191,191,0,Active,0,Engine Oil Filter
+Line A,2,1/8/2025,Night,162,105,64.8,4,25,167,105,2.3,Shortage Pause,72,Air Filter
+Line A,3,1/8/2025,Morning,96,94,97.9,1,29,150,129,0,Active,0,Spark Plug Set
+Line B,1,1/8/2025,Morning,126,63,50,3,40,232,63,1.4,Shortage Pause,66,Brake Pad Set
+Line B,2,1/8/2025,Night,106,107,100.9,2,49,208,154,0,Active,0,Brake Disc
+Line B,3,1/8/2025,Night,88,87,98.9,1,36,157,101,0.3,Active,0,Shock Absorber
+Line C,1,1/8/2025,Morning,145,127,87.6,3,28,185,165,0,Active,0,Timing Belt
+Line C,2,1/8/2025,Night,91,50,54.9,0,20,199,50,1,Shortage Pause,37,Battery
+Line C,3,1/8/2025,Night,121,100,82.6,4,47,176,100,0.8,Shortage Pause,24,Headlight Bulb
+Line D,1,1/8/2025,Morning,105,0,0,0,47,161,0,3.3,Shortage Pause,93,Windshield Wiper
+Line D,2,1/8/2025,Night,81,86,106.2,0,42,189,96,0,Active,0,Engine Oil Filter
+Line D,3,1/8/2025,Night,83,89,107.2,2,36,171,89,0.1,Shortage Pause,1,Air Filter
+Line A,1,1/9/2025,Morning,98,67,68.4,1,21,191,67,1.8,Shortage Pause,29,Engine Oil Filter
+Line A,2,1/9/2025,Night,131,0,0,0,25,167,0,5.1,Shortage Pause,137,Air Filter
+Line A,3,1/9/2025,Morning,92,35,38,0,29,150,35,2.7,Shortage Pause,66,Spark Plug Set
+Line B,1,1/9/2025,Night,85,89,104.7,0,40,232,190,0.2,Active,0,Brake Pad Set
+Line B,2,1/9/2025,Night,122,113,92.6,1,49,208,194,0,Active,0,Brake Disc
+Line B,3,1/9/2025,Morning,8,0,0,0,36,157,14,0.6,Paused,0,Shock Absorber
+Line C,1,1/9/2025,Night,147,38,25.9,2,28,185,38,3.8,Shortage Pause,78,Timing Belt
+Line C,2,1/9/2025,Morning,94,98,104.3,1,20,199,169,0,Active,0,Battery
+Line C,3,1/9/2025,Morning,10,0,0,0,47,176,122,1.5,Paused,0,Headlight Bulb
+Line D,1,1/9/2025,Night,114,112,98.2,1,47,161,112,0.2,Shortage Pause,6,Windshield Wiper
+Line D,2,1/9/2025,Morning,8,0,0,0,42,189,10,1.4,Paused,0,Engine Oil Filter
+Line D,3,1/9/2025,Morning,79,0,0,0,36,171,0,2.8,Shortage Pause,83,Air Filter
+Line A,1,1/10/2025,Morning,137,0,0,0,21,191,0,4.5,Shortage Pause,144,Engine Oil Filter
+Line A,2,1/10/2025,Night,138,0,0,0,25,167,0,4.5,Shortage Pause,150,Air Filter
+Line A,3,1/10/2025,Night,91,85,93.4,0,29,150,122,0,Active,0,Spark Plug Set
+Line B,1,1/10/2025,Night,99,95,96,0,40,232,101,0,Active,0,Brake Pad Set
+Line B,2,1/10/2025,Night,112,81,72.3,5,49,208,81,0.8,Shortage Pause,20,Brake Disc
+Line B,3,1/10/2025,Night,78,73,93.6,0,36,157,113,0,Active,0,Shock Absorber
+Line C,1,1/10/2025,Night,136,141,103.7,2,28,185,163,0,Active,0,Timing Belt
+Line C,2,1/10/2025,Night,77,71,92.2,0,20,199,71,0.3,Shortage Pause,9,Battery
+Line C,3,1/10/2025,Morning,129,108,83.7,0,47,176,122,0,Active,0,Headlight Bulb
+Line D,1,1/10/2025,Morning,101,72,71.3,3,47,161,72,1.4,Shortage Pause,34,Windshield Wiper
+Line D,2,1/10/2025,Morning,93,10,10.8,0,42,189,10,4.9,Shortage Pause,77,Engine Oil Filter
+Line D,3,1/10/2025,Morning,86,97,112.8,0,36,171,97,0.2,Shortage Pause,3,Air Filter
+Line A,1,1/11/2025,Night,125,0,0,0,21,191,0,4.6,Shortage Pause,121,Engine Oil Filter
+Line A,2,1/11/2025,Morning,149,0,0,0,25,167,0,5.9,Shortage Pause,161,Air Filter
+Line A,3,1/11/2025,Night,76,37,48.7,1,29,150,37,1.5,Shortage Pause,44,Spark Plug Set
+Line B,1,1/11/2025,Morning,106,104,98.1,2,40,232,200,0,Active,0,Brake Pad Set
+Line B,2,1/11/2025,Night,95,0,0,0,49,208,0,3.1,Shortage Pause,88,Brake Disc
+Line B,3,1/11/2025,Night,71,40,56.3,3,36,157,40,1.1,Shortage Pause,34,Shock Absorber
+Line C,1,1/11/2025,Night,146,131,89.7,0,28,185,131,0.3,Shortage Pause,8,Timing Belt
+Line C,2,1/11/2025,Night,84,0,0,0,20,199,0,5.9,Shortage Pause,84,Battery
+Line C,3,1/11/2025,Morning,119,112,94.1,1,47,176,116,0,Active,0,Headlight Bulb
+Line D,1,1/11/2025,Night,10,0,0,0,47,161,0,0.8,Paused,0,Windshield Wiper
+Line D,2,1/11/2025,Night,67,69,103,0,42,189,96,0,Active,0,Engine Oil Filter
+Line D,3,1/11/2025,Night,83,86,103.6,1,36,171,86,0,Shortage Pause,1,Air Filter
+Line A,1,1/12/2025,Night,124,106,85.5,0,21,191,106,0.4,Shortage Pause,21,Engine Oil Filter
+Line A,2,1/12/2025,Morning,150,136,90.7,1,25,167,136,0.1,Shortage Pause,2,Air Filter
+Line A,3,1/12/2025,Morning,95,79,83.2,1,29,150,122,0,Active,0,Spark Plug Set
+Line B,1,1/12/2025,Morning,93,88,94.6,3,40,232,96,0,Active,0,Brake Pad Set
+Line B,2,1/12/2025,Morning,102,109,106.9,2,49,208,147,0,Active,0,Brake Disc
+Line B,3,1/12/2025,Night,70,78,111.4,0,36,157,127,0,Active,0,Shock Absorber
+Line C,1,1/12/2025,Night,147,157,106.8,2,28,185,169,0,Active,0,Timing Belt
+Line C,2,1/12/2025,Morning,9,0,0,0,20,199,149,1.6,Paused,0,Battery
+Line C,3,1/12/2025,Night,126,4,3.2,0,47,176,4,4.1,Shortage Pause,127,Headlight Bulb
+Line D,1,1/12/2025,Night,118,107,90.7,2,47,161,107,0.5,Shortage Pause,11,Windshield Wiper
+Line D,2,1/12/2025,Night,92,72,78.3,1,42,189,159,0.5,Active,0,Engine Oil Filter
+Line D,3,1/12/2025,Morning,75,0,0,0,36,171,0,5,Shortage Pause,69,Air Filter
+Line A,1,1/13/2025,Morning,97,0,0,0,21,191,0,3,Shortage Pause,104,Engine Oil Filter
+Line A,2,1/13/2025,Night,107,105,98.1,0,25,167,105,0.2,Shortage Pause,8,Air Filter
+Line A,3,1/13/2025,Morning,90,43,47.8,1,29,150,43,2.1,Shortage Pause,47,Spark Plug Set
+Line B,1,1/13/2025,Night,93,94,101.1,1,40,232,144,0,Active,0,Brake Pad Set
+Line B,2,1/13/2025,Morning,118,38,32.2,2,49,208,38,3.1,Shortage Pause,94,Brake Disc
+Line B,3,1/13/2025,Morning,66,49,74.2,1,36,157,49,0.8,Shortage Pause,13,Shock Absorber
+Line C,1,1/13/2025,Night,150,139,92.7,3,28,185,161,0,Active,0,Timing Belt
+Line C,2,1/13/2025,Morning,100,109,109,3,20,199,149,0.4,Active,0,Battery
+Line C,3,1/13/2025,Night,112,97,86.6,2,47,176,119,0,Active,0,Headlight Bulb
+Line D,1,1/13/2025,Morning,108,100,92.6,1,47,161,100,0.3,Shortage Pause,17,Windshield Wiper
+Line D,2,1/13/2025,Morning,92,87,94.6,2,42,189,87,0.2,Shortage Pause,5,Engine Oil Filter
+Line D,3,1/13/2025,Morning,88,75,85.2,1,36,171,118,0,Active,0,Air Filter
+Line A,1,1/14/2025,Morning,94,81,86.2,0,21,191,151,0,Active,0,Engine Oil Filter
+Line A,2,1/14/2025,Night,138,144,104.3,1,25,167,156,0,Active,0,Air Filter
+Line A,3,1/14/2025,Morning,97,98,101,1,29,150,131,0,Active,0,Spark Plug Set
+Line B,1,1/14/2025,Night,104,50,48.1,1,40,232,50,3.5,Shortage Pause,69,Brake Pad Set
+Line B,2,1/14/2025,Night,113,122,108,0,49,208,135,0,Active,0,Brake Disc
+Line B,3,1/14/2025,Morning,10,0,0,0,36,157,0,0.8,Paused,0,Shock Absorber
+Line C,1,1/14/2025,Morning,146,22,15.1,1,28,185,22,3,Shortage Pause,120,Timing Belt
+Line C,2,1/14/2025,Morning,105,40,38.1,6,20,199,40,3.8,Shortage Pause,70,Battery
+Line C,3,1/14/2025,Morning,113,22,19.5,0,47,176,22,2.6,Shortage Pause,87,Headlight Bulb
+Line D,1,1/14/2025,Morning,111,98,88.3,0,47,161,98,0.5,Shortage Pause,9,Windshield Wiper
+Line D,2,1/14/2025,Night,74,76,102.7,0,42,189,142,0,Active,0,Engine Oil Filter
+Line D,3,1/14/2025,Night,86,43,50,0,36,171,43,2.6,Shortage Pause,41,Air Filter
+Line A,1,1/15/2025,Morning,123,70,56.9,3,21,191,70,1.1,Shortage Pause,59,Engine Oil Filter
+Line A,2,1/15/2025,Morning,152,124,81.6,2,25,167,124,1.3,Shortage Pause,39,Air Filter
+Line A,3,1/15/2025,Morning,8,0,0,0,29,150,33,1.3,Paused,0,Spark Plug Set
+Line B,1,1/15/2025,Night,114,119,104.4,0,40,232,209,0,Active,0,Brake Pad Set
+Line B,2,1/15/2025,Morning,109,115,105.5,0,49,208,146,0,Active,0,Brake Disc
+Line B,3,1/15/2025,Morning,82,75,91.5,1,36,157,75,0.2,Shortage Pause,7,Shock Absorber
+Line C,1,1/15/2025,Morning,140,101,72.1,4,28,185,101,1.3,Shortage Pause,36,Timing Belt
+Line C,2,1/15/2025,Morning,94,0,0,0,20,199,0,5.8,Shortage Pause,89,Battery
+Line C,3,1/15/2025,Morning,101,81,80.2,1,47,176,81,0.3,Shortage Pause,9,Headlight Bulb
+Line D,1,1/15/2025,Night,103,69,67,3,47,161,69,0.8,Shortage Pause,30,Windshield Wiper
+Line D,2,1/15/2025,Morning,77,66,85.7,2,42,189,66,0.3,Shortage Pause,4,Engine Oil Filter
+Line D,3,1/15/2025,Morning,69,67,97.1,0,36,171,122,0,Active,0,Air Filter
+Line A,1,1/16/2025,Night,114,108,94.7,1,21,191,124,0,Active,0,Engine Oil Filter
+Line A,2,1/16/2025,Night,170,0,0,0,25,167,0,5.4,Shortage Pause,161,Air Filter
+Line A,3,1/16/2025,Night,89,33,37.1,1,29,150,33,2.7,Shortage Pause,59,Spark Plug Set
+Line B,1,1/16/2025,Night,106,90,84.9,1,40,232,90,0.8,Shortage Pause,19,Brake Pad Set
+Line B,2,1/16/2025,Night,109,31,28.4,3,49,208,31,4,Shortage Pause,78,Brake Disc
+Line B,3,1/16/2025,Morning,77,61,79.2,1,36,157,82,0,Active,0,Shock Absorber
+Line C,1,1/16/2025,Night,134,0,0,0,28,185,0,2,Shortage Pause,139,Timing Belt
+Line C,2,1/16/2025,Night,92,89,96.7,0,20,199,124,0.4,Active,0,Battery
+Line C,3,1/16/2025,Morning,118,88,74.6,1,47,176,88,1.3,Shortage Pause,34,Headlight Bulb
+Line D,1,1/16/2025,Morning,92,99,107.6,0,47,161,99,0.5,Shortage Pause,12,Windshield Wiper
+Line D,2,1/16/2025,Morning,62,50,80.6,1,42,189,110,0,Active,0,Engine Oil Filter
+Line D,3,1/16/2025,Night,82,55,67.1,1,36,171,55,1.7,Shortage Pause,24,Air Filter
+Line A,1,1/17/2025,Night,114,127,111.4,2,21,191,185,0,Active,0,Engine Oil Filter
+Line A,2,1/17/2025,Night,146,123,84.2,2,25,167,127,0,Active,0,Air Filter
+Line A,3,1/17/2025,Morning,8,0,0,0,29,150,86,0.8,Paused,0,Spark Plug Set
+Line B,1,1/17/2025,Night,103,0,0,0,40,232,0,4.3,Shortage Pause,98,Brake Pad Set
+Line B,2,1/17/2025,Morning,115,95,82.6,2,49,208,95,1,Shortage Pause,21,Brake Disc
+Line B,3,1/17/2025,Morning,76,21,27.6,0,36,157,21,2.1,Shortage Pause,57,Shock Absorber
+Line C,1,1/17/2025,Morning,154,118,76.6,7,28,185,118,1,Shortage Pause,35,Timing Belt
+Line C,2,1/17/2025,Morning,77,35,45.5,5,20,199,35,1.3,Shortage Pause,36,Battery
+Line C,3,1/17/2025,Night,110,103,93.6,1,47,176,139,0,Active,0,Headlight Bulb
+Line D,1,1/17/2025,Morning,88,81,92,0,47,161,82,0,Active,0,Windshield Wiper
+Line D,2,1/17/2025,Morning,73,60,82.2,1,42,189,60,1,Shortage Pause,14,Engine Oil Filter
+Line D,3,1/17/2025,Morning,82,75,91.5,1,36,171,88,0,Active,0,Air Filter
+Line A,1,1/18/2025,Morning,129,58,45,2,21,191,58,2,Shortage Pause,59,Engine Oil Filter
+Line A,2,1/18/2025,Night,144,104,72.2,6,25,167,104,0.9,Shortage Pause,50,Air Filter
+Line A,3,1/18/2025,Morning,83,86,103.6,1,29,150,86,0.3,Shortage Pause,6,Spark Plug Set
+Line B,1,1/18/2025,Night,87,90,103.4,1,40,232,142,0,Active,0,Brake Pad Set
+Line B,2,1/18/2025,Night,105,0,0,0,49,208,0,5,Shortage Pause,109,Brake Disc
+Line B,3,1/18/2025,Night,86,69,80.2,0,36,157,112,0,Active,0,Shock Absorber
+Line C,1,1/18/2025,Morning,176,123,69.9,2,28,185,123,1.4,Shortage Pause,49,Timing Belt
+Line C,2,1/18/2025,Night,93,0,0,0,20,199,0,4.4,Shortage Pause,102,Battery
+Line C,3,1/18/2025,Morning,129,130,100.8,2,47,176,139,0.2,Active,0,Headlight Bulb
+Line D,1,1/18/2025,Morning,100,1,1,0,47,161,1,4,Shortage Pause,93,Windshield Wiper
+Line D,2,1/18/2025,Morning,83,84,101.2,0,42,189,110,0.3,Active,0,Engine Oil Filter
+Line D,3,1/18/2025,Night,77,63,81.8,2,36,171,109,0,Active,0,Air Filter
+Line A,1,1/19/2025,Night,125,133,106.4,1,21,191,182,0,Active,0,Engine Oil Filter
+Line A,2,1/19/2025,Morning,134,136,101.5,2,25,167,155,0,Active,0,Air Filter
+Line A,3,1/19/2025,Night,90,0,0,0,29,150,0,2.7,Shortage Pause,99,Spark Plug Set
+Line B,1,1/19/2025,Night,93,52,55.9,2,40,232,52,2.3,Shortage Pause,34,Brake Pad Set
+Line B,2,1/19/2025,Morning,95,102,107.4,1,49,208,103,0,Active,0,Brake Disc
+Line B,3,1/19/2025,Night,83,43,51.8,1,36,157,43,2.6,Shortage Pause,54,Shock Absorber
+Line C,1,1/19/2025,Night,125,114,91.2,0,28,185,114,0.2,Shortage Pause,12,Timing Belt
+Line C,2,1/19/2025,Morning,85,93,109.4,0,20,199,161,0,Active,0,Battery
+Line C,3,1/19/2025,Morning,123,107,87,2,47,176,107,0.7,Shortage Pause,26,Headlight Bulb
+Line D,1,1/19/2025,Night,123,95,77.2,3,47,161,95,1.5,Shortage Pause,35,Windshield Wiper
+Line D,2,1/19/2025,Morning,62,26,41.9,3,42,189,26,2.5,Shortage Pause,49,Engine Oil Filter
+Line D,3,1/19/2025,Morning,81,46,56.8,0,36,171,46,1.2,Shortage Pause,34,Air Filter
+Line A,1,1/20/2025,Morning,131,49,37.4,1,21,191,49,2.1,Shortage Pause,86,Engine Oil Filter
+Line A,2,1/20/2025,Morning,135,130,96.3,0,25,167,135,0,Active,0,Air Filter
+Line A,3,1/20/2025,Night,85,83,97.6,0,29,150,88,0.3,Active,0,Spark Plug Set
+Line B,1,1/20/2025,Morning,105,112,106.7,0,40,232,209,0,Active,0,Brake Pad Set
+Line B,2,1/20/2025,Night,125,114,91.2,0,49,208,167,0.2,Active,0,Brake Disc
+Line B,3,1/20/2025,Morning,68,69,101.5,1,36,157,80,0,Active,0,Shock Absorber
+Line C,1,1/20/2025,Night,152,124,81.6,4,28,185,124,1.3,Shortage Pause,45,Timing Belt
+Line C,2,1/20/2025,Night,85,68,80,0,20,199,68,0.7,Shortage Pause,22,Battery
+Line C,3,1/20/2025,Morning,100,106,106,1,47,176,115,0,Active,0,Headlight Bulb
+Line D,1,1/20/2025,Night,95,81,85.3,1,47,161,110,0,Active,0,Windshield Wiper
+Line D,2,1/20/2025,Morning,88,0,0,0,42,189,0,2.7,Shortage Pause,87,Engine Oil Filter
+Line D,3,1/20/2025,Night,75,90,120,1,36,171,109,0,Active,0,Air Filter
+Line A,1,1/21/2025,Night,123,125,101.6,1,21,191,150,0,Active,0,Engine Oil Filter
+Line A,2,1/21/2025,Night,163,130,79.8,3,25,167,130,1.3,Shortage Pause,57,Air Filter
+Line A,3,1/21/2025,Morning,87,81,93.1,2,29,150,131,0,Active,0,Spark Plug Set
+Line B,1,1/21/2025,Night,115,97,84.3,2,40,232,97,0.7,Shortage Pause,19,Brake Pad Set
+Line B,2,1/21/2025,Night,110,53,48.2,1,49,208,53,1.1,Shortage Pause,51,Brake Disc
+Line B,3,1/21/2025,Night,81,75,92.6,0,36,157,128,0,Active,0,Shock Absorber
+Line C,1,1/21/2025,Night,151,113,74.8,3,28,185,113,0.7,Shortage Pause,25,Timing Belt
+Line C,2,1/21/2025,Morning,102,101,99,1,20,199,195,0,Active,0,Battery
+Line C,3,1/21/2025,Night,134,136,101.5,1,47,176,148,0.2,Active,0,Headlight Bulb
+Line D,1,1/21/2025,Morning,109,29,26.6,1,47,161,29,1.5,Shortage Pause,86,Windshield Wiper
+Line D,2,1/21/2025,Night,9,0,0,0,42,189,112,1.8,Paused,0,Engine Oil Filter
+Line D,3,1/21/2025,Morning,70,70,100,0,36,171,145,0,Active,0,Air Filter
+Line A,1,1/22/2025,Night,140,25,17.9,4,21,191,25,1.7,Shortage Pause,110,Engine Oil Filter
+Line A,2,1/22/2025,Night,155,92,59.4,5,25,167,92,2.1,Shortage Pause,60,Air Filter
+Line A,3,1/22/2025,Morning,84,50,59.5,1,29,150,50,0.8,Shortage Pause,32,Spark Plug Set
+Line B,1,1/22/2025,Night,91,86,94.5,1,40,232,187,0,Active,0,Brake Pad Set
+Line B,2,1/22/2025,Morning,108,113,104.6,1,49,208,161,0,Active,0,Brake Disc
+Line B,3,1/22/2025,Morning,73,53,72.6,4,36,157,53,1,Shortage Pause,35,Shock Absorber
+Line C,1,1/22/2025,Morning,132,0,0,0,28,185,0,2.8,Shortage Pause,139,Timing Belt
+Line C,2,1/22/2025,Night,73,76,104.1,0,20,199,94,0,Active,0,Battery
+Line C,3,1/22/2025,Night,127,113,89,0,47,176,134,0,Active,0,Headlight Bulb
+Line D,1,1/22/2025,Morning,110,84,76.4,1,47,161,84,1.2,Shortage Pause,28,Windshield Wiper
+Line D,2,1/22/2025,Morning,86,90,104.7,2,42,189,112,0,Active,0,Engine Oil Filter
+Line D,3,1/22/2025,Morning,86,75,87.2,0,36,171,75,0.2,Shortage Pause,6,Air Filter
+Line A,1,1/23/2025,Night,141,142,100.7,2,21,191,147,0,Active,0,Engine Oil Filter
+Line A,2,1/23/2025,Morning,148,119,80.4,2,25,167,119,1.2,Shortage Pause,38,Air Filter
+Line A,3,1/23/2025,Night,70,67,95.7,2,29,150,100,0,Active,0,Spark Plug Set
+Line B,1,1/23/2025,Morning,92,97,105.4,2,40,232,101,0,Active,0,Brake Pad Set
+Line B,2,1/23/2025,Morning,109,102,93.6,2,49,208,197,0,Active,0,Brake Disc
+Line B,3,1/23/2025,Night,88,84,95.5,1,36,157,106,0,Active,0,Shock Absorber
+Line C,1,1/23/2025,Morning,152,135,88.8,2,28,185,158,0,Active,0,Timing Belt
+Line C,2,1/23/2025,Morning,93,18,19.4,1,20,199,18,4,Shortage Pause,78,Battery
+Line C,3,1/23/2025,Night,115,21,18.3,0,47,176,21,2.3,Shortage Pause,89,Headlight Bulb
+Line D,1,1/23/2025,Night,87,0,0,0,47,161,0,4.4,Shortage Pause,85,Windshield Wiper
+Line D,2,1/23/2025,Night,88,85,96.6,0,42,189,180,0,Active,0,Engine Oil Filter
+Line D,3,1/23/2025,Morning,79,75,94.9,0,36,171,104,0,Active,0,Air Filter
+Line A,1,1/24/2025,Morning,151,5,3.3,0,21,191,5,3.1,Shortage Pause,144,Engine Oil Filter
+Line A,2,1/24/2025,Morning,129,125,96.9,2,25,167,146,0,Active,0,Air Filter
+Line A,3,1/24/2025,Morning,78,33,42.3,0,29,150,33,1.4,Shortage Pause,39,Spark Plug Set
+Line B,1,1/24/2025,Morning,99,94,94.9,1,40,232,182,0.5,Active,0,Brake Pad Set
+Line B,2,1/24/2025,Night,108,95,88,2,49,208,95,0.2,Shortage Pause,6,Brake Disc
+Line B,3,1/24/2025,Morning,73,22,30.1,2,36,157,22,3.9,Shortage Pause,46,Shock Absorber
+Line C,1,1/24/2025,Morning,15,0,0,0,28,185,125,1.1,Paused,0,Timing Belt
+Line C,2,1/24/2025,Night,102,0,0,0,20,199,0,6,Shortage Pause,99,Battery
+Line C,3,1/24/2025,Night,113,95,84.1,0,47,176,95,0.3,Shortage Pause,12,Headlight Bulb
+Line D,1,1/24/2025,Morning,94,94,100,2,47,161,118,0,Active,0,Windshield Wiper
+Line D,2,1/24/2025,Night,92,88,95.7,0,42,189,95,0,Active,0,Engine Oil Filter
+Line D,3,1/24/2025,Morning,77,86,111.7,0,36,171,151,0,Active,0,Air Filter
+Line A,1,1/25/2025,Morning,139,130,93.5,1,21,191,130,0.3,Shortage Pause,17,Engine Oil Filter
+Line A,2,1/25/2025,Night,160,167,104.4,2,25,167,167,0.1,Shortage Pause,3,Air Filter
+Line A,3,1/25/2025,Morning,87,83,95.4,1,29,150,129,0,Active,0,Spark Plug Set
+Line B,1,1/25/2025,Morning,107,88,82.2,1,40,232,88,1.6,Shortage Pause,34,Brake Pad Set
+Line B,2,1/25/2025,Night,113,111,98.2,2,49,208,111,0.3,Shortage Pause,12,Brake Disc
+Line B,3,1/25/2025,Morning,75,65,86.7,1,36,157,93,0,Active,0,Shock Absorber
+Line C,1,1/25/2025,Night,153,125,81.7,3,28,185,125,1.7,Shortage Pause,53,Timing Belt
+Line C,2,1/25/2025,Night,94,103,109.6,0,20,199,181,0,Active,0,Battery
+Line C,3,1/25/2025,Morning,9,0,0,0,47,176,82,1.5,Paused,0,Headlight Bulb
+Line D,1,1/25/2025,Night,103,113,109.7,0,47,161,124,0,Active,0,Windshield Wiper
+Line D,2,1/25/2025,Morning,92,91,98.9,1,42,189,149,0,Active,0,Engine Oil Filter
+Line D,3,1/25/2025,Night,91,65,71.4,4,36,171,65,0.7,Shortage Pause,20,Air Filter
+Line A,1,1/26/2025,Night,116,127,109.5,2,21,191,170,0,Active,0,Engine Oil Filter
+Line A,2,1/26/2025,Night,135,133,98.5,0,25,167,133,0.9,Shortage Pause,27,Air Filter
+Line A,3,1/26/2025,Night,85,46,54.1,0,29,150,46,0.8,Shortage Pause,33,Spark Plug Set
+Line B,1,1/26/2025,Night,99,89,89.9,2,40,232,210,0.5,Active,0,Brake Pad Set
+Line B,2,1/26/2025,Morning,110,108,98.2,3,49,208,125,0,Active,0,Brake Disc
+Line B,3,1/26/2025,Morning,96,90,93.8,1,36,157,117,0,Active,0,Shock Absorber
+Line C,1,1/26/2025,Morning,136,104,76.5,1,28,185,104,1.4,Shortage Pause,38,Timing Belt
+Line C,2,1/26/2025,Night,100,78,78,1,20,199,78,1.2,Shortage Pause,23,Battery
+Line C,3,1/26/2025,Night,130,82,63.1,1,47,176,82,1.5,Shortage Pause,81,Headlight Bulb
+Line D,1,1/26/2025,Night,107,87,81.3,1,47,161,87,1.2,Shortage Pause,23,Windshield Wiper
+Line D,2,1/26/2025,Morning,90,58,64.4,4,42,189,58,1,Shortage Pause,30,Engine Oil Filter
+Line D,3,1/26/2025,Morning,74,0,0,0,36,171,0,5.1,Shortage Pause,70,Air Filter
+Line A,1,1/27/2025,Night,117,43,36.8,1,21,191,43,2.4,Shortage Pause,75,Engine Oil Filter
+Line A,2,1/27/2025,Night,123,0,0,0,25,167,0,2.2,Shortage Pause,123,Air Filter
+Line A,3,1/27/2025,Morning,90,0,0,0,29,150,0,5,Shortage Pause,89,Spark Plug Set
+Line B,1,1/27/2025,Morning,102,84,82.4,1,40,232,121,0,Active,0,Brake Pad Set
+Line B,2,1/27/2025,Morning,8,0,0,0,49,208,141,1.5,Paused,0,Brake Disc
+Line B,3,1/27/2025,Morning,92,95,103.3,2,36,157,110,0,Active,0,Shock Absorber
+Line C,1,1/27/2025,Night,134,0,0,0,28,185,0,2.2,Shortage Pause,144,Timing Belt
+Line C,2,1/27/2025,Morning,102,99,97.1,0,20,199,136,0,Active,0,Battery
+Line C,3,1/27/2025,Morning,134,88,65.7,2,47,176,88,1.7,Shortage Pause,38,Headlight Bulb
+Line D,1,1/27/2025,Night,100,0,0,0,47,161,0,4.9,Shortage Pause,89,Windshield Wiper
+Line D,2,1/27/2025,Night,68,70,102.9,1,42,189,100,0,Active,0,Engine Oil Filter
+Line D,3,1/27/2025,Night,71,0,0,0,36,171,0,2.9,Shortage Pause,72,Air Filter
+Line A,1,1/28/2025,Night,117,117,100,2,21,191,162,0.3,Active,0,Engine Oil Filter
+Line A,2,1/28/2025,Night,142,101,71.1,4,25,167,101,1,Shortage Pause,30,Air Filter
+Line A,3,1/28/2025,Morning,84,84,100,0,29,150,93,0.1,Active,0,Spark Plug Set
+Line B,1,1/28/2025,Morning,107,37,34.6,3,40,232,37,1.8,Shortage Pause,76,Brake Pad Set
+Line B,2,1/28/2025,Morning,103,101,98.1,1,49,208,141,0,Active,0,Brake Disc
+Line B,3,1/28/2025,Morning,73,69,94.5,1,36,157,116,0,Active,0,Shock Absorber
+Line C,1,1/28/2025,Night,146,0,0,0,28,185,0,4.2,Shortage Pause,148,Timing Belt
+Line C,2,1/28/2025,Night,99,37,37.4,1,20,199,37,3.4,Shortage Pause,55,Battery
+Line C,3,1/28/2025,Morning,128,120,93.8,2,47,176,120,0.5,Shortage Pause,19,Headlight Bulb
+Line D,1,1/28/2025,Morning,108,72,66.7,2,47,161,72,1,Shortage Pause,29,Windshield Wiper
+Line D,2,1/28/2025,Night,77,75,97.4,2,42,189,169,0.2,Active,0,Engine Oil Filter
+Line D,3,1/28/2025,Night,73,65,89,1,36,171,108,0,Active,0,Air Filter
+Line A,1,1/29/2025,Morning,119,45,37.8,4,21,191,45,2.4,Shortage Pause,65,Engine Oil Filter
+Line A,2,1/29/2025,Night,138,131,94.9,0,25,167,133,0,Active,0,Air Filter
+Line A,3,1/29/2025,Night,82,82,100,0,29,150,118,0,Active,0,Spark Plug Set
+Line B,1,1/29/2025,Morning,112,122,108.9,3,40,232,175,0,Active,0,Brake Pad Set
+Line B,2,1/29/2025,Morning,11,0,0,0,49,208,40,1.2,Paused,0,Brake Disc
+Line B,3,1/29/2025,Night,82,47,57.3,3,36,157,47,2.4,Shortage Pause,45,Shock Absorber
+Line C,1,1/29/2025,Morning,13,0,0,0,28,185,94,0.7,Paused,0,Timing Belt
+Line C,2,1/29/2025,Night,99,103,104,2,20,199,147,0,Active,0,Battery
+Line C,3,1/29/2025,Night,121,0,0,0,47,176,0,5.8,Shortage Pause,123,Headlight Bulb
+Line D,1,1/29/2025,Morning,106,76,71.7,1,47,161,76,1.2,Shortage Pause,30,Windshield Wiper
+Line D,2,1/29/2025,Night,72,72,100,2,42,189,94,0,Active,0,Engine Oil Filter
+Line D,3,1/29/2025,Morning,95,43,45.3,0,36,171,43,1.2,Shortage Pause,55,Air Filter
+Line A,1,1/30/2025,Morning,133,127,95.5,1,21,191,153,0,Active,0,Engine Oil Filter
+Line A,2,1/30/2025,Morning,152,137,90.1,1,25,167,140,0.4,Active,0,Air Filter
+Line A,3,1/30/2025,Morning,99,36,36.4,2,29,150,36,2.9,Shortage Pause,59,Spark Plug Set
+Line B,1,1/30/2025,Night,102,53,52,0,40,232,53,2.1,Shortage Pause,59,Brake Pad Set
+Line B,2,1/30/2025,Night,119,136,114.3,2,49,208,208,0,Active,0,Brake Disc
+Line B,3,1/30/2025,Morning,93,84,90.3,1,36,157,84,1.1,Shortage Pause,19,Shock Absorber
+Line C,1,1/30/2025,Night,151,94,62.3,9,28,185,94,1.1,Shortage Pause,68,Timing Belt
+Line C,2,1/30/2025,Morning,7,0,0,0,20,199,44,1.6,Paused,0,Battery
+Line C,3,1/30/2025,Morning,123,88,71.5,3,47,176,88,1.7,Shortage Pause,51,Headlight Bulb
+Line D,1,1/30/2025,Night,101,69,68.3,3,47,161,69,1.7,Shortage Pause,31,Windshield Wiper
+Line D,2,1/30/2025,Night,63,59,93.7,0,42,189,170,0,Active,0,Engine Oil Filter
+Line D,3,1/30/2025,Morning,48,52,108.3,1,36,171,144,0,Active,0,Air Filter
+Line A,1,1/31/2025,Night,115,26,22.6,0,21,191,26,3.5,Shortage Pause,122,Engine Oil Filter
+Line A,2,1/31/2025,Morning,154,3,1.9,0,25,167,3,3.9,Shortage Pause,144,Air Filter
+Line A,3,1/31/2025,Night,94,102,108.5,1,29,150,112,0,Active,0,Spark Plug Set
+Line B,1,1/31/2025,Night,101,0,0,0,40,232,0,3.5,Shortage Pause,98,Brake Pad Set
+Line B,2,1/31/2025,Night,115,72,62.6,1,49,208,72,1,Shortage Pause,43,Brake Disc
+Line B,3,1/31/2025,Morning,84,93,110.7,1,36,157,132,0,Active,0,Shock Absorber
+Line C,1,1/31/2025,Morning,143,114,79.7,5,28,185,114,0.6,Shortage Pause,31,Timing Belt
+Line C,2,1/31/2025,Morning,96,44,45.8,4,20,199,44,1.5,Shortage Pause,67,Battery
+Line C,3,1/31/2025,Night,125,0,0,0,47,176,0,4.6,Shortage Pause,117,Headlight Bulb
+Line D,1,1/31/2025,Night,89,0,0,0,47,161,0,3.4,Shortage Pause,77,Windshield Wiper
+Line D,2,1/31/2025,Morning,67,72,107.5,0,42,189,111,0.2,Active,0,Engine Oil Filter
+Line D,3,1/31/2025,Morning,58,48,82.8,0,36,171,92,0,Active,0,Air Filter
+Line A,1,2/1/2025,Morning,124,114,91.9,1,21,191,145,0,Active,0,Engine Oil Filter
+Line A,2,2/1/2025,Night,12,0,0,0,25,167,0,1.7,Paused,0,Air Filter
+Line A,3,2/1/2025,Morning,86,10,11.6,2,29,150,10,4.9,Shortage Pause,73,Spark Plug Set
+Line B,1,2/1/2025,Night,100,106,106,2,40,232,178,0,Active,0,Brake Pad Set
+Line B,2,2/1/2025,Morning,112,113,100.9,2,49,208,135,0,Active,0,Brake Disc
+Line B,3,2/1/2025,Night,74,39,52.7,2,36,157,39,2.5,Shortage Pause,35,Shock Absorber
+Line C,1,2/1/2025,Morning,130,115,88.5,1,28,185,115,0.3,Shortage Pause,13,Timing Belt
+Line C,2,2/1/2025,Morning,106,0,0,0,20,199,0,5.3,Shortage Pause,97,Battery
+Line C,3,2/1/2025,Morning,114,0,0,0,47,176,0,3.3,Shortage Pause,107,Headlight Bulb
+Line D,1,2/1/2025,Night,83,75,90.4,0,47,161,122,0,Active,0,Windshield Wiper
+Line D,2,2/1/2025,Morning,77,74,96.1,2,42,189,189,0,Active,0,Engine Oil Filter
+Line D,3,2/1/2025,Morning,80,44,55,0,36,171,44,2.7,Shortage Pause,40,Air Filter
+Line A,1,2/2/2025,Night,109,31,28.4,0,21,191,31,3.9,Shortage Pause,78,Engine Oil Filter
+Line A,2,2/2/2025,Morning,143,90,62.9,5,25,167,90,1.5,Shortage Pause,53,Air Filter
+Line A,3,2/2/2025,Night,9,0,0,0,29,150,121,8,Maintenance,0,Spark Plug Set
+Line B,1,2/2/2025,Night,113,72,63.7,1,40,232,72,0.9,Shortage Pause,43,Brake Pad Set
+Line B,2,2/2/2025,Morning,99,89,89.9,1,49,208,145,0,Active,0,Brake Disc
+Line B,3,2/2/2025,Night,77,73,94.8,2,36,157,73,0.6,Shortage Pause,9,Shock Absorber
+Line C,1,2/2/2025,Morning,134,143,106.7,4,28,185,157,0,Active,0,Timing Belt
+Line C,2,2/2/2025,Night,105,105,100,0,20,199,183,0.2,Active,0,Battery
+Line C,3,2/2/2025,Night,131,129,98.5,1,47,176,139,0.1,Active,0,Headlight Bulb
+Line D,1,2/2/2025,Night,103,47,45.6,2,47,161,47,3,Shortage Pause,61,Windshield Wiper
+Line D,2,2/2/2025,Morning,77,75,97.4,1,42,189,115,0,Active,0,Engine Oil Filter
+Line D,3,2/2/2025,Night,67,72,107.5,0,36,171,143,0,Active,0,Air Filter
+Line A,1,2/3/2025,Morning,113,107,94.7,1,21,191,180,0.4,Active,0,Engine Oil Filter
+Line A,2,2/3/2025,Night,127,114,89.8,1,25,167,114,0.2,Shortage Pause,9,Air Filter
+Line A,3,2/3/2025,Night,87,79,90.8,0,29,150,121,0,Active,0,Spark Plug Set
+Line B,1,2/3/2025,Morning,105,116,110.5,0,40,232,171,0,Active,0,Brake Pad Set
+Line B,2,2/3/2025,Night,126,56,44.4,5,49,208,56,1.6,Shortage Pause,69,Brake Disc
+Line B,3,2/3/2025,Night,81,74,91.4,1,36,157,123,0,Active,0,Shock Absorber
+Line C,1,2/3/2025,Morning,140,108,77.1,5,28,185,108,1.1,Shortage Pause,24,Timing Belt
+Line C,2,2/3/2025,Morning,94,78,83,1,20,199,78,1.3,Shortage Pause,31,Battery
+Line C,3,2/3/2025,Morning,121,135,111.6,1,47,176,142,0,Active,0,Headlight Bulb
+Line D,1,2/3/2025,Morning,11,0,0,0,47,161,0,1.1,Paused,0,Windshield Wiper
+Line D,2,2/3/2025,Night,74,71,95.9,3,42,189,152,0,Active,0,Engine Oil Filter
+Line D,3,2/3/2025,Night,75,71,94.7,2,36,171,71,0.3,Shortage Pause,5,Air Filter
+Line A,1,2/4/2025,Morning,122,73,59.8,1,21,191,73,1.7,Shortage Pause,50,Engine Oil Filter
+Line A,2,2/4/2025,Morning,14,0,0,0,25,167,0,8,Maintenance,0,Air Filter
+Line A,3,2/4/2025,Morning,99,42,42.4,1,29,150,42,1.8,Shortage Pause,68,Spark Plug Set
+Line B,1,2/4/2025,Morning,115,55,47.8,1,40,232,55,2.8,Shortage Pause,73,Brake Pad Set
+Line B,2,2/4/2025,Morning,112,112,100,0,49,208,169,0.2,Active,0,Brake Disc
+Line B,3,2/4/2025,Night,84,49,58.3,2,36,157,49,0.9,Shortage Pause,34,Shock Absorber
+Line C,1,2/4/2025,Morning,166,0,0,0,28,185,0,4.8,Shortage Pause,164,Timing Belt
+Line C,2,2/4/2025,Morning,106,0,0,0,20,199,0,3.8,Shortage Pause,113,Battery
+Line C,3,2/4/2025,Night,108,91,84.3,1,47,176,91,1.1,Shortage Pause,24,Headlight Bulb
+Line D,1,2/4/2025,Night,117,70,59.8,4,47,161,70,2,Shortage Pause,40,Windshield Wiper
+Line D,2,2/4/2025,Morning,80,78,97.5,0,42,189,81,0,Active,0,Engine Oil Filter
+Line D,3,2/4/2025,Morning,92,95,103.3,1,36,171,142,0,Active,0,Air Filter
+Line A,1,2/5/2025,Morning,134,0,0,0,21,191,0,3.1,Shortage Pause,132,Engine Oil Filter
+Line A,2,2/5/2025,Night,140,0,0,0,25,167,0,3.5,Shortage Pause,140,Air Filter
+Line A,3,2/5/2025,Night,89,80,89.9,0,29,150,91,0,Active,0,Spark Plug Set
+Line B,1,2/5/2025,Morning,101,0,0,0,40,232,0,3.6,Shortage Pause,96,Brake Pad Set
+Line B,2,2/5/2025,Morning,118,57,48.3,4,49,208,57,2.1,Shortage Pause,63,Brake Disc
+Line B,3,2/5/2025,Night,78,0,0,0,36,157,0,2.1,Shortage Pause,82,Shock Absorber
+Line C,1,2/5/2025,Morning,143,123,86,2,28,185,123,0.3,Shortage Pause,11,Timing Belt
+Line C,2,2/5/2025,Morning,93,79,84.9,1,20,199,182,0,Active,0,Battery
+Line C,3,2/5/2025,Night,121,0,0,0,47,176,0,4.1,Shortage Pause,129,Headlight Bulb
+Line D,1,2/5/2025,Morning,96,101,105.2,0,47,161,101,0.1,Shortage Pause,2,Windshield Wiper
+Line D,2,2/5/2025,Night,89,76,85.4,0,42,189,118,0.3,Active,0,Engine Oil Filter
+Line D,3,2/5/2025,Morning,86,47,54.7,2,36,171,47,1.5,Shortage Pause,36,Air Filter
+Line A,1,2/6/2025,Morning,121,121,100,0,21,191,130,0,Active,0,Engine Oil Filter
+Line A,2,2/6/2025,Night,134,130,97,0,25,167,156,0,Active,0,Air Filter
+Line A,3,2/6/2025,Morning,106,104,98.1,3,29,150,123,0,Active,0,Spark Plug Set
+Line B,1,2/6/2025,Night,123,114,92.7,0,40,232,146,0,Active,0,Brake Pad Set
+Line B,2,2/6/2025,Night,119,130,109.2,1,49,208,147,0,Active,0,Brake Disc
+Line B,3,2/6/2025,Night,76,83,109.2,1,36,157,83,0.3,Shortage Pause,6,Shock Absorber
+Line C,1,2/6/2025,Night,147,119,81,0,28,185,119,1,Shortage Pause,26,Timing Belt
+Line C,2,2/6/2025,Morning,72,68,94.4,1,20,199,103,0,Active,0,Battery
+Line C,3,2/6/2025,Night,156,129,82.7,1,47,176,131,0.4,Active,0,Headlight Bulb
+Line D,1,2/6/2025,Night,92,85,92.4,0,47,161,85,0.2,Shortage Pause,4,Windshield Wiper
+Line D,2,2/6/2025,Morning,68,42,61.8,1,42,189,42,0.6,Shortage Pause,13,Engine Oil Filter
+Line D,3,2/6/2025,Morning,74,74,100,1,36,171,90,0,Active,0,Air Filter
+Line A,1,2/7/2025,Night,112,121,108,0,21,191,161,0.4,Active,0,Engine Oil Filter
+Line A,2,2/7/2025,Night,166,26,15.7,2,25,167,26,4.6,Shortage Pause,151,Air Filter
+Line A,3,2/7/2025,Night,100,95,95,1,29,150,148,0,Active,0,Spark Plug Set
+Line B,1,2/7/2025,Night,103,90,87.4,0,40,232,207,0.4,Active,0,Brake Pad Set
+Line B,2,2/7/2025,Night,107,17,15.9,0,49,208,17,4.3,Shortage Pause,105,Brake Disc
+Line B,3,2/7/2025,Night,77,74,96.1,0,36,157,74,0.4,Shortage Pause,7,Shock Absorber
+Line C,1,2/7/2025,Morning,138,131,94.9,0,28,185,131,0,Shortage Pause,1,Timing Belt
+Line C,2,2/7/2025,Night,95,35,36.8,0,20,199,35,1.8,Shortage Pause,55,Battery
+Line C,3,2/7/2025,Night,144,2,1.4,0,47,176,2,5.7,Shortage Pause,131,Headlight Bulb
+Line D,1,2/7/2025,Night,112,0,0,0,47,161,0,2.1,Shortage Pause,118,Windshield Wiper
+Line D,2,2/7/2025,Morning,77,78,101.3,0,42,189,141,0,Active,0,Engine Oil Filter
+Line D,3,2/7/2025,Morning,8,0,0,0,36,171,153,0.9,Paused,0,Air Filter
+Line A,1,2/8/2025,Night,96,40,41.7,0,21,191,40,1.8,Shortage Pause,54,Engine Oil Filter
+Line A,2,2/8/2025,Morning,140,136,97.1,0,25,167,136,0.6,Shortage Pause,15,Air Filter
+Line A,3,2/8/2025,Morning,78,53,67.9,2,29,150,53,0.9,Shortage Pause,17,Spark Plug Set
+Line B,1,2/8/2025,Morning,11,0,0,0,40,232,117,1.5,Paused,0,Brake Pad Set
+Line B,2,2/8/2025,Morning,116,112,96.6,0,49,208,168,0,Active,0,Brake Disc
+Line B,3,2/8/2025,Morning,84,71,84.5,1,36,157,128,0,Active,0,Shock Absorber
+Line C,1,2/8/2025,Night,138,110,79.7,1,28,185,110,0.4,Shortage Pause,19,Timing Belt
+Line C,2,2/8/2025,Morning,72,0,0,0,20,199,0,3.8,Shortage Pause,78,Battery
+Line C,3,2/8/2025,Morning,116,0,0,0,47,176,0,2.2,Shortage Pause,119,Headlight Bulb
+Line D,1,2/8/2025,Night,125,0,0,0,47,161,0,5.3,Shortage Pause,125,Windshield Wiper
+Line D,2,2/8/2025,Night,84,63,75,2,42,189,63,0.7,Shortage Pause,11,Engine Oil Filter
+Line D,3,2/8/2025,Morning,81,80,98.8,0,36,171,153,0,Active,0,Air Filter
+Line A,1,2/9/2025,Night,118,102,86.4,0,21,191,102,0.1,Shortage Pause,4,Engine Oil Filter
+Line A,2,2/9/2025,Night,183,86,47,4,25,167,86,2.3,Shortage Pause,87,Air Filter
+Line A,3,2/9/2025,Morning,97,0,0,0,29,150,0,5.7,Shortage Pause,107,Spark Plug Set
+Line B,1,2/9/2025,Night,11,0,0,0,40,232,117,1.8,Paused,0,Brake Pad Set
+Line B,2,2/9/2025,Morning,103,56,54.4,2,49,208,56,2.8,Shortage Pause,58,Brake Disc
+Line B,3,2/9/2025,Night,81,57,70.4,0,36,157,57,1.2,Shortage Pause,30,Shock Absorber
+Line C,1,2/9/2025,Morning,120,113,94.2,1,28,185,170,0,Active,0,Timing Belt
+Line C,2,2/9/2025,Morning,89,84,94.4,1,20,199,144,0,Active,0,Battery
+Line C,3,2/9/2025,Night,135,116,85.9,0,47,176,116,0.9,Shortage Pause,27,Headlight Bulb
+Line D,1,2/9/2025,Morning,11,0,0,0,47,161,101,8,Maintenance,0,Windshield Wiper
+Line D,2,2/9/2025,Morning,80,76,95,0,42,189,161,0.3,Active,0,Engine Oil Filter
+Line D,3,2/9/2025,Night,85,73,85.9,1,36,171,73,0.2,Shortage Pause,4,Air Filter
+Line A,1,2/10/2025,Night,108,0,0,0,21,191,0,2.9,Shortage Pause,118,Engine Oil Filter
+Line A,2,2/10/2025,Night,134,0,0,0,25,167,0,3.5,Shortage Pause,155,Air Filter
+Line A,3,2/10/2025,Night,99,0,0,0,29,150,0,5.9,Shortage Pause,103,Spark Plug Set
+Line B,1,2/10/2025,Morning,82,77,93.9,1,40,232,117,0,Active,0,Brake Pad Set
+Line B,2,2/10/2025,Morning,119,131,110.1,1,49,208,139,0,Active,0,Brake Disc
+Line B,3,2/10/2025,Night,77,78,101.3,0,36,157,79,0,Active,0,Shock Absorber
+Line C,1,2/10/2025,Night,140,57,40.7,2,28,185,57,3.1,Shortage Pause,77,Timing Belt
+Line C,2,2/10/2025,Morning,106,60,56.6,4,20,199,60,1.1,Shortage Pause,47,Battery
+Line C,3,2/10/2025,Night,102,81,79.4,2,47,176,129,0,Active,0,Headlight Bulb
+Line D,1,2/10/2025,Night,92,90,97.8,1,47,161,101,0,Active,0,Windshield Wiper
+Line D,2,2/10/2025,Morning,70,71,101.4,0,42,189,85,0,Active,0,Engine Oil Filter
+Line D,3,2/10/2025,Morning,88,0,0,0,36,171,0,2.7,Shortage Pause,102,Air Filter
+Line A,1,2/11/2025,Morning,126,117,92.9,0,21,191,148,0,Active,0,Engine Oil Filter
+Line A,2,2/11/2025,Morning,170,0,0,0,25,167,0,2.1,Shortage Pause,158,Air Filter
+Line A,3,2/11/2025,Night,102,112,109.8,1,29,150,112,0.3,Shortage Pause,6,Spark Plug Set
+Line B,1,2/11/2025,Morning,101,40,39.6,3,40,232,40,3.1,Shortage Pause,56,Brake Pad Set
+Line B,2,2/11/2025,Morning,103,86,83.5,0,49,208,112,0,Active,0,Brake Disc
+Line B,3,2/11/2025,Morning,90,93,103.3,4,36,157,93,0.3,Shortage Pause,8,Shock Absorber
+Line C,1,2/11/2025,Morning,141,119,84.4,5,28,185,119,0.5,Shortage Pause,12,Timing Belt
+Line C,2,2/11/2025,Morning,92,95,103.3,1,20,199,187,0.2,Active,0,Battery
+Line C,3,2/11/2025,Morning,115,48,41.7,1,47,176,48,2.4,Shortage Pause,70,Headlight Bulb
+Line D,1,2/11/2025,Morning,101,93,92.1,2,47,161,93,0.2,Shortage Pause,4,Windshield Wiper
+Line D,2,2/11/2025,Morning,82,92,112.2,1,42,189,134,0,Active,0,Engine Oil Filter
+Line D,3,2/11/2025,Morning,68,66,97.1,1,36,171,118,0,Active,0,Air Filter
+Line A,1,2/12/2025,Night,110,31,28.2,2,21,191,31,3.9,Shortage Pause,71,Engine Oil Filter
+Line A,2,2/12/2025,Night,137,0,0,0,25,167,0,5.3,Shortage Pause,141,Air Filter
+Line A,3,2/12/2025,Night,96,105,109.4,1,29,150,112,0,Active,0,Spark Plug Set
+Line B,1,2/12/2025,Night,105,0,0,0,40,232,0,5.1,Shortage Pause,100,Brake Pad Set
+Line B,2,2/12/2025,Morning,120,121,100.8,0,49,208,167,0,Active,0,Brake Disc
+Line B,3,2/12/2025,Morning,78,69,88.5,2,36,157,91,0,Active,0,Shock Absorber
+Line C,1,2/12/2025,Morning,141,125,88.7,0,28,185,125,0.2,Shortage Pause,5,Timing Belt
+Line C,2,2/12/2025,Night,106,92,86.8,0,20,199,92,0.6,Shortage Pause,11,Battery
+Line C,3,2/12/2025,Night,109,115,105.5,1,47,176,131,0,Active,0,Headlight Bulb
+Line D,1,2/12/2025,Night,110,0,0,0,47,161,0,2.9,Shortage Pause,100,Windshield Wiper
+Line D,2,2/12/2025,Night,94,42,44.7,4,42,189,42,3.2,Shortage Pause,60,Engine Oil Filter
+Line D,3,2/12/2025,Morning,8,0,0,0,36,171,52,1.5,Paused,0,Air Filter
+Line A,1,2/13/2025,Night,117,111,94.9,0,21,191,125,0,Active,0,Engine Oil Filter
+Line A,2,2/13/2025,Morning,136,130,95.6,0,25,167,130,0.4,Shortage Pause,15,Air Filter
+Line A,3,2/13/2025,Night,88,82,93.2,0,29,150,82,0.3,Shortage Pause,6,Spark Plug Set
+Line B,1,2/13/2025,Night,107,111,103.7,1,40,232,183,0,Active,0,Brake Pad Set
+Line B,2,2/13/2025,Morning,133,155,116.5,2,49,208,189,0,Active,0,Brake Disc
+Line B,3,2/13/2025,Night,82,79,96.3,0,36,157,152,0,Active,0,Shock Absorber
+Line C,1,2/13/2025,Night,128,135,105.5,0,28,185,166,0,Active,0,Timing Belt
+Line C,2,2/13/2025,Morning,82,80,97.6,0,20,199,193,0,Active,0,Battery
+Line C,3,2/13/2025,Morning,110,16,14.5,0,47,176,16,4.9,Shortage Pause,90,Headlight Bulb
+Line D,1,2/13/2025,Morning,108,117,108.3,1,47,161,121,0,Active,0,Windshield Wiper
+Line D,2,2/13/2025,Night,73,0,0,0,42,189,0,5.3,Shortage Pause,69,Engine Oil Filter
+Line D,3,2/13/2025,Morning,60,52,86.7,1,36,171,52,0.3,Shortage Pause,8,Air Filter
+Line A,1,2/14/2025,Night,110,120,109.1,0,21,191,172,0,Active,0,Engine Oil Filter
+Line A,2,2/14/2025,Night,153,150,98,2,25,167,150,0.1,Shortage Pause,5,Air Filter
+Line A,3,2/14/2025,Morning,81,82,101.2,2,29,150,93,0,Active,0,Spark Plug Set
+Line B,1,2/14/2025,Morning,82,72,87.8,3,40,232,72,0.5,Shortage Pause,15,Brake Pad Set
+Line B,2,2/14/2025,Morning,121,34,28.1,0,49,208,34,2.7,Shortage Pause,98,Brake Disc
+Line B,3,2/14/2025,Morning,79,73,92.4,0,36,157,73,0.2,Shortage Pause,3,Shock Absorber
+Line C,1,2/14/2025,Morning,133,31,23.3,1,28,185,31,2.2,Shortage Pause,105,Timing Belt
+Line C,2,2/14/2025,Night,101,101,100,1,20,199,113,0,Active,0,Battery
+Line C,3,2/14/2025,Night,128,129,100.8,0,47,176,129,0.2,Shortage Pause,10,Headlight Bulb
+Line D,1,2/14/2025,Night,99,4,4,0,47,161,4,3.4,Shortage Pause,104,Windshield Wiper
+Line D,2,2/14/2025,Morning,74,80,108.1,1,42,189,98,0,Active,0,Engine Oil Filter
+Line D,3,2/14/2025,Morning,7,0,0,0,36,171,0,1.3,Paused,0,Air Filter
+Line A,1,2/15/2025,Morning,116,52,44.8,2,21,191,52,2.8,Shortage Pause,80,Engine Oil Filter
+Line A,2,2/15/2025,Night,170,0,0,0,25,167,0,4.9,Shortage Pause,169,Air Filter
+Line A,3,2/15/2025,Morning,86,78,90.7,2,29,150,108,0,Active,0,Spark Plug Set
+Line B,1,2/15/2025,Morning,100,94,94,1,40,232,128,0,Active,0,Brake Pad Set
+Line B,2,2/15/2025,Night,109,105,96.3,0,49,208,122,0.5,Active,0,Brake Disc
+Line B,3,2/15/2025,Morning,79,0,0,0,36,157,0,3.6,Shortage Pause,71,Shock Absorber
+Line C,1,2/15/2025,Night,164,131,79.9,6,28,185,131,0.9,Shortage Pause,35,Timing Belt
+Line C,2,2/15/2025,Night,88,12,13.6,2,20,199,12,4.8,Shortage Pause,81,Battery
+Line C,3,2/15/2025,Night,130,123,94.6,1,47,176,123,0.1,Shortage Pause,4,Headlight Bulb
+Line D,1,2/15/2025,Morning,103,94,91.3,0,47,161,94,1,Shortage Pause,23,Windshield Wiper
+Line D,2,2/15/2025,Night,81,70,86.4,0,42,189,110,0,Active,0,Engine Oil Filter
+Line D,3,2/15/2025,Night,92,0,0,0,36,171,0,5.9,Shortage Pause,102,Air Filter
+Line A,1,2/16/2025,Night,120,112,93.3,1,21,191,186,0,Active,0,Engine Oil Filter
+Line A,2,2/16/2025,Night,140,119,85,3,25,167,119,0.3,Shortage Pause,7,Air Filter
+Line A,3,2/16/2025,Night,9,0,0,0,29,150,30,1.2,Paused,0,Spark Plug Set
+Line B,1,2/16/2025,Night,98,87,88.8,0,40,232,184,0,Active,0,Brake Pad Set
+Line B,2,2/16/2025,Night,100,17,17,0,49,208,17,2.6,Shortage Pause,89,Brake Disc
+Line B,3,2/16/2025,Night,72,0,0,0,36,157,0,5,Shortage Pause,81,Shock Absorber
+Line C,1,2/16/2025,Morning,138,0,0,0,28,185,0,3.2,Shortage Pause,143,Timing Belt
+Line C,2,2/16/2025,Night,103,104,101,1,20,199,150,0,Active,0,Battery
+Line C,3,2/16/2025,Morning,128,115,89.8,2,47,176,115,0.8,Shortage Pause,22,Headlight Bulb
+Line D,1,2/16/2025,Morning,105,97,92.4,0,47,161,99,0,Active,0,Windshield Wiper
+Line D,2,2/16/2025,Morning,78,40,51.3,1,42,189,40,2,Shortage Pause,43,Engine Oil Filter
+Line D,3,2/16/2025,Morning,9,0,0,0,36,171,100,0.6,Paused,0,Air Filter
+Line A,1,2/17/2025,Morning,128,74,57.8,3,21,191,74,1.4,Shortage Pause,55,Engine Oil Filter
+Line A,2,2/17/2025,Morning,145,125,86.2,2,25,167,125,0.3,Shortage Pause,15,Air Filter
+Line A,3,2/17/2025,Morning,95,30,31.6,3,29,150,30,1.9,Shortage Pause,53,Spark Plug Set
+Line B,1,2/17/2025,Morning,94,89,94.7,0,40,232,97,0,Active,0,Brake Pad Set
+Line B,2,2/17/2025,Morning,119,0,0,0,49,208,0,3.5,Shortage Pause,123,Brake Disc
+Line B,3,2/17/2025,Night,79,0,0,0,36,157,0,4.2,Shortage Pause,79,Shock Absorber
+Line C,1,2/17/2025,Night,140,134,95.7,4,28,185,156,0,Active,0,Timing Belt
+Line C,2,2/17/2025,Night,112,46,41.1,2,20,199,46,1.6,Shortage Pause,62,Battery
+Line C,3,2/17/2025,Night,114,110,96.5,1,47,176,110,0.2,Shortage Pause,7,Headlight Bulb
+Line D,1,2/17/2025,Morning,105,77,73.3,4,47,161,77,1.4,Shortage Pause,33,Windshield Wiper
+Line D,2,2/17/2025,Morning,91,0,0,0,42,189,0,2.7,Shortage Pause,86,Engine Oil Filter
+Line D,3,2/17/2025,Night,93,96,103.2,0,36,171,100,0.2,Active,0,Air Filter
+Line A,1,2/18/2025,Night,110,0,0,0,21,191,0,2.1,Shortage Pause,108,Engine Oil Filter
+Line A,2,2/18/2025,Morning,162,120,74.1,6,25,167,120,0.6,Shortage Pause,42,Air Filter
+Line A,3,2/18/2025,Morning,94,94,100,0,29,150,118,0,Active,0,Spark Plug Set
+Line B,1,2/18/2025,Morning,100,103,103,0,40,232,165,0.3,Active,0,Brake Pad Set
+Line B,2,2/18/2025,Night,113,0,0,0,49,208,0,4.6,Shortage Pause,111,Brake Disc
+Line B,3,2/18/2025,Night,8,0,0,0,36,157,73,8,Maintenance,0,Shock Absorber
+Line C,1,2/18/2025,Morning,140,141,100.7,3,28,185,163,0,Active,0,Timing Belt
+Line C,2,2/18/2025,Night,87,0,0,0,20,199,0,2.6,Shortage Pause,83,Battery
+Line C,3,2/18/2025,Morning,12,0,0,0,47,176,0,0.8,Paused,0,Headlight Bulb
+Line D,1,2/18/2025,Night,90,94,104.4,1,47,161,99,0,Active,0,Windshield Wiper
+Line D,2,2/18/2025,Night,92,92,100,0,42,189,158,0,Active,0,Engine Oil Filter
+Line D,3,2/18/2025,Morning,77,81,105.2,1,36,171,119,0,Active,0,Air Filter
+Line A,1,2/19/2025,Night,116,122,105.2,2,21,191,178,0,Active,0,Engine Oil Filter
+Line A,2,2/19/2025,Morning,152,100,65.8,5,25,167,123,0,Active,0,Air Filter
+Line A,3,2/19/2025,Morning,86,24,27.9,0,29,150,24,3.1,Shortage Pause,52,Spark Plug Set
+Line B,1,2/19/2025,Night,89,62,69.7,3,40,232,62,0.6,Shortage Pause,19,Brake Pad Set
+Line B,2,2/19/2025,Morning,11,0,0,0,49,208,139,8,Maintenance,0,Brake Disc
+Line B,3,2/19/2025,Night,83,73,88,0,36,157,73,0.3,Shortage Pause,11,Shock Absorber
+Line C,1,2/19/2025,Morning,129,153,118.6,4,28,185,154,0,Active,0,Timing Belt
+Line C,2,2/19/2025,Night,104,116,111.5,1,20,199,170,0,Active,0,Battery
+Line C,3,2/19/2025,Night,121,101,83.5,0,47,176,101,0.6,Shortage Pause,12,Headlight Bulb
+Line D,1,2/19/2025,Morning,113,5,4.4,0,47,161,5,3.2,Shortage Pause,115,Windshield Wiper
+Line D,2,2/19/2025,Morning,79,66,83.5,0,42,189,66,0.2,Shortage Pause,3,Engine Oil Filter
+Line D,3,2/19/2025,Morning,66,38,57.6,0,36,171,38,0.9,Shortage Pause,17,Air Filter
+Line A,1,2/20/2025,Night,118,56,47.5,1,21,191,56,2.8,Shortage Pause,57,Engine Oil Filter
+Line A,2,2/20/2025,Morning,15,0,0,0,25,167,155,1.9,Paused,0,Air Filter
+Line A,3,2/20/2025,Night,80,0,0,0,29,150,0,4.1,Shortage Pause,73,Spark Plug Set
+Line B,1,2/20/2025,Morning,104,0,0,0,40,232,0,5.7,Shortage Pause,104,Brake Pad Set
+Line B,2,2/20/2025,Morning,97,93,95.9,1,49,208,139,0,Active,0,Brake Disc
+Line B,3,2/20/2025,Night,78,69,88.5,0,36,157,93,0,Active,0,Shock Absorber
+Line C,1,2/20/2025,Night,139,1,0.7,0,28,185,1,5.1,Shortage Pause,161,Timing Belt
+Line C,2,2/20/2025,Night,76,54,71.1,2,20,199,54,0.5,Shortage Pause,15,Battery
+Line C,3,2/20/2025,Night,10,0,0,0,47,176,124,1,Paused,0,Headlight Bulb
+Line D,1,2/20/2025,Night,101,88,87.1,1,47,161,88,0.3,Shortage Pause,7,Windshield Wiper
+Line D,2,2/20/2025,Night,73,75,102.7,0,42,189,111,0,Active,0,Engine Oil Filter
+Line D,3,2/20/2025,Morning,88,93,105.7,0,36,171,106,0,Active,0,Air Filter
+Line A,1,2/21/2025,Night,130,123,94.6,0,21,191,135,0,Active,0,Engine Oil Filter
+Line A,2,2/21/2025,Morning,152,155,102,3,25,167,155,0.3,Shortage Pause,12,Air Filter
+Line A,3,2/21/2025,Night,103,80,77.7,2,29,150,80,0.8,Shortage Pause,20,Spark Plug Set
+Line B,1,2/21/2025,Morning,99,93,93.9,1,40,232,156,0,Active,0,Brake Pad Set
+Line B,2,2/21/2025,Morning,91,103,113.2,0,49,208,173,0,Active,0,Brake Disc
+Line B,3,2/21/2025,Morning,87,98,112.6,0,36,157,128,0,Active,0,Shock Absorber
+Line C,1,2/21/2025,Morning,13,0,0,0,28,185,104,1.3,Paused,0,Timing Belt
+Line C,2,2/21/2025,Night,111,0,0,0,20,199,0,5,Shortage Pause,116,Battery
+Line C,3,2/21/2025,Night,109,106,97.2,1,47,176,124,0,Active,0,Headlight Bulb
+Line D,1,2/21/2025,Morning,101,78,77.2,3,47,161,78,0.6,Shortage Pause,18,Windshield Wiper
+Line D,2,2/21/2025,Morning,85,84,98.8,1,42,189,168,0,Active,0,Engine Oil Filter
+Line D,3,2/21/2025,Morning,86,77,89.5,1,36,171,108,0,Active,0,Air Filter
+Line A,1,2/22/2025,Morning,100,90,90,3,21,191,155,0,Active,0,Engine Oil Filter
+Line A,2,2/22/2025,Night,134,90,67.2,2,25,167,90,1.7,Shortage Pause,58,Air Filter
+Line A,3,2/22/2025,Morning,96,95,99,0,29,150,95,0.3,Shortage Pause,9,Spark Plug Set
+Line B,1,2/22/2025,Morning,92,63,68.5,0,40,232,63,1.5,Shortage Pause,34,Brake Pad Set
+Line B,2,2/22/2025,Night,119,70,58.8,1,49,208,70,1.5,Shortage Pause,36,Brake Disc
+Line B,3,2/22/2025,Night,81,82,101.2,0,36,157,129,0,Active,0,Shock Absorber
+Line C,1,2/22/2025,Night,126,104,82.5,0,28,185,104,0.4,Shortage Pause,19,Timing Belt
+Line C,2,2/22/2025,Morning,9,0,0,0,20,199,192,1.9,Paused,0,Battery
+Line C,3,2/22/2025,Morning,125,95,76,5,47,176,95,0.9,Shortage Pause,20,Headlight Bulb
+Line D,1,2/22/2025,Night,119,0,0,0,47,161,0,2.9,Shortage Pause,118,Windshield Wiper
+Line D,2,2/22/2025,Night,88,84,95.5,1,42,189,84,0.5,Shortage Pause,11,Engine Oil Filter
+Line D,3,2/22/2025,Night,70,69,98.6,0,36,171,142,0,Active,0,Air Filter
+Line A,1,2/23/2025,Morning,131,65,49.6,6,21,191,65,2.7,Shortage Pause,80,Engine Oil Filter
+Line A,2,2/23/2025,Morning,167,112,67.1,2,25,167,112,1.3,Shortage Pause,68,Air Filter
+Line A,3,2/23/2025,Morning,83,0,0,0,29,150,0,3.9,Shortage Pause,88,Spark Plug Set
+Line B,1,2/23/2025,Morning,106,113,106.6,1,40,232,195,0,Active,0,Brake Pad Set
+Line B,2,2/23/2025,Night,122,114,93.4,4,49,208,140,0,Active,0,Brake Disc
+Line B,3,2/23/2025,Night,7,0,0,0,36,157,47,0.6,Paused,0,Shock Absorber
+Line C,1,2/23/2025,Morning,141,113,80.1,1,28,185,113,0.5,Shortage Pause,30,Timing Belt
+Line C,2,2/23/2025,Morning,69,62,89.9,0,20,199,192,0,Active,0,Battery
+Line C,3,2/23/2025,Morning,122,100,82,0,47,176,100,0.4,Shortage Pause,21,Headlight Bulb
+Line D,1,2/23/2025,Morning,113,98,86.7,0,47,161,114,0.1,Active,0,Windshield Wiper
+Line D,2,2/23/2025,Morning,7,0,0,0,42,189,93,1.8,Paused,0,Engine Oil Filter
+Line D,3,2/23/2025,Night,61,58,95.1,1,36,171,73,0,Active,0,Air Filter
+Line A,1,2/24/2025,Night,150,157,104.7,2,21,191,157,0.2,Shortage Pause,9,Engine Oil Filter
+Line A,2,2/24/2025,Morning,149,93,62.4,4,25,167,93,1.7,Shortage Pause,47,Air Filter
+Line A,3,2/24/2025,Night,99,0,0,0,29,150,0,4.7,Shortage Pause,97,Spark Plug Set
+Line B,1,2/24/2025,Morning,81,70,86.4,0,40,232,82,0,Active,0,Brake Pad Set
+Line B,2,2/24/2025,Morning,125,121,96.8,3,49,208,194,0,Active,0,Brake Disc
+Line B,3,2/24/2025,Morning,86,47,54.7,5,36,157,47,1,Shortage Pause,35,Shock Absorber
+Line C,1,2/24/2025,Night,150,140,93.3,2,28,185,140,0.6,Shortage Pause,18,Timing Belt
+Line C,2,2/24/2025,Morning,95,87,91.6,1,20,199,130,0,Active,0,Battery
+Line C,3,2/24/2025,Night,111,113,101.8,1,47,176,138,0.2,Active,0,Headlight Bulb
+Line D,1,2/24/2025,Night,83,16,19.3,0,47,161,16,2.2,Shortage Pause,59,Windshield Wiper
+Line D,2,2/24/2025,Morning,84,80,95.2,1,42,189,93,0,Active,0,Engine Oil Filter
+Line D,3,2/24/2025,Morning,80,85,106.2,1,36,171,107,0,Active,0,Air Filter
+Line A,1,2/25/2025,Morning,124,0,0,0,21,191,0,2.8,Shortage Pause,135,Engine Oil Filter
+Line A,2,2/25/2025,Night,118,112,94.9,3,25,167,137,0,Active,0,Air Filter
+Line A,3,2/25/2025,Night,89,85,95.5,2,29,150,85,0.4,Shortage Pause,6,Spark Plug Set
+Line B,1,2/25/2025,Night,94,98,104.3,0,40,232,178,0,Active,0,Brake Pad Set
+Line B,2,2/25/2025,Morning,105,73,69.5,6,49,208,73,0.7,Shortage Pause,16,Brake Disc
+Line B,3,2/25/2025,Night,69,0,0,0,36,157,0,2.1,Shortage Pause,77,Shock Absorber
+Line C,1,2/25/2025,Morning,156,95,60.9,7,28,185,95,0.9,Shortage Pause,69,Timing Belt
+Line C,2,2/25/2025,Morning,86,43,50,2,20,199,43,1.5,Shortage Pause,30,Battery
+Line C,3,2/25/2025,Night,129,25,19.4,0,47,176,25,3.2,Shortage Pause,95,Headlight Bulb
+Line D,1,2/25/2025,Night,113,109,96.5,1,47,161,109,0.4,Shortage Pause,10,Windshield Wiper
+Line D,2,2/25/2025,Morning,82,84,102.4,0,42,189,117,0,Active,0,Engine Oil Filter
+Line D,3,2/25/2025,Morning,76,79,103.9,2,36,171,147,0,Active,0,Air Filter
+Line A,1,2/26/2025,Night,130,107,82.3,0,21,191,107,0.6,Shortage Pause,16,Engine Oil Filter
+Line A,2,2/26/2025,Night,163,25,15.3,3,25,167,25,4.3,Shortage Pause,135,Air Filter
+Line A,3,2/26/2025,Morning,84,81,96.4,1,29,150,94,0,Active,0,Spark Plug Set
+Line B,1,2/26/2025,Night,6,0,0,0,40,232,80,8,Maintenance,0,Brake Pad Set
+Line B,2,2/26/2025,Night,100,104,104,1,49,208,113,0,Active,0,Brake Disc
+Line B,3,2/26/2025,Night,84,0,0,0,36,157,0,5.6,Shortage Pause,83,Shock Absorber
+Line C,1,2/26/2025,Morning,142,142,100,0,28,185,142,0.1,Shortage Pause,1,Timing Belt
+Line C,2,2/26/2025,Night,90,0,0,0,20,199,0,3,Shortage Pause,85,Battery
+Line C,3,2/26/2025,Morning,124,114,91.9,0,47,176,119,0,Active,0,Headlight Bulb
+Line D,1,2/26/2025,Night,9,0,0,0,47,161,110,1.2,Paused,0,Windshield Wiper
+Line D,2,2/26/2025,Morning,92,33,35.9,1,42,189,33,2.8,Shortage Pause,53,Engine Oil Filter
+Line D,3,2/26/2025,Night,76,66,86.8,1,36,171,68,0,Active,0,Air Filter
+Line A,1,2/27/2025,Morning,109,0,0,0,21,191,0,2,Shortage Pause,90,Engine Oil Filter
+Line A,2,2/27/2025,Night,155,139,89.7,2,25,167,144,0,Active,0,Air Filter
+Line A,3,2/27/2025,Morning,77,80,103.9,1,29,150,91,0,Active,0,Spark Plug Set
+Line B,1,2/27/2025,Morning,105,80,76.2,5,40,232,80,0.7,Shortage Pause,31,Brake Pad Set
+Line B,2,2/27/2025,Morning,108,9,8.3,0,49,208,9,2.4,Shortage Pause,110,Brake Disc
+Line B,3,2/27/2025,Morning,81,0,0,0,36,157,0,3.8,Shortage Pause,75,Shock Absorber
+Line C,1,2/27/2025,Morning,158,0,0,0,28,185,0,3.9,Shortage Pause,128,Timing Belt
+Line C,2,2/27/2025,Morning,104,0,0,0,20,199,0,2,Shortage Pause,113,Battery
+Line C,3,2/27/2025,Morning,104,5,4.8,0,47,176,5,2.6,Shortage Pause,90,Headlight Bulb
+Line D,1,2/27/2025,Morning,107,98,91.6,2,47,161,110,0,Active,0,Windshield Wiper
+Line D,2,2/27/2025,Night,92,101,109.8,1,42,189,143,0.2,Active,0,Engine Oil Filter
+Line D,3,2/27/2025,Night,84,75,89.3,2,36,171,92,0.4,Active,0,Air Filter
+Line A,1,2/28/2025,Morning,13,0,0,0,21,191,136,1.3,Paused,0,Engine Oil Filter
+Line A,2,2/28/2025,Night,151,120,79.5,4,25,167,120,1.2,Shortage Pause,34,Air Filter
+Line A,3,2/28/2025,Morning,77,82,106.5,0,29,150,134,0,Active,0,Spark Plug Set
+Line B,1,2/28/2025,Morning,97,0,0,0,40,232,0,5.6,Shortage Pause,84,Brake Pad Set
+Line B,2,2/28/2025,Morning,120,98,81.7,1,49,208,107,0,Active,0,Brake Disc
+Line B,3,2/28/2025,Morning,81,71,87.7,0,36,157,112,0,Active,0,Shock Absorber
+Line C,1,2/28/2025,Morning,139,0,0,0,28,185,0,5.4,Shortage Pause,137,Timing Belt
+Line C,2,2/28/2025,Morning,86,0,0,0,20,199,0,2.8,Shortage Pause,75,Battery
+Line C,3,2/28/2025,Night,111,0,0,0,47,176,0,4.8,Shortage Pause,122,Headlight Bulb
+Line D,1,2/28/2025,Night,129,99,76.7,3,47,161,99,0.3,Shortage Pause,14,Windshield Wiper
+Line D,2,2/28/2025,Night,80,42,52.5,3,42,189,42,1.4,Shortage Pause,30,Engine Oil Filter
+Line D,3,2/28/2025,Night,7,0,0,0,36,171,114,1.1,Paused,0,Air Filter
+Line A,1,3/1/2025,Morning,10,0,0,0,21,191,136,1,Paused,0,Engine Oil Filter
+Line A,2,3/1/2025,Night,140,0,0,0,25,167,0,4.2,Shortage Pause,138,Air Filter
+Line A,3,3/1/2025,Night,89,52,58.4,1,29,150,52,2.5,Shortage Pause,44,Spark Plug Set
+Line B,1,3/1/2025,Night,97,98,101,1,40,232,172,0,Active,0,Brake Pad Set
+Line B,2,3/1/2025,Night,109,110,100.9,1,49,208,112,0,Active,0,Brake Disc
+Line B,3,3/1/2025,Night,60,41,68.3,1,36,157,41,1.4,Shortage Pause,13,Shock Absorber
+Line C,1,3/1/2025,Morning,156,0,0,0,28,185,0,5.9,Shortage Pause,138,Timing Belt
+Line C,2,3/1/2025,Night,86,0,0,0,20,199,0,2.6,Shortage Pause,82,Battery
+Line C,3,3/1/2025,Night,115,101,87.8,1,47,176,124,0,Active,0,Headlight Bulb
+Line D,1,3/1/2025,Morning,104,0,0,0,47,161,0,2.3,Shortage Pause,103,Windshield Wiper
+Line D,2,3/1/2025,Morning,74,68,91.9,3,42,189,136,0.3,Active,0,Engine Oil Filter
+Line D,3,3/1/2025,Night,81,75,92.6,0,36,171,114,0,Active,0,Air Filter
+Line A,1,3/2/2025,Morning,119,108,90.8,0,21,191,136,0,Active,0,Engine Oil Filter
+Line A,2,3/2/2025,Morning,161,142,88.2,2,25,167,145,0,Active,0,Air Filter
+Line A,3,3/2/2025,Night,85,85,100,0,29,150,109,0,Active,0,Spark Plug Set
+Line B,1,3/2/2025,Morning,94,74,78.7,2,40,232,74,1.3,Shortage Pause,32,Brake Pad Set
+Line B,2,3/2/2025,Night,109,116,106.4,0,49,208,159,0,Active,0,Brake Disc
+Line B,3,3/2/2025,Night,90,87,96.7,0,36,157,104,0,Active,0,Shock Absorber
+Line C,1,3/2/2025,Morning,139,107,77,6,28,185,107,1.2,Shortage Pause,41,Timing Belt
+Line C,2,3/2/2025,Morning,7,0,0,0,20,199,0,1.5,Paused,0,Battery
+Line C,3,3/2/2025,Night,108,23,21.3,0,47,176,23,2.1,Shortage Pause,91,Headlight Bulb
+Line D,1,3/2/2025,Morning,10,0,0,0,47,161,79,0.8,Paused,0,Windshield Wiper
+Line D,2,3/2/2025,Night,95,68,71.6,3,42,189,68,0.7,Shortage Pause,16,Engine Oil Filter
+Line D,3,3/2/2025,Morning,76,39,51.3,0,36,171,39,1.2,Shortage Pause,40,Air Filter
+Line A,1,3/3/2025,Morning,12,0,0,0,21,191,28,1.5,Paused,0,Engine Oil Filter
+Line A,2,3/3/2025,Morning,160,144,90,1,25,167,144,0.7,Shortage Pause,32,Air Filter
+Line A,3,3/3/2025,Night,94,24,25.5,2,29,150,24,3.6,Shortage Pause,67,Spark Plug Set
+Line B,1,3/3/2025,Night,94,88,93.6,0,40,232,176,0,Active,0,Brake Pad Set
+Line B,2,3/3/2025,Morning,103,118,114.6,0,49,208,180,0,Active,0,Brake Disc
+Line B,3,3/3/2025,Night,88,82,93.2,0,36,157,136,0,Active,0,Shock Absorber
+Line C,1,3/3/2025,Night,122,126,103.3,1,28,185,132,0,Active,0,Timing Belt
+Line C,2,3/3/2025,Night,89,76,85.4,0,20,199,160,0,Active,0,Battery
+Line C,3,3/3/2025,Night,102,77,75.5,3,47,176,116,0,Active,0,Headlight Bulb
+Line D,1,3/3/2025,Night,110,79,71.8,3,47,161,79,1.3,Shortage Pause,42,Windshield Wiper
+Line D,2,3/3/2025,Night,101,0,0,0,42,189,0,2.2,Shortage Pause,90,Engine Oil Filter
+Line D,3,3/3/2025,Morning,78,65,83.3,1,36,171,83,0,Active,0,Air Filter
+Line A,1,3/4/2025,Morning,107,28,26.2,0,21,191,28,2.3,Shortage Pause,77,Engine Oil Filter
+Line A,2,3/4/2025,Morning,144,99,68.8,9,25,167,99,2,Shortage Pause,53,Air Filter
+Line A,3,3/4/2025,Morning,90,81,90,1,29,150,89,0,Active,0,Spark Plug Set
+Line B,1,3/4/2025,Morning,100,88,88,1,40,232,88,0.6,Shortage Pause,16,Brake Pad Set
+Line B,2,3/4/2025,Morning,115,62,53.9,2,49,208,62,0.9,Shortage Pause,39,Brake Disc
+Line B,3,3/4/2025,Night,75,54,72,2,36,157,54,1.7,Shortage Pause,29,Shock Absorber
+Line C,1,3/4/2025,Morning,128,6,4.7,0,28,185,6,3.6,Shortage Pause,123,Timing Belt
+Line C,2,3/4/2025,Morning,82,81,98.8,0,20,199,84,0,Active,0,Battery
+Line C,3,3/4/2025,Night,113,106,93.8,2,47,176,139,0,Active,0,Headlight Bulb
+Line D,1,3/4/2025,Night,81,77,95.1,1,47,161,101,0,Active,0,Windshield Wiper
+Line D,2,3/4/2025,Night,97,95,97.9,1,42,189,117,0,Active,0,Engine Oil Filter
+Line D,3,3/4/2025,Morning,74,18,24.3,0,36,171,18,4.1,Shortage Pause,63,Air Filter
+Line A,1,3/5/2025,Night,125,124,99.2,0,21,191,136,0,Active,0,Engine Oil Filter
+Line A,2,3/5/2025,Night,134,131,97.8,0,25,167,151,0.3,Active,0,Air Filter
+Line A,3,3/5/2025,Night,9,0,0,0,29,150,123,1.7,Paused,0,Spark Plug Set
+Line B,1,3/5/2025,Morning,105,0,0,0,40,232,0,5.5,Shortage Pause,113,Brake Pad Set
+Line B,2,3/5/2025,Morning,108,101,93.5,1,49,208,163,0,Active,0,Brake Disc
+Line B,3,3/5/2025,Morning,74,74,100,0,36,157,117,0.4,Active,0,Shock Absorber
+Line C,1,3/5/2025,Night,132,117,88.6,0,28,185,160,0.4,Active,0,Timing Belt
+Line C,2,3/5/2025,Night,85,3,3.5,0,20,199,3,2.9,Shortage Pause,83,Battery
+Line C,3,3/5/2025,Morning,95,33,34.7,1,47,176,33,3.4,Shortage Pause,55,Headlight Bulb
+Line D,1,3/5/2025,Night,96,108,112.5,1,47,161,140,0,Active,0,Windshield Wiper
+Line D,2,3/5/2025,Night,83,93,112,1,42,189,133,0,Active,0,Engine Oil Filter
+Line D,3,3/5/2025,Night,83,0,0,0,36,171,0,5.8,Shortage Pause,95,Air Filter
+Line A,1,3/6/2025,Night,127,114,89.8,1,21,191,131,0,Active,0,Engine Oil Filter
+Line A,2,3/6/2025,Morning,148,20,13.5,0,25,167,20,4.7,Shortage Pause,105,Air Filter
+Line A,3,3/6/2025,Night,101,117,115.8,0,29,150,123,0,Active,0,Spark Plug Set
+Line B,1,3/6/2025,Morning,106,114,107.5,0,40,232,157,0,Active,0,Brake Pad Set
+Line B,2,3/6/2025,Night,124,62,50,3,49,208,62,2.2,Shortage Pause,53,Brake Disc
+Line B,3,3/6/2025,Night,88,43,48.9,3,36,157,43,1.7,Shortage Pause,40,Shock Absorber
+Line C,1,3/6/2025,Morning,138,43,31.2,4,28,185,43,2.8,Shortage Pause,111,Timing Belt
+Line C,2,3/6/2025,Night,95,85,89.5,2,20,199,107,0,Active,0,Battery
+Line C,3,3/6/2025,Morning,110,0,0,0,47,176,0,3.1,Shortage Pause,104,Headlight Bulb
+Line D,1,3/6/2025,Morning,110,96,87.3,3,47,161,108,0,Active,0,Windshield Wiper
+Line D,2,3/6/2025,Morning,82,89,108.5,1,42,189,184,0,Active,0,Engine Oil Filter
+Line D,3,3/6/2025,Night,79,71,89.9,1,36,171,100,0,Active,0,Air Filter
+Line A,1,3/7/2025,Morning,12,0,0,0,21,191,163,1,Paused,0,Engine Oil Filter
+Line A,2,3/7/2025,Night,183,102,55.7,3,25,167,102,1.6,Shortage Pause,85,Air Filter
+Line A,3,3/7/2025,Morning,103,80,77.7,5,29,150,80,0.3,Shortage Pause,7,Spark Plug Set
+Line B,1,3/7/2025,Night,104,43,41.3,1,40,232,43,1.5,Shortage Pause,57,Brake Pad Set
+Line B,2,3/7/2025,Morning,106,0,0,0,49,208,0,2.1,Shortage Pause,106,Brake Disc
+Line B,3,3/7/2025,Night,69,58,84.1,0,36,157,115,0,Active,0,Shock Absorber
+Line C,1,3/7/2025,Morning,115,97,84.3,0,28,185,97,0.9,Shortage Pause,27,Timing Belt
+Line C,2,3/7/2025,Night,110,22,20,0,20,199,22,2,Shortage Pause,95,Battery
+Line C,3,3/7/2025,Morning,111,103,92.8,1,47,176,103,0.5,Shortage Pause,10,Headlight Bulb
+Line D,1,3/7/2025,Night,98,91,92.9,1,47,161,91,0.5,Shortage Pause,12,Windshield Wiper
+Line D,2,3/7/2025,Morning,81,75,92.6,1,42,189,95,0,Active,0,Engine Oil Filter
+Line D,3,3/7/2025,Morning,80,29,36.2,1,36,171,29,1.4,Shortage Pause,52,Air Filter
+Line A,1,3/8/2025,Morning,132,128,97,2,21,191,163,0,Active,0,Engine Oil Filter
+Line A,2,3/8/2025,Night,148,125,84.5,2,25,167,125,0.6,Shortage Pause,18,Air Filter
+Line A,3,3/8/2025,Night,88,76,86.4,0,29,150,93,0,Active,0,Spark Plug Set
+Line B,1,3/8/2025,Morning,89,98,110.1,1,40,232,168,0,Active,0,Brake Pad Set
+Line B,2,3/8/2025,Morning,8,0,0,0,49,208,0,0.8,Paused,0,Brake Disc
+Line B,3,3/8/2025,Night,90,57,63.3,1,36,157,57,1,Shortage Pause,44,Shock Absorber
+Line C,1,3/8/2025,Morning,133,0,0,0,28,185,0,3.8,Shortage Pause,129,Timing Belt
+Line C,2,3/8/2025,Morning,92,89,96.7,1,20,199,147,0,Active,0,Battery
+Line C,3,3/8/2025,Morning,124,118,95.2,1,47,176,118,0.8,Shortage Pause,19,Headlight Bulb
+Line D,1,3/8/2025,Morning,96,97,101,0,47,161,111,0,Active,0,Windshield Wiper
+Line D,2,3/8/2025,Night,86,81,94.2,2,42,189,164,0,Active,0,Engine Oil Filter
+Line D,3,3/8/2025,Morning,60,55,91.7,0,36,171,89,0.3,Active,0,Air Filter
+Line A,1,3/9/2025,Morning,109,35,32.1,2,21,191,35,2.4,Shortage Pause,72,Engine Oil Filter
+Line A,2,3/9/2025,Morning,111,0,0,0,25,167,0,3.2,Shortage Pause,120,Air Filter
+Line A,3,3/9/2025,Night,101,97,96,2,29,150,97,0.5,Shortage Pause,14,Spark Plug Set
+Line B,1,3/9/2025,Morning,85,70,82.4,0,40,232,70,0.7,Shortage Pause,10,Brake Pad Set
+Line B,2,3/9/2025,Night,119,112,94.1,1,49,208,112,0.5,Shortage Pause,12,Brake Disc
+Line B,3,3/9/2025,Morning,81,78,96.3,0,36,157,103,0,Active,0,Shock Absorber
+Line C,1,3/9/2025,Morning,142,106,74.6,3,28,185,106,1.6,Shortage Pause,43,Timing Belt
+Line C,2,3/9/2025,Morning,81,58,71.6,2,20,199,58,0.7,Shortage Pause,9,Battery
+Line C,3,3/9/2025,Morning,122,113,92.6,1,47,176,113,0.7,Shortage Pause,25,Headlight Bulb
+Line D,1,3/9/2025,Night,106,91,85.8,1,47,161,139,0.3,Active,0,Windshield Wiper
+Line D,2,3/9/2025,Night,76,76,100,0,42,189,83,0,Active,0,Engine Oil Filter
+Line D,3,3/9/2025,Night,66,61,92.4,0,36,171,150,0,Active,0,Air Filter
+Line A,1,3/10/2025,Morning,122,113,92.6,1,21,191,166,0,Active,0,Engine Oil Filter
+Line A,2,3/10/2025,Morning,171,0,0,0,25,167,0,2.4,Shortage Pause,192,Air Filter
+Line A,3,3/10/2025,Night,81,81,100,0,29,150,125,0,Active,0,Spark Plug Set
+Line B,1,3/10/2025,Night,119,0,0,0,40,232,0,3.1,Shortage Pause,120,Brake Pad Set
+Line B,2,3/10/2025,Morning,107,0,0,0,49,208,0,2.4,Shortage Pause,114,Brake Disc
+Line B,3,3/10/2025,Morning,81,82,101.2,1,36,157,151,0,Active,0,Shock Absorber
+Line C,1,3/10/2025,Morning,148,147,99.3,7,28,185,147,0.3,Shortage Pause,9,Timing Belt
+Line C,2,3/10/2025,Night,90,82,91.1,1,20,199,137,0.2,Active,0,Battery
+Line C,3,3/10/2025,Night,131,87,66.4,3,47,176,87,0.7,Shortage Pause,35,Headlight Bulb
+Line D,1,3/10/2025,Morning,100,48,48,1,47,161,48,1.8,Shortage Pause,54,Windshield Wiper
+Line D,2,3/10/2025,Night,78,78,100,1,42,189,117,0,Active,0,Engine Oil Filter
+Line D,3,3/10/2025,Night,9,0,0,0,36,171,89,1.3,Paused,0,Air Filter
+Line A,1,3/11/2025,Morning,117,53,45.3,2,21,191,53,2.9,Shortage Pause,64,Engine Oil Filter
+Line A,2,3/11/2025,Morning,151,117,77.5,1,25,167,117,0.4,Shortage Pause,12,Air Filter
+Line A,3,3/11/2025,Night,8,0,0,0,29,150,44,0.9,Paused,0,Spark Plug Set
+Line B,1,3/11/2025,Morning,115,133,115.7,1,40,232,152,0,Active,0,Brake Pad Set
+Line B,2,3/11/2025,Night,107,100,93.5,1,49,208,100,0.3,Shortage Pause,5,Brake Disc
+Line B,3,3/11/2025,Night,95,69,72.6,1,36,157,69,1,Shortage Pause,33,Shock Absorber
+Line C,1,3/11/2025,Night,135,126,93.3,1,28,185,148,0,Active,0,Timing Belt
+Line C,2,3/11/2025,Morning,110,55,50,4,20,199,55,2.3,Shortage Pause,67,Battery
+Line C,3,3/11/2025,Morning,133,83,62.4,3,47,176,83,0.8,Shortage Pause,49,Headlight Bulb
+Line D,1,3/11/2025,Morning,99,0,0,0,47,161,0,3,Shortage Pause,100,Windshield Wiper
+Line D,2,3/11/2025,Morning,80,39,48.8,2,42,189,39,1.1,Shortage Pause,42,Engine Oil Filter
+Line D,3,3/11/2025,Night,91,89,97.8,3,36,171,89,0.2,Shortage Pause,2,Air Filter
+Line A,1,3/12/2025,Morning,105,92,87.6,3,21,191,172,0.2,Active,0,Engine Oil Filter
+Line A,2,3/12/2025,Night,163,102,62.6,2,25,167,102,1.2,Shortage Pause,58,Air Filter
+Line A,3,3/12/2025,Night,95,44,46.3,2,29,150,44,2.4,Shortage Pause,49,Spark Plug Set
+Line B,1,3/12/2025,Night,93,91,97.8,2,40,232,165,0,Active,0,Brake Pad Set
+Line B,2,3/12/2025,Night,117,0,0,0,49,208,0,4.4,Shortage Pause,103,Brake Disc
+Line B,3,3/12/2025,Morning,92,86,93.5,0,36,157,128,0,Active,0,Shock Absorber
+Line C,1,3/12/2025,Night,121,121,100,3,28,185,175,0,Active,0,Timing Belt
+Line C,2,3/12/2025,Night,103,81,78.6,5,20,199,119,0.3,Active,0,Battery
+Line C,3,3/12/2025,Morning,102,0,0,0,47,176,0,3.6,Shortage Pause,101,Headlight Bulb
+Line D,1,3/12/2025,Morning,98,95,96.9,1,47,161,125,0,Active,0,Windshield Wiper
+Line D,2,3/12/2025,Morning,8,0,0,0,42,189,0,8,Maintenance,0,Engine Oil Filter
+Line D,3,3/12/2025,Morning,74,69,93.2,1,36,171,108,0,Active,0,Air Filter
+Line A,1,3/13/2025,Night,123,80,65,1,21,191,80,1.5,Shortage Pause,54,Engine Oil Filter
+Line A,2,3/13/2025,Night,185,128,69.2,8,25,167,128,0.6,Shortage Pause,40,Air Filter
+Line A,3,3/13/2025,Night,92,0,0,0,29,150,0,3.5,Shortage Pause,108,Spark Plug Set
+Line B,1,3/13/2025,Morning,93,74,79.6,1,40,232,74,0.7,Shortage Pause,16,Brake Pad Set
+Line B,2,3/13/2025,Night,99,108,109.1,2,49,208,174,0,Active,0,Brake Disc
+Line B,3,3/13/2025,Night,71,42,59.2,3,36,157,42,1,Shortage Pause,21,Shock Absorber
+Line C,1,3/13/2025,Night,147,54,36.7,1,28,185,54,2.5,Shortage Pause,92,Timing Belt
+Line C,2,3/13/2025,Night,96,38,39.6,1,20,199,38,2.2,Shortage Pause,70,Battery
+Line C,3,3/13/2025,Morning,123,126,102.4,0,47,176,131,0,Active,0,Headlight Bulb
+Line D,1,3/13/2025,Night,85,71,83.5,1,47,161,106,0,Active,0,Windshield Wiper
+Line D,2,3/13/2025,Night,92,0,0,0,42,189,0,2.6,Shortage Pause,99,Engine Oil Filter
+Line D,3,3/13/2025,Night,88,39,44.3,4,36,171,39,2.6,Shortage Pause,45,Air Filter
+Line A,1,3/14/2025,Night,108,112,103.7,2,21,191,136,0,Active,0,Engine Oil Filter
+Line A,2,3/14/2025,Morning,15,0,0,0,25,167,0,1.1,Paused,0,Air Filter
+Line A,3,3/14/2025,Night,73,77,105.5,0,29,150,112,0,Active,0,Spark Plug Set
+Line B,1,3/14/2025,Morning,119,125,105,0,40,232,174,0,Active,0,Brake Pad Set
+Line B,2,3/14/2025,Night,111,66,59.5,2,49,208,66,0.9,Shortage Pause,35,Brake Disc
+Line B,3,3/14/2025,Morning,90,75,83.3,2,36,157,133,0,Active,0,Shock Absorber
+Line C,1,3/14/2025,Morning,141,113,80.1,2,28,185,113,0.7,Shortage Pause,20,Timing Belt
+Line C,2,3/14/2025,Morning,95,90,94.7,1,20,199,175,0,Active,0,Battery
+Line C,3,3/14/2025,Morning,11,0,0,0,47,176,139,1.4,Paused,0,Headlight Bulb
+Line D,1,3/14/2025,Morning,101,91,90.1,1,47,161,110,0,Active,0,Windshield Wiper
+Line D,2,3/14/2025,Morning,8,0,0,0,42,189,0,1.7,Paused,0,Engine Oil Filter
+Line D,3,3/14/2025,Night,82,69,84.1,1,36,171,87,0,Active,0,Air Filter
+Line A,1,3/15/2025,Morning,138,24,17.4,0,21,191,24,2.5,Shortage Pause,110,Engine Oil Filter
+Line A,2,3/15/2025,Morning,163,0,0,0,25,167,0,5.5,Shortage Pause,144,Air Filter
+Line A,3,3/15/2025,Morning,97,35,36.1,1,29,150,35,2.4,Shortage Pause,67,Spark Plug Set
+Line B,1,3/15/2025,Morning,101,49,48.5,2,40,232,49,2.9,Shortage Pause,67,Brake Pad Set
+Line B,2,3/15/2025,Morning,106,0,0,0,49,208,0,4.2,Shortage Pause,112,Brake Disc
+Line B,3,3/15/2025,Night,74,58,78.4,2,36,157,58,0.4,Shortage Pause,12,Shock Absorber
+Line C,1,3/15/2025,Night,153,126,82.4,1,28,185,126,0.7,Shortage Pause,27,Timing Belt
+Line C,2,3/15/2025,Morning,92,85,92.4,1,20,199,85,0.1,Shortage Pause,2,Battery
+Line C,3,3/15/2025,Morning,137,129,94.2,1,47,176,139,0,Active,0,Headlight Bulb
+Line D,1,3/15/2025,Morning,96,94,97.9,0,47,161,126,0,Active,0,Windshield Wiper
+Line D,2,3/15/2025,Morning,75,84,112,1,42,189,110,0,Active,0,Engine Oil Filter
+Line D,3,3/15/2025,Morning,72,80,111.1,3,36,171,156,0,Active,0,Air Filter
+Line A,1,3/16/2025,Morning,125,135,108,2,21,191,159,0,Active,0,Engine Oil Filter
+Line A,2,3/16/2025,Morning,158,141,89.2,2,25,167,141,0.7,Shortage Pause,25,Air Filter
+Line A,3,3/16/2025,Morning,92,0,0,0,29,150,0,5.6,Shortage Pause,108,Spark Plug Set
+Line B,1,3/16/2025,Night,110,0,0,0,40,232,0,4.3,Shortage Pause,108,Brake Pad Set
+Line B,2,3/16/2025,Night,10,0,0,0,49,208,111,1.8,Paused,0,Brake Disc
+Line B,3,3/16/2025,Night,82,79,96.3,2,36,157,129,0,Active,0,Shock Absorber
+Line C,1,3/16/2025,Night,115,0,0,0,28,185,0,2.7,Shortage Pause,103,Timing Belt
+Line C,2,3/16/2025,Night,101,108,106.9,0,20,199,157,0,Active,0,Battery
+Line C,3,3/16/2025,Night,114,125,109.6,4,47,176,125,0.2,Shortage Pause,6,Headlight Bulb
+Line D,1,3/16/2025,Night,113,107,94.7,1,47,161,125,0,Active,0,Windshield Wiper
+Line D,2,3/16/2025,Morning,6,0,0,0,42,189,160,0.7,Paused,0,Engine Oil Filter
+Line D,3,3/16/2025,Morning,87,76,87.4,1,36,171,76,0.3,Shortage Pause,9,Air Filter
+Line A,1,3/17/2025,Night,127,24,18.9,0,21,191,24,4.4,Shortage Pause,115,Engine Oil Filter
+Line A,2,3/17/2025,Morning,151,0,0,0,25,167,0,4.7,Shortage Pause,155,Air Filter
+Line A,3,3/17/2025,Morning,92,87,94.6,1,29,150,104,0,Active,0,Spark Plug Set
+Line B,1,3/17/2025,Night,9,0,0,0,40,232,206,1.2,Paused,0,Brake Pad Set
+Line B,2,3/17/2025,Night,113,111,98.2,1,49,208,111,0.3,Shortage Pause,19,Brake Disc
+Line B,3,3/17/2025,Night,66,50,75.8,2,36,157,50,0.8,Shortage Pause,18,Shock Absorber
+Line C,1,3/17/2025,Night,142,166,116.9,5,28,185,166,0.2,Shortage Pause,8,Timing Belt
+Line C,2,3/17/2025,Morning,94,49,52.1,3,20,199,49,1.7,Shortage Pause,35,Battery
+Line C,3,3/17/2025,Morning,99,91,91.9,0,47,176,97,0,Active,0,Headlight Bulb
+Line D,1,3/17/2025,Morning,10,0,0,0,47,161,96,1.3,Paused,0,Windshield Wiper
+Line D,2,3/17/2025,Night,92,82,89.1,0,42,189,160,0,Active,0,Engine Oil Filter
+Line D,3,3/17/2025,Night,80,0,0,0,36,171,0,4.4,Shortage Pause,83,Air Filter
+Line A,1,3/18/2025,Morning,9,0,0,0,21,191,150,8,Maintenance,0,Engine Oil Filter
+Line A,2,3/18/2025,Night,136,117,86,1,25,167,117,0.9,Shortage Pause,22,Air Filter
+Line A,3,3/18/2025,Morning,92,17,18.5,0,29,150,17,4.6,Shortage Pause,72,Spark Plug Set
+Line B,1,3/18/2025,Night,103,96,93.2,1,40,232,206,0,Active,0,Brake Pad Set
+Line B,2,3/18/2025,Night,109,102,93.6,1,49,208,102,0.4,Shortage Pause,14,Brake Disc
+Line B,3,3/18/2025,Night,96,91,94.8,0,36,157,107,0,Active,0,Shock Absorber
+Line C,1,3/18/2025,Morning,151,0,0,0,28,185,0,4.6,Shortage Pause,157,Timing Belt
+Line C,2,3/18/2025,Night,10,0,0,0,20,199,0,1.7,Paused,0,Battery
+Line C,3,3/18/2025,Morning,116,103,88.8,1,47,176,103,0.4,Shortage Pause,9,Headlight Bulb
+Line D,1,3/18/2025,Night,101,96,95,2,47,161,96,0.7,Shortage Pause,21,Windshield Wiper
+Line D,2,3/18/2025,Night,83,78,94,1,42,189,78,0.4,Shortage Pause,1,Engine Oil Filter
+Line D,3,3/18/2025,Morning,87,84,96.6,1,36,171,138,0,Active,0,Air Filter
+Line A,1,3/19/2025,Night,103,122,118.4,1,21,191,150,0,Active,0,Engine Oil Filter
+Line A,2,3/19/2025,Morning,147,151,102.7,3,25,167,152,0,Active,0,Air Filter
+Line A,3,3/19/2025,Morning,104,90,86.5,1,29,150,90,1.1,Shortage Pause,23,Spark Plug Set
+Line B,1,3/19/2025,Morning,108,110,101.9,0,40,232,110,0.8,Shortage Pause,24,Brake Pad Set
+Line B,2,3/19/2025,Morning,117,98,83.8,0,49,208,98,0.8,Shortage Pause,20,Brake Disc
+Line B,3,3/19/2025,Night,74,16,21.6,1,36,157,16,2,Shortage Pause,65,Shock Absorber
+Line C,1,3/19/2025,Morning,131,121,92.4,0,28,185,121,0.3,Shortage Pause,9,Timing Belt
+Line C,2,3/19/2025,Night,80,76,95,1,20,199,136,0,Active,0,Battery
+Line C,3,3/19/2025,Morning,113,107,94.7,1,47,176,125,0,Active,0,Headlight Bulb
+Line D,1,3/19/2025,Morning,99,83,83.8,1,47,161,83,0.1,Shortage Pause,5,Windshield Wiper
+Line D,2,3/19/2025,Night,80,0,0,0,42,189,0,3.1,Shortage Pause,74,Engine Oil Filter
+Line D,3,3/19/2025,Morning,94,54,57.4,2,36,171,54,1,Shortage Pause,43,Air Filter
+Line A,1,3/20/2025,Night,121,28,23.1,1,21,191,28,3.3,Shortage Pause,112,Engine Oil Filter
+Line A,2,3/20/2025,Morning,152,93,61.2,3,25,167,93,1.9,Shortage Pause,66,Air Filter
+Line A,3,3/20/2025,Morning,93,84,90.3,0,29,150,84,0.6,Shortage Pause,15,Spark Plug Set
+Line B,1,3/20/2025,Morning,108,96,88.9,1,40,232,194,0,Active,0,Brake Pad Set
+Line B,2,3/20/2025,Night,101,0,0,0,49,208,0,4.9,Shortage Pause,107,Brake Disc
+Line B,3,3/20/2025,Morning,8,0,0,0,36,157,89,1.3,Paused,0,Shock Absorber
+Line C,1,3/20/2025,Night,144,137,95.1,2,28,185,137,0.5,Shortage Pause,18,Timing Belt
+Line C,2,3/20/2025,Morning,101,60,59.4,5,20,199,60,1.5,Shortage Pause,30,Battery
+Line C,3,3/20/2025,Night,109,105,96.3,1,47,176,142,0,Active,0,Headlight Bulb
+Line D,1,3/20/2025,Morning,99,104,105.1,1,47,161,115,0,Active,0,Windshield Wiper
+Line D,2,3/20/2025,Morning,69,0,0,0,42,189,0,2.9,Shortage Pause,77,Engine Oil Filter
+Line D,3,3/20/2025,Night,74,64,86.5,1,36,171,112,0.4,Active,0,Air Filter
+Line A,1,3/21/2025,Night,114,0,0,0,21,191,0,5.9,Shortage Pause,107,Engine Oil Filter
+Line A,2,3/21/2025,Night,153,124,81,1,25,167,124,0.4,Shortage Pause,16,Air Filter
+Line A,3,3/21/2025,Night,88,88,100,2,29,150,130,0,Active,0,Spark Plug Set
+Line B,1,3/21/2025,Night,99,98,99,2,40,232,98,0.3,Shortage Pause,11,Brake Pad Set
+Line B,2,3/21/2025,Morning,100,112,112,0,49,208,171,0,Active,0,Brake Disc
+Line B,3,3/21/2025,Night,90,86,95.6,0,36,157,89,0.2,Active,0,Shock Absorber
+Line C,1,3/21/2025,Night,13,0,0,0,28,185,139,8,Maintenance,0,Timing Belt
+Line C,2,3/21/2025,Night,99,0,0,0,20,199,0,2.6,Shortage Pause,101,Battery
+Line C,3,3/21/2025,Morning,109,37,33.9,1,47,176,37,1.5,Shortage Pause,72,Headlight Bulb
+Line D,1,3/21/2025,Morning,103,85,82.5,2,47,161,85,1.3,Shortage Pause,27,Windshield Wiper
+Line D,2,3/21/2025,Morning,80,76,95,0,42,189,94,0,Active,0,Engine Oil Filter
+Line D,3,3/21/2025,Morning,87,48,55.2,2,36,171,48,2.3,Shortage Pause,36,Air Filter
+Line A,1,3/22/2025,Night,138,143,103.6,0,21,191,148,0,Active,0,Engine Oil Filter
+Line A,2,3/22/2025,Night,162,101,62.3,6,25,167,101,0.8,Shortage Pause,40,Air Filter
+Line A,3,3/22/2025,Night,83,42,50.6,1,29,150,42,2.2,Shortage Pause,25,Spark Plug Set
+Line B,1,3/22/2025,Night,100,97,97,1,40,232,160,0,Active,0,Brake Pad Set
+Line B,2,3/22/2025,Night,107,59,55.1,2,49,208,59,1.4,Shortage Pause,52,Brake Disc
+Line B,3,3/22/2025,Night,93,86,92.5,0,36,157,106,0,Active,0,Shock Absorber
+Line C,1,3/22/2025,Night,144,139,96.5,2,28,185,139,0.3,Shortage Pause,10,Timing Belt
+Line C,2,3/22/2025,Night,10,0,0,0,20,199,116,8,Maintenance,0,Battery
+Line C,3,3/22/2025,Night,112,105,93.8,2,47,176,105,0.4,Shortage Pause,5,Headlight Bulb
+Line D,1,3/22/2025,Morning,104,0,0,0,47,161,0,3.6,Shortage Pause,104,Windshield Wiper
+Line D,2,3/22/2025,Night,65,56,86.2,0,42,189,160,0,Active,0,Engine Oil Filter
+Line D,3,3/22/2025,Morning,88,0,0,0,36,171,0,4.7,Shortage Pause,89,Air Filter
+Line A,1,3/23/2025,Night,106,113,106.6,2,21,191,177,0.3,Active,0,Engine Oil Filter
+Line A,2,3/23/2025,Night,170,120,70.6,12,25,167,120,0.4,Shortage Pause,25,Air Filter
+Line A,3,3/23/2025,Night,80,76,95,1,29,150,76,0.2,Shortage Pause,6,Spark Plug Set
+Line B,1,3/23/2025,Morning,105,63,60,3,40,232,63,1.4,Shortage Pause,37,Brake Pad Set
+Line B,2,3/23/2025,Night,120,0,0,0,49,208,0,2.8,Shortage Pause,123,Brake Disc
+Line B,3,3/23/2025,Morning,83,85,102.4,0,36,157,124,0,Active,0,Shock Absorber
+Line C,1,3/23/2025,Night,120,106,88.3,1,28,185,110,0,Active,0,Timing Belt
+Line C,2,3/23/2025,Morning,97,103,106.2,0,20,199,116,0,Active,0,Battery
+Line C,3,3/23/2025,Night,113,108,95.6,1,47,176,141,0,Active,0,Headlight Bulb
+Line D,1,3/23/2025,Morning,115,102,88.7,0,47,161,102,0.1,Shortage Pause,2,Windshield Wiper
+Line D,2,3/23/2025,Morning,90,86,95.6,0,42,189,104,0,Active,0,Engine Oil Filter
+Line D,3,3/23/2025,Night,70,73,104.3,3,36,171,88,0,Active,0,Air Filter
+Line A,1,3/24/2025,Morning,124,64,51.6,1,21,191,64,1.4,Shortage Pause,51,Engine Oil Filter
+Line A,2,3/24/2025,Morning,132,87,65.9,4,25,167,87,1.7,Shortage Pause,49,Air Filter
+Line A,3,3/24/2025,Morning,9,0,0,0,29,150,114,0.8,Paused,0,Spark Plug Set
+Line B,1,3/24/2025,Night,95,0,0,0,40,232,0,5.2,Shortage Pause,94,Brake Pad Set
+Line B,2,3/24/2025,Night,112,110,98.2,1,49,208,145,0,Active,0,Brake Disc
+Line B,3,3/24/2025,Night,8,0,0,0,36,157,39,0.6,Paused,0,Shock Absorber
+Line C,1,3/24/2025,Morning,137,4,2.9,0,28,185,4,5.8,Shortage Pause,130,Timing Belt
+Line C,2,3/24/2025,Morning,86,87,101.2,0,20,199,132,0.4,Active,0,Battery
+Line C,3,3/24/2025,Morning,122,115,94.3,0,47,176,126,0,Active,0,Headlight Bulb
+Line D,1,3/24/2025,Morning,96,77,80.2,0,47,161,77,0.4,Shortage Pause,13,Windshield Wiper
+Line D,2,3/24/2025,Morning,69,62,89.9,0,42,189,124,0,Active,0,Engine Oil Filter
+Line D,3,3/24/2025,Night,6,0,0,0,36,171,161,1.7,Paused,0,Air Filter
+Line A,1,3/25/2025,Morning,110,103,93.6,0,21,191,154,0,Active,0,Engine Oil Filter
+Line A,2,3/25/2025,Night,165,131,79.4,5,25,167,131,0.4,Shortage Pause,32,Air Filter
+Line A,3,3/25/2025,Morning,92,100,108.7,1,29,150,114,0,Active,0,Spark Plug Set
+Line B,1,3/25/2025,Morning,106,101,95.3,0,40,232,158,0,Active,0,Brake Pad Set
+Line B,2,3/25/2025,Night,115,121,105.2,0,49,208,150,0,Active,0,Brake Disc
+Line B,3,3/25/2025,Morning,73,39,53.4,1,36,157,39,1.8,Shortage Pause,23,Shock Absorber
+Line C,1,3/25/2025,Morning,126,119,94.4,2,28,185,119,0.6,Shortage Pause,22,Timing Belt
+Line C,2,3/25/2025,Night,107,45,42.1,1,20,199,45,1.9,Shortage Pause,70,Battery
+Line C,3,3/25/2025,Night,119,111,93.3,0,47,176,131,0.3,Active,0,Headlight Bulb
+Line D,1,3/25/2025,Morning,113,77,68.1,2,47,161,77,1.3,Shortage Pause,24,Windshield Wiper
+Line D,2,3/25/2025,Night,90,62,68.9,1,42,189,62,1.1,Shortage Pause,25,Engine Oil Filter
+Line D,3,3/25/2025,Morning,72,78,108.3,0,36,171,161,0,Active,0,Air Filter
+Line A,1,3/26/2025,Morning,118,51,43.2,3,21,191,51,1.4,Shortage Pause,69,Engine Oil Filter
+Line A,2,3/26/2025,Night,140,131,93.6,2,25,167,131,0.3,Shortage Pause,5,Air Filter
+Line A,3,3/26/2025,Night,8,0,0,0,29,150,114,0.9,Paused,0,Spark Plug Set
+Line B,1,3/26/2025,Morning,108,57,52.8,3,40,232,57,3,Shortage Pause,68,Brake Pad Set
+Line B,2,3/26/2025,Morning,105,98,93.3,1,49,208,180,0,Active,0,Brake Disc
+Line B,3,3/26/2025,Morning,81,80,98.8,1,36,157,121,0,Active,0,Shock Absorber
+Line C,1,3/26/2025,Morning,132,136,103,1,28,185,136,0.2,Shortage Pause,5,Timing Belt
+Line C,2,3/26/2025,Night,83,77,92.8,0,20,199,172,0,Active,0,Battery
+Line C,3,3/26/2025,Morning,130,119,91.5,1,47,176,119,0.8,Shortage Pause,22,Headlight Bulb
+Line D,1,3/26/2025,Night,105,101,96.2,1,47,161,101,0.1,Shortage Pause,6,Windshield Wiper
+Line D,2,3/26/2025,Morning,86,81,94.2,1,42,189,151,0,Active,0,Engine Oil Filter
+Line D,3,3/26/2025,Morning,76,68,89.5,0,36,171,83,0,Active,0,Air Filter
+Line A,1,3/27/2025,Morning,114,107,93.9,3,21,191,125,0,Active,0,Engine Oil Filter
+Line A,2,3/27/2025,Night,137,96,70.1,2,25,167,96,0.8,Shortage Pause,44,Air Filter
+Line A,3,3/27/2025,Morning,96,104,108.3,0,29,150,114,0,Active,0,Spark Plug Set
+Line B,1,3/27/2025,Night,106,0,0,0,40,232,0,5.3,Shortage Pause,101,Brake Pad Set
+Line B,2,3/27/2025,Morning,87,75,86.2,0,49,208,82,0,Active,0,Brake Disc
+Line B,3,3/27/2025,Night,76,41,53.9,1,36,157,41,1.9,Shortage Pause,37,Shock Absorber
+Line C,1,3/27/2025,Morning,134,0,0,0,28,185,0,5.9,Shortage Pause,131,Timing Belt
+Line C,2,3/27/2025,Night,84,92,109.5,0,20,199,95,0,Active,0,Battery
+Line C,3,3/27/2025,Morning,130,0,0,0,47,176,0,4.3,Shortage Pause,129,Headlight Bulb
+Line D,1,3/27/2025,Night,115,91,79.1,3,47,161,91,0.9,Shortage Pause,24,Windshield Wiper
+Line D,2,3/27/2025,Morning,89,70,78.7,1,42,189,70,1.1,Shortage Pause,28,Engine Oil Filter
+Line D,3,3/27/2025,Night,74,71,95.9,0,36,171,114,0,Active,0,Air Filter
+Line A,1,3/28/2025,Morning,11,0,0,0,21,191,18,1.5,Paused,0,Engine Oil Filter
+Line A,2,3/28/2025,Night,173,98,56.6,1,25,167,98,2.6,Shortage Pause,80,Air Filter
+Line A,3,3/28/2025,Morning,96,105,109.4,1,29,150,113,0,Active,0,Spark Plug Set
+Line B,1,3/28/2025,Morning,87,77,88.5,0,40,232,154,0,Active,0,Brake Pad Set
+Line B,2,3/28/2025,Morning,119,7,5.9,1,49,208,7,4.4,Shortage Pause,106,Brake Disc
+Line B,3,3/28/2025,Morning,70,0,0,0,36,157,0,3.5,Shortage Pause,75,Shock Absorber
+Line C,1,3/28/2025,Night,128,0,0,0,28,185,0,4.9,Shortage Pause,118,Timing Belt
+Line C,2,3/28/2025,Morning,91,3,3.3,0,20,199,3,4.6,Shortage Pause,97,Battery
+Line C,3,3/28/2025,Morning,118,102,86.4,1,47,176,103,0,Active,0,Headlight Bulb
+Line D,1,3/28/2025,Morning,103,98,95.1,0,47,161,119,0,Active,0,Windshield Wiper
+Line D,2,3/28/2025,Night,79,74,93.7,1,42,189,106,0,Active,0,Engine Oil Filter
+Line D,3,3/28/2025,Morning,69,43,62.3,3,36,171,43,1.2,Shortage Pause,13,Air Filter
+Line A,1,3/29/2025,Night,132,122,92.4,3,21,191,167,0,Active,0,Engine Oil Filter
+Line A,2,3/29/2025,Morning,140,106,75.7,4,25,167,106,0.8,Shortage Pause,35,Air Filter
+Line A,3,3/29/2025,Night,9,0,0,0,29,150,124,1.7,Paused,0,Spark Plug Set
+Line B,1,3/29/2025,Morning,102,77,75.5,4,40,232,77,1.1,Shortage Pause,34,Brake Pad Set
+Line B,2,3/29/2025,Morning,99,104,105.1,1,49,208,117,0,Active,0,Brake Disc
+Line B,3,3/29/2025,Morning,71,73,102.8,1,36,157,128,0,Active,0,Shock Absorber
+Line C,1,3/29/2025,Morning,125,98,78.4,2,28,185,98,0.7,Shortage Pause,22,Timing Belt
+Line C,2,3/29/2025,Night,85,0,0,0,20,199,0,3.5,Shortage Pause,77,Battery
+Line C,3,3/29/2025,Morning,114,1,0.9,0,47,176,1,4.7,Shortage Pause,112,Headlight Bulb
+Line D,1,3/29/2025,Morning,97,21,21.6,0,47,161,21,2.3,Shortage Pause,68,Windshield Wiper
+Line D,2,3/29/2025,Night,8,0,0,0,42,189,159,1.8,Paused,0,Engine Oil Filter
+Line D,3,3/29/2025,Night,84,0,0,0,36,171,0,2.7,Shortage Pause,95,Air Filter
+Line A,1,3/30/2025,Night,132,45,34.1,5,21,191,45,3.8,Shortage Pause,80,Engine Oil Filter
+Line A,2,3/30/2025,Night,139,0,0,0,25,167,0,2.6,Shortage Pause,152,Air Filter
+Line A,3,3/30/2025,Night,85,87,102.4,2,29,150,124,0,Active,0,Spark Plug Set
+Line B,1,3/30/2025,Night,99,108,109.1,2,40,232,147,0,Active,0,Brake Pad Set
+Line B,2,3/30/2025,Night,109,108,99.1,3,49,208,108,0.1,Shortage Pause,3,Brake Disc
+Line B,3,3/30/2025,Morning,77,55,71.4,2,36,157,55,0.6,Shortage Pause,15,Shock Absorber
+Line C,1,3/30/2025,Morning,167,0,0,0,28,185,0,2.1,Shortage Pause,172,Timing Belt
+Line C,2,3/30/2025,Morning,80,79,98.8,0,20,199,133,0,Active,0,Battery
+Line C,3,3/30/2025,Night,108,81,75,3,47,176,81,0.9,Shortage Pause,27,Headlight Bulb
+Line D,1,3/30/2025,Night,119,0,0,0,47,161,0,2.1,Shortage Pause,109,Windshield Wiper
+Line D,2,3/30/2025,Night,91,78,85.7,1,42,189,159,0,Active,0,Engine Oil Filter
+Line D,3,3/30/2025,Morning,8,0,0,0,36,171,115,8,Maintenance,0,Air Filter
+Line A,1,3/31/2025,Morning,130,133,102.3,3,21,191,162,0,Active,0,Engine Oil Filter
+Line A,2,3/31/2025,Morning,165,0,0,0,25,167,0,3.5,Shortage Pause,158,Air Filter
+Line A,3,3/31/2025,Morning,101,37,36.6,3,29,150,37,2.4,Shortage Pause,54,Spark Plug Set
+Line B,1,3/31/2025,Night,113,102,90.3,0,40,232,232,0.4,Active,0,Brake Pad Set
+Line B,2,3/31/2025,Night,116,115,99.1,2,49,208,115,0.4,Shortage Pause,26,Brake Disc
+Line B,3,3/31/2025,Night,90,91,101.1,3,36,157,91,0.3,Shortage Pause,13,Shock Absorber
+Line C,1,3/31/2025,Night,131,125,95.4,1,28,185,156,0,Active,0,Timing Belt
+Line C,2,3/31/2025,Night,92,54,58.7,2,20,199,54,1.8,Shortage Pause,41,Battery
+Line C,3,3/31/2025,Night,112,95,84.8,0,47,176,95,0.9,Shortage Pause,19,Headlight Bulb
+Line D,1,3/31/2025,Night,104,86,82.7,1,47,161,86,0.3,Shortage Pause,15,Windshield Wiper
+Line D,2,3/31/2025,Night,77,70,90.9,1,42,189,81,0,Active,0,Engine Oil Filter
+Line D,3,3/31/2025,Night,81,81,100,0,36,171,115,0,Active,0,Air Filter
+Line A,1,4/1/2025,Morning,99,29,29.3,0,21,191,29,4,Shortage Pause,76,Engine Oil Filter
+Line A,2,4/1/2025,Night,141,0,0,0,25,167,0,3.6,Shortage Pause,144,Air Filter
+Line A,3,4/1/2025,Night,101,105,104,1,29,150,133,0,Active,0,Spark Plug Set
+Line B,1,4/1/2025,Night,96,97,101,1,40,232,130,0,Active,0,Brake Pad Set
+Line B,2,4/1/2025,Night,117,104,88.9,2,49,208,104,0.3,Shortage Pause,8,Brake Disc
+Line B,3,4/1/2025,Morning,90,101,112.2,0,36,157,101,0.2,Shortage Pause,2,Shock Absorber
+Line C,1,4/1/2025,Night,143,31,21.7,2,28,185,31,4.8,Shortage Pause,135,Timing Belt
+Line C,2,4/1/2025,Night,80,70,87.5,1,20,199,179,0,Active,0,Battery
+Line C,3,4/1/2025,Night,12,0,0,0,47,176,86,8,Maintenance,0,Headlight Bulb
+Line D,1,4/1/2025,Night,112,0,0,0,47,161,0,2.9,Shortage Pause,114,Windshield Wiper
+Line D,2,4/1/2025,Morning,85,74,87.1,0,42,189,110,0.3,Active,0,Engine Oil Filter
+Line D,3,4/1/2025,Night,78,86,110.3,1,36,171,171,0,Active,0,Air Filter
+Line A,1,4/2/2025,Night,105,97,92.4,0,21,191,182,0,Active,0,Engine Oil Filter
+Line A,2,4/2/2025,Night,155,96,61.9,3,25,167,96,1.5,Shortage Pause,87,Air Filter
+Line A,3,4/2/2025,Morning,98,28,28.6,2,29,150,28,2.4,Shortage Pause,65,Spark Plug Set
+Line B,1,4/2/2025,Morning,100,33,33,0,40,232,33,3,Shortage Pause,58,Brake Pad Set
+Line B,2,4/2/2025,Night,113,0,0,0,49,208,0,5.4,Shortage Pause,108,Brake Disc
+Line B,3,4/2/2025,Morning,65,72,110.8,0,36,157,132,0,Active,0,Shock Absorber
+Line C,1,4/2/2025,Morning,141,136,96.5,2,28,185,156,0.2,Active,0,Timing Belt
+Line C,2,4/2/2025,Night,85,82,96.5,1,20,199,109,0,Active,0,Battery
+Line C,3,4/2/2025,Night,114,86,75.4,3,47,176,86,0.9,Shortage Pause,23,Headlight Bulb
+Line D,1,4/2/2025,Night,101,108,106.9,2,47,161,121,0,Active,0,Windshield Wiper
+Line D,2,4/2/2025,Morning,74,36,48.6,2,42,189,36,1.3,Shortage Pause,43,Engine Oil Filter
+Line D,3,4/2/2025,Morning,85,85,100,1,36,171,85,0.1,Shortage Pause,2,Air Filter
+Line A,1,4/3/2025,Morning,109,85,78,0,21,191,85,1,Shortage Pause,31,Engine Oil Filter
+Line A,2,4/3/2025,Morning,128,99,77.3,3,25,167,136,0.4,Active,0,Air Filter
+Line A,3,4/3/2025,Night,89,98,110.1,2,29,150,129,0,Active,0,Spark Plug Set
+Line B,1,4/3/2025,Morning,116,108,93.1,2,40,232,172,0,Active,0,Brake Pad Set
+Line B,2,4/3/2025,Night,106,100,94.3,0,49,208,142,0,Active,0,Brake Disc
+Line B,3,4/3/2025,Morning,90,60,66.7,3,36,157,60,1,Shortage Pause,38,Shock Absorber
+Line C,1,4/3/2025,Night,150,20,13.3,0,28,185,20,3.2,Shortage Pause,122,Timing Belt
+Line C,2,4/3/2025,Morning,93,27,29,3,20,199,27,1.6,Shortage Pause,71,Battery
+Line C,3,4/3/2025,Night,115,115,100,0,47,176,135,0,Active,0,Headlight Bulb
+Line D,1,4/3/2025,Morning,109,85,78,1,47,161,85,1,Shortage Pause,31,Windshield Wiper
+Line D,2,4/3/2025,Morning,7,0,0,0,42,189,101,0.7,Paused,0,Engine Oil Filter
+Line D,3,4/3/2025,Morning,80,78,97.5,1,36,171,110,0,Active,0,Air Filter

@@ -1,0 +1,2 @@
+order_id,part_id,quantity,order_type,status,order_date,expected_delivery,priority,ai_recommendation,confidence_score
+ORD-20250331001652bba2f53a,P004,3,showroom_to_warehouse,cancelled,2025-03-31,2025-04-01,1,,0.0

@@ -1,0 +1,16 @@
+part_id,part_name,category,available_quantity,price,lead_time_days
+P001,Engine Oil Filter,Engine,200,12.99,3
+P002,Air Filter,Engine,150,15.99,2
+P003,Spark Plug Set,Engine,300,24.99,4
+P004,Brake Pad Set,Braking,180,49.99,3
+P005,Brake Disc,Braking,120,39.99,5
+P006,Shock Absorber,Suspension,80,79.99,7
+P007,Timing Belt,Engine,150,29.99,4
+P008,Battery,Electrical,100,89.99,2
+P009,Headlight Bulb,Electrical,350,9.99,1
+P010,Windshield Wiper,Exterior,250,14.99,2
+P011,Fuel Filter,Engine,180,18.99,3
+P012,Alternator,Electrical,70,129.99,5
+P013,Radiator,Cooling,90,149.99,6
+P014,Water Pump,Cooling,85,79.99,4
+P015,Transmission Fluid,Transmission,200,19.99,2

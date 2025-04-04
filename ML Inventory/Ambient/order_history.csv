@@ -1,0 +1,15 @@
+order_id,part_id,quantity,order_type,status,order_date,expected_delivery
+ORD001,P006,2,showroom_to_warehouse,delivered,3/15/2025,3/17/2025
+ORD002,P008,5,warehouse_to_supplier,delivered,3/12/2025,3/14/2025
+ORD003,P004,8,showroom_to_warehouse,in_transit,3/25/2025,3/27/2025
+ORD004,P012,3,warehouse_to_supplier,in_transit,3/28/2025,4/2/2025
+ORD005,P009,15,showroom_to_warehouse,delivered,3/20/2025,3/21/2025
+ORD006,P013,5,warehouse_to_supplier,in_transit,3/26/2025,4/1/2025
+ORD007,P001,10,showroom_to_warehouse,in_transit,3/30/2025,3/31/2025
+ORD008,P001,70,warehouse_to_supplier,in_transit,3/30/2025,4/2/2025
+ORD009,P009,29,showroom_to_warehouse,delivered,2025-03-31,2025-04-01
+ORD010,P010,17,showroom_to_warehouse,delivered,2025-03-31,2025-04-01
+ORD011,P010,17,showroom_to_warehouse,delivered,2025-04-01,2025-04-02
+ORD012,P010,17,showroom_to_warehouse,in_transit,2025-04-01,2025-04-02
+ORD013,P009,29,showroom_to_warehouse,in_transit,2025-04-01,2025-04-02
+ORD014,P007,10,showroom_to_warehouse,in_transit,2025-04-01,2025-04-02

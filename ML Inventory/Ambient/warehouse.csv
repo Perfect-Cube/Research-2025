@@ -1,0 +1,16 @@
+part_id,part_name,category,quantity,min_threshold,max_capacity
+P001,Engine Oil Filter,Engine,45,20,100
+P002,Air Filter,Engine,38,15,80
+P003,Spark Plug Set,Engine,65,30,150
+P004,Brake Pad Set,Braking,42,20,100
+P005,Brake Disc,Braking,28,15,75
+P006,Shock Absorber,Suspension,18,10,50
+P007,Timing Belt,Engine,32,15,80
+P008,Battery,Electrical,25,10,60
+P009,Headlight Bulb,Electrical,75,30,200
+P010,Windshield Wiper,Exterior,60,25,150
+P011,Fuel Filter,Engine,35,15,80
+P012,Alternator,Electrical,12,5,30
+P013,Radiator,Cooling,15,7,40
+P014,Water Pump,Cooling,18,8,45
+P015,Transmission Fluid,Transmission,30,15,70
