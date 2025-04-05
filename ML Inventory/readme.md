@@ -6,7 +6,7 @@ i want to make a inventory management system , where parts stored in warehouse n
 what we want to do is make a machine learning model that can predict, if the consumption is more then to prevent assembly line from halt it predicts and orders the parts from warehouse beforehand and doesnt halt any process.
 
 so i want a synthetic data to train the model on and then predict required inventory refill
-```
+
 # Inventory & Order Management Pipeline Flowchart
 ```
 [Stage 1: Define Requirements & Entities]
