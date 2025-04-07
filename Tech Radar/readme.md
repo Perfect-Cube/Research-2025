@@ -1,4 +1,7 @@
 deployed link - https://tech-radar-bf5g.onrender.com/
+
+AWS  -   http://13.235.0.185:5000/
+
 ```
 While using TechRadarVisualizatio_Final update the Header.tsx and RadarVisualizatio.tsx files.
 ```
