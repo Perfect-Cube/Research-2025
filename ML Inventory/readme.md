@@ -92,3 +92,30 @@ so i want a synthetic data to train the model on and then predict required inven
 | Alerts & Notifications for Low Inventory       |
 --------------------------------------------------
  ```
+
+
+```
+>>> tell in one line next day when inventory refill is required      ID,PartID,PartName,PartCategory,Supplier,UnitCost,Quant
+... ityOnHand,ReorderPoint,SafetyStock,ProductionOrderNumber,ProductionStartDate,ProductionEndDate,CycleTime,MachineID,Quali
+... tyCheckStatus,InventoryLocation,LastUpdatedDate
+... 1,P001,Engine Block,Sub-Assembly,Precision Auto,250.00,50,20,10,PO1001,2025-03-01,2025-03-05,72,M101,Pass,Assembly Line
+... 1,2025-04-03
+... 2,P002,Door Panel,Component,Global Metals,75.50,120,40,15,N/A,,,,,Warehouse A,2025-04-03
+... 3,P003,Tire,Raw Material,Quality Components,45.00,200,100,50,N/A,,,,,Warehouse B,2025-04-03
+... 4,P004,Seat,Component,Rapid Supply,110.00,80,30,20,N/A,,,,,Factory Floor,2025-04-03
+... 5,P005,Windshield,Finished Good,OEM Suppliers,320.00,25,10,5,PO1002,2025-03-10,2025-03-12,48,M102,Pass,Assembly Line 2,2
+... 025-04-03
+... 6,P006,Dashboard,Sub-Assembly,AutoParts Inc.,190.00,40,15,10,PO1003,2025-03-05,2025-03-08,60,M103,Pass,Assembly Line 1,2
+... 025-04-03
+... 7,P007,Bumper,Component,Prime Auto,65.00,150,50,25,N/A,,,,,Warehouse A,2025-04-03
+... 8,P008,Chassis,Finished Good,Superior Steel,800.00,10,5,3,PO1004,2025-03-12,2025-03-18,96,M104,Pass,Factory Floor,2025-0
+... 4-03
+... 9,P009,Gearbox,Sub-Assembly,Advance Plastics,430.00,30,12,8,PO1005,2025-03-08,2025-03-11,54,M105,Pass,Assembly Line 2,20
+... 25-04-03
+... 10,P010,Steering Wheel,Component,Elite Components,95.00,90,30,15,N/A,,,,,Warehouse B,2025-04-03
+Inventory refill is required for all items with a `ProductionOrderNumber` of `PO1001`, `PO1002`, `PO1003`, `PO1004`,
+`PO1005`, `PO1006`, `PO1007`, `PO1008`, and `PO1009`.
+
+>>> at what date
+Inventory refill is required on **2025-04-03**.
+```
