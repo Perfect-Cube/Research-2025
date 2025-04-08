@@ -69,3 +69,45 @@
                                                                      +--------------------+
  
 ```
+```
+                              +--------------+
+                              |  User Input  |
+                              +--------------+
+                                     │
+                                     ▼
+                              +-----------------------+
+                              |  Pre-Filter Script    |  
+                              |  - Sanity/Policy Check|
+                              +-----------------------+
+                                     │
+                                     │ (if input is flagged, STOP)
+                                     ▼
+                              +-----------------------+
+                              |  Generation LLM       |
+                              +-----------------------+
+                                     │
+                                     ▼
+                              +-----------------------+
+                              |  Generated Output     |
+                              +-----------------------+
+                                     │
+                                     ▼
+                              +---------------------------------------------------+
+                              |         Post-Filters (Layers 1-4)                 |
+                              |   1. Keywords, PII, Toxicity Check                |
+                              |      - Severe issues result in BLOCK              |
+                              |   2. Grounding & Fact-Checking                    |
+                              |      - Hallucination/unsafe content → BLOCK       |
+                              |   3. Patterns & Format Verification              |
+                              |      - Gibberish or format errors → BLOCK         |
+                              |   4. Model-as-Judge (Optional)                   |
+                              |      - If judge flags content → BLOCK             |
+                              +---------------------------------------------------+
+                                     │
+                                     │ (if any layer flags, output is BLOCK)
+                                     ▼
+                              +---------------------------+
+                              | Final Output to User      |
+                              +---------------------------+
+ 
+```
