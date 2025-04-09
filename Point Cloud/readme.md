@@ -1,3 +1,5 @@
+https://www.basic.ai/blog-post/10-3d-point-cloud-annotation-real-world-cases
+
 1. *Intermediate Outputs*:
    - The process involves generating intermediate outputs that are not part of the usual data distribution. These outputs are essentially results that do not fit within the typical expected data flow or outcomes. They are by-products from a design process or model training.
 
