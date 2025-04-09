@@ -24,17 +24,12 @@ except NameError: # Handle if langdetect doesn't have DetectorFactory (older ver
 warnings.filterwarnings("ignore", category=UserWarning, module='fuzzywuzzy')
 
 # Download NLTK data if not present
-try:
-    nltk.data.find('tokenizers/punkt')
-except nltk.downloader.DownloadError:
-    print("Downloading NLTK punkt tokenizer...")
-    nltk.download('punkt')
-except Exception as e:
-    print(f"Could not check/download NLTK data: {e}", file=sys.stderr)
+nltk.download('punkt')
+nltk.download('punkt_tab')
 
 # Ollama Configuration
 OLLAMA_URL = 'http://localhost:11434/api/generate'
-OLLAMA_MODEL = 'gemma:2b' # Using a slightly larger model *might* be better as judge
+OLLAMA_MODEL = 'gemma3:1b' # 
 OLLAMA_TIMEOUT = 300 # Seconds
 
 # --- Keywords & Patterns for Post-Filtering ---
