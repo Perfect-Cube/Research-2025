@@ -1,6 +1,7 @@
 Recordings
 ```
 Sian:  https://drive.google.com/file/d/1jvX0tTRCaSXCPOpWmFYTYPky4dRUXFIs/view?usp=drivesdk
+RS e-tron gt: https://drive.google.com/file/d/1E-qf2rbyY2YjuAvAeO2EPVcR-bUv0myv/view?usp=drivesdk
 ```
 
 
