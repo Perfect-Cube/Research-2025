@@ -9,7 +9,7 @@ Unity (Unity Official Website) and Unreal Engine (Unreal Engine Official Website
 Additional Tools:
 Use Blender (Blender Official Website) for creating and customizing 3D models of characters and environments.
 
-Home Design 3D VR on Steam, VR interior design application  https://store.steampowered.com/app/2589880/Home_Design_3D_VR/
+
 
 Unity Official Website, game engine for VR development   https://unity.com/
 
