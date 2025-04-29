@@ -1,3 +1,13 @@
+__Office Models__
+
+* https://1miba.com/3d-models/120766da84db8b6830f32f542b5cafd3.html
+* https://1miba.com/3d-models/8f2350cf802f7e20f3488161d49204cf.html
+* https://1miba.com/3d-models/e23f9bf5b4cac7b4258356d269de0845.html
+* https://1miba.com/3d-models/0c9ff25d1601c5d3fec138c2e170c459.html
+* https://1miba.com/3d-models/c741cee8a4632cc2e131dfb79873eedc.html
+* https://1miba.com/3d-models/532867ba2ea2c058445740673ca67fcd.html
+* https://1miba.com/3d-models/e1d1d43d9aa7fc559039cfd970c38ba6.html
+
 https://www.meta.com/experiences/worlds/2532035600194083/?srsltid=AfmBOopRLuIKdDkkTKxfLrV770WLUPJAEl2Mnm2OcN6plMgwhvDOIe7D
 
 8th wall   https://www.8thwall.com/
