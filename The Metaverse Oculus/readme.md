@@ -20,6 +20,8 @@ For a true standalone 6DoF experience without a PC, you can:
 
 No, Twinmotion does not directly save files that can be played on a Meta Quest 2 headset. However, you can export Twinmotion designs as 360 panoramas and use them with the Sentio VR-one platform to create interactive VR tours. Alternatively, you can use a cloud-based VR viewer for presentations and collaboration
 
+
+--------------------------------------
 __Office Models__
 
 * https://1miba.com/3d-models/120766da84db8b6830f32f542b5cafd3.html
