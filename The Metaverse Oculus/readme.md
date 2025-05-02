@@ -1,3 +1,23 @@
+Unreal Engine → Quest 2 APK
+
+For a true standalone 6DoF experience without a PC, you can:
+
+    Export your Twinmotion scene as a .tm or Datasmith package.
+
+    Import into Unreal Engine using the Twinmotion Datasmith plugin.
+
+    Build a Quest Android project (.apk) targeting the Quest 2, and sideload it via ADB
+    Epic Developer Community Forums
+    .
+
+    Texture caveats: Some users report missing or low-res textures on Quest builds—additional optimization may be required
+    Epic Developer Community Forums
+    .
+
+    Pros: Full interactivity and free walking, no PC at playback.
+
+    Cons: Steep learning curve, requires Unreal Editor, Android SDK, packaging optimizations.
+
 __Office Models__
 
 * https://1miba.com/3d-models/120766da84db8b6830f32f542b5cafd3.html
