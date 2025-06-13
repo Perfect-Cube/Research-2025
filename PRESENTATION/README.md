@@ -1,3 +1,6 @@
+https://photos.app.goo.gl/Vt2BC5mMxoW6HVbd9
+
+
 **1. Hybrid RAG Multi‑Modal**
 
 * **Goal:** Unified retrieval & generation over text + images
