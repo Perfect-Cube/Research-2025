@@ -1,5 +1,3 @@
----
-
 **1. Hybrid RAG Multi‑Modal**
 
 * **Goal:** Unified retrieval & generation over text + images
