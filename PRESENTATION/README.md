@@ -1,4 +1,5 @@
-https://photos.app.goo.gl/Vt2BC5mMxoW6HVbd9
+https://docs.google.com/presentation/d/1z6fIwa-Pxbj7iaW8Pk-J7VMcXQI0nwVO/edit?usp=sharing&ouid=105364520863560508467&rtpof=true&sd=true
+
 
 
 **1. Hybrid RAG Multi‑Modal**
