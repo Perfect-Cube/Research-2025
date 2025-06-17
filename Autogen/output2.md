@@ -112,5 +112,18 @@ TERMINATE
 
 >>>>>>>> TERMINATING RUN (407c142b-87ca-45f9-9041-0808dfabdd45): Termination message condition on agent 'Executor_Agent' met
 
-You: 
+
+
+You: Hi
+🎬 [Orchestrator] Received query: 'Hi'
+✅ [Orchestrator] Query is TRIVIAL. Routing to Output Agent.
+user_proxy (to Output_Agent):
+
+Hi
+
+--------------------------------------------------------------------------------
+Output_Agent (to user_proxy):
+
+Hello! It's nice to meet you. How can I help you today?
+
 ```
