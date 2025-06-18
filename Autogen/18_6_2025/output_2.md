@@ -2,6 +2,59 @@
 
 
 ========================================
+🎬 EXECUTING NEW QUERY: Hello
+========================================
+
+--- [Stage 1/3] Orchestrator deciding path... ---
+Initiator (to Orchestrator):
+
+Hello
+
+--------------------------------------------------------------------------------
+Orchestrator (to Initiator):
+
+SIMPLE
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> TERMINATING RUN (c4d369a3-a9fe-492d-a6e4-8b7cb7481daf): Maximum turns (1) reached
+Path selected: SIMPLE
+
+--- [Stage 2/2] SIMPLE path: Generating direct response... ---
+Initiator (to Resolver):
+
+Please directly answer this simple query: Hello
+
+--------------------------------------------------------------------------------
+Resolver (to Initiator):
+
+Hello!
+
+--------------------------------------------------------------------------------
+Initiator (to Resolver):
+
+
+
+--------------------------------------------------------------------------------
+Resolver (to Initiator):
+
+It seems you've sent a blank message. Is there something I can help you with?
+
+--------------------------------------------------------------------------------
+
+>>>>>>>> TERMINATING RUN (2eef6846-7af9-40e8-9f4d-85610dd2d414): Maximum turns (2) reached
+
+
+========================================
+✅ FINAL RESPONSE
+========================================
+
+It seems you've sent a blank message. Is there something I can help you with?
+```
+```
+
+
+========================================
 🎬 EXECUTING NEW QUERY: How to use drones using voice commands?
 ========================================
 
