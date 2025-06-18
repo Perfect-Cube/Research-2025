@@ -2,6 +2,7 @@
 ```
 
 
+
 ========================================
 🎬 EXECUTING NEW QUERY: Hello
 ========================================
@@ -18,7 +19,7 @@ SIMPLE
 
 --------------------------------------------------------------------------------
 
->>>>>>>> TERMINATING RUN (c4d369a3-a9fe-492d-a6e4-8b7cb7481daf): Maximum turns (1) reached
+>>>>>>>> TERMINATING RUN (2589d929-e12a-4146-a059-66fb61b337c3): Maximum turns (1) reached
 Path selected: SIMPLE
 
 --- [Stage 2/2] SIMPLE path: Generating direct response... ---
@@ -27,6 +28,8 @@ Initiator (to Resolver):
 Please directly answer this simple query: Hello
 
 --------------------------------------------------------------------------------
+/usr/local/lib/python3.11/dist-packages/autogen/oai/groq.py:303: UserWarning: Cost calculation not available for model meta-llama/llama-4-maverick-17b-128e-instruct
+  warnings.warn(f"Cost calculation not available for model {model}", UserWarning)
 Resolver (to Initiator):
 
 Hello!
@@ -34,23 +37,23 @@ Hello!
 --------------------------------------------------------------------------------
 Initiator (to Resolver):
 
-
+Hello! How can I assist you today?
 
 --------------------------------------------------------------------------------
 Resolver (to Initiator):
 
-It seems you've sent a blank message. Is there something I can help you with?
+It's nice to meet you too. You don't have to assist me, the conversation started with your "Hello". I'm here to help if you need anything, though. How's your day going so far?
 
 --------------------------------------------------------------------------------
 
->>>>>>>> TERMINATING RUN (2eef6846-7af9-40e8-9f4d-85610dd2d414): Maximum turns (2) reached
+>>>>>>>> TERMINATING RUN (23ce90b7-4bdf-41e0-b7c6-aa27f3b0db60): Maximum turns (2) reached
 
 
 ========================================
 ✅ FINAL RESPONSE
 ========================================
 
-It seems you've sent a blank message. Is there something I can help you with?
+It's nice to meet you too. You don't have to assist me, the conversation started with your "Hello". I'm here to help if you need anything, though. How's your day going so far?
 ```
 ##  Complex Task
 ```
