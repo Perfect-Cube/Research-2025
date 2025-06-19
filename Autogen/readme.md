@@ -2,6 +2,8 @@
 ![image (1)](https://github.com/user-attachments/assets/afa6952a-ea22-4f6f-ad29-d06c76704a89)
 ![task_decomposition](https://github.com/user-attachments/assets/1e2bc9d4-9736-46d5-96ff-2748eb59d093)
 
+![image](https://github.com/user-attachments/assets/f1c527f4-3296-4648-87fd-861b60457ea5)
+
 ```
 import autogen
 
