@@ -1,3 +1,4 @@
+https://www.linkedin.com/posts/nk-systemdesign-one_most-people-think-concurrency-parallelism-activity-7341068418319589376-ZRCy?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADljAVIBBJU8f7HRFRTUnUC5fvHC3DaDx_U
 
 ![image (1)](https://github.com/user-attachments/assets/afa6952a-ea22-4f6f-ad29-d06c76704a89)
 ![task_decomposition](https://github.com/user-attachments/assets/1e2bc9d4-9736-46d5-96ff-2748eb59d093)
