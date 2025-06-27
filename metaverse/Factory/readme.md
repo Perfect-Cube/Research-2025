@@ -1,3 +1,4 @@
+# Power Co Battery Machine
 Based on our plan to make this realistic for a Volkswagen factory, here is its use in a clear, concise summary:
 
 *Its primary use is to activate and quality-check newly manufactured electric vehicle (EV) battery cells.*
