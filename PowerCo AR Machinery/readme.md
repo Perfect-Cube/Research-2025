@@ -1,6 +1,9 @@
 # Power Co AR [ZFK Module]
 ![327139_cleanroomvwpowerco_703800](https://github.com/user-attachments/assets/2d6c157e-5f9d-4497-862b-061cc07fdba6)
 
+![DB2023AL00283_web_1600_web_804](https://github.com/user-attachments/assets/e7e4e4c5-ffe2-4e30-ac70-8a156ef3646c)
+
+
 Based on our plan to make this realistic for a Volkswagen factory, here is its use in a clear, concise summary:
 
 *Its primary use is to activate and quality-check newly manufactured electric vehicle (EV) battery cells.*
