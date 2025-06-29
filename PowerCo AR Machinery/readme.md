@@ -2,6 +2,9 @@
 ![327139_cleanroomvwpowerco_703800](https://github.com/user-attachments/assets/2d6c157e-5f9d-4497-862b-061cc07fdba6)
 
 ![DB2023AL00283_web_1600_web_804](https://github.com/user-attachments/assets/e7e4e4c5-ffe2-4e30-ac70-8a156ef3646c)
+
+![1668078606361](https://github.com/user-attachments/assets/ee799b83-9027-485b-9946-5888aaae4d82)
+
 https://www.volkswagen-group.com/en/press-releases/volkswagen-backed-powerco-se-reaches-significant-milestone-in-st-thomas-gigafactory-project-17962
 
 Based on our plan to make this realistic for a Volkswagen factory, here is its use in a clear, concise summary:
