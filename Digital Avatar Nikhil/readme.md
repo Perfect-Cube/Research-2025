@@ -1,3 +1,10 @@
+interactive avatar , interact with touch or something
+friendly and intuitive
+Jetson can run unity on it?
+just need python triggers to activate certain scripts
+agentic workflow can be scripted no need to process just stick to Script 
+if time then add an agentic RAG to some datasource for info
+
 
 ![nikhilavatar](https://github.com/user-attachments/assets/ee9e8dc5-4d4e-45df-9016-f3ae145dd188)
 
