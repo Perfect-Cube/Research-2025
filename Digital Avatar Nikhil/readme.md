@@ -1,3 +1,5 @@
+https://chatgpt.com/share/6862a5b7-8b48-8009-a520-9ae43222dcb5
+
 interactive avatar , interact with touch or something
 friendly and intuitive
 Jetson can run unity on it?
