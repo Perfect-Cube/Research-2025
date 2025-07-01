@@ -12,6 +12,8 @@ if time then add an agentic RAG to some datasource for info
 
 ![nikhilavatar](https://github.com/user-attachments/assets/ee9e8dc5-4d4e-45df-9016-f3ae145dd188)
 
+![plan2](https://github.com/user-attachments/assets/6da6fbf0-2116-4b33-a325-fd089fa09bcc)
+
 https://www.mixamo.com/#/
 
 https://visagetechnologies.com/real-time-avatar-facial-animation/
