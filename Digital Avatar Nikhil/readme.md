@@ -9,6 +9,7 @@ just need python triggers to activate certain scripts
 agentic workflow can be scripted no need to process just stick to Script 
 if time then add an agentic RAG to some datasource for info
 
+https://www.youtube.com/watch?v=6N3FaDv4SBw
 ```
 [
   {
