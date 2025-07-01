@@ -9,7 +9,31 @@ just need python triggers to activate certain scripts
 agentic workflow can be scripted no need to process just stick to Script 
 if time then add an agentic RAG to some datasource for info
 
-
+```
+[
+  {
+    text: "I've been to so many places around the world, each with its own unique charm and beauty.",
+    facialExpression: 'smile',
+    animation: 'TalkingOne',
+    audio: '//uQx//uQxAAADG1DHeGEeipZLqI09Jn5AkRGhGiLv9pZ3QRTd3eIR7',
+    lipsync: { metadata: [Object], mouthCues: [Array] }
+  },
+  {
+    text: "There were times when the journey was tough, but the experiences and the people I met along the way made it all worth it.",
+    facialExpression: 'thoughtful',
+    animation: 'TalkingThree',
+    audio: '//uQx//uQxAAADG1DHeGEeipZLqI09Jn5AkRGhGiLv9pZ3QRTd3eIR7',
+    lipsync: { metadata: [Object], mouthCues: [Array] }
+  },  
+{
+    text: :"And there's still so much more to see and explore. The world is a fascinating place!",
+    facialExpression: 'surprised',
+    animation: 'ThoughtfulHeadShake',
+    audio: '//uQx//uQxAAADG1DHeGEeipZLqI09Jn5AkRGhGiLv9pZ3QRTd3eIR7',
+    lipsync: { metadata: [Object], mouthCues: [Array] }
+  }
+]
+```
 ![nikhilavatar](https://github.com/user-attachments/assets/ee9e8dc5-4d4e-45df-9016-f3ae145dd188)
 
 ![plan2](https://github.com/user-attachments/assets/6da6fbf0-2116-4b33-a325-fd089fa09bcc)
