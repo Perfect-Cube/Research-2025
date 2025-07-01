@@ -14,6 +14,11 @@ if time then add an agentic RAG to some datasource for info
 
 ![plan2](https://github.com/user-attachments/assets/6da6fbf0-2116-4b33-a325-fd089fa09bcc)
 
+
+https://github.com/user-attachments/assets/a7692f64-302a-4167-8e65-bd253eeda75c
+
+
+
 https://www.mixamo.com/#/
 
 https://visagetechnologies.com/real-time-avatar-facial-animation/
