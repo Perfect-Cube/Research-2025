@@ -1,3 +1,5 @@
+https://drive.google.com/file/d/1LgwSxlYaI6UMOmGWGx6w8jDv72CDBfpB/view?usp=sharing
+
 Video to 3d -> https://huggingface.co/spaces/facebook/vggt
 
 https://chatgpt.com/share/6862a5b7-8b48-8009-a520-9ae43222dcb5
