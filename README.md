@@ -1,3 +1,4 @@
+![1752483607490](https://github.com/user-attachments/assets/4e5e222c-a8d9-4262-b21f-bbf8d025cbdc)
 
 1. https://www.mdpi.com/1996-1073/16/1/442
 2.  https://spectrum.ieee.org/lithium-air-battery-quantum-computing
